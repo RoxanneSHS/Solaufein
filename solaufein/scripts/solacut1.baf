@@ -1,0 +1,33 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        DisplayStringHead(Player1,1704) 
+        Wait(1)
+        CreateVisualEffectObject("SPPORTAL",Player1)
+        CreateVisualEffectObject("SPPORTAL",Player2)
+        CreateVisualEffectObject("SPPORTAL",Player3)
+        CreateVisualEffectObject("SPPORTAL",Player4)
+        CreateVisualEffectObject("SPPORTAL",Player5)
+        CreateVisualEffectObject("SPPORTAL",Player6)
+        Wait(3)
+        FadeToColor([30.0],0)
+        Wait(2)
+        LeaveAreaLUAPanic("sola0001","",[639.756],10)
+        LeaveAreaLUA("sola0001","",[639.756],10)
+        ActionOverride(Player2,LeaveAreaLUA("sola0001","",[545.704],10))
+        ActionOverride(Player3,LeaveAreaLUA("sola0001","",[665.850],10))
+        ActionOverride(Player4,LeaveAreaLUA("sola0001","",[554.801],10))
+        ActionOverride(Player5,LeaveAreaLUA("sola0001","",[476.771],10))
+        ActionOverride(Player6,LeaveAreaLUA("sola0001","",[547.882],10))
+        ActionOverride(Player2,LeaveAreaLUAPanic("sola0001","",[545.704],10))
+        ActionOverride(Player3,LeaveAreaLUAPanic("sola0001","",[665.850],10))
+        ActionOverride(Player4,LeaveAreaLUAPanic("sola0001","",[554.801],10))
+        ActionOverride(Player5,LeaveAreaLUAPanic("sola0001","",[476.771],10))
+        ActionOverride(Player6,LeaveAreaLUAPanic("sola0001","",[547.882],10))
+        Wait(1)
+        EndCutSceneMode()
+END
+
+

@@ -1,0 +1,6 @@
+BEGIN SOLABOO
+
+IF ~True()~ THEN BEGIN boo
+  SAY #20321 
+  IF ~~ THEN EXIT
+END

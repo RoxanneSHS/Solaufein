@@ -1,0 +1,370 @@
+IF
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+          SetGlobalTimer("Cast","LOCALS",0)
+          SetGlobalTimer("RecastProMagWeap","LOCALS",0)
+          GiveItemCreate("potn34",Myself,1,0,0)
+          UseItem("potn34",Myself)
+          SetGlobal("Nine","LOCALS",3)
+          SetGlobal("Eight","LOCALS",3)
+          SetGlobal("Seven","LOCALS",3)
+          SetGlobal("Six","LOCALS",3)
+          SetGlobal("Five","LOCALS",3)
+          SetGlobal("Four","LOCALS",3)
+          SetGlobal("Three","LOCALS",3)
+          SetGlobal("Two","LOCALS",3)
+          SetGlobal("One","LOCALS",3)
+          SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+    See(NearestEnemyOfType([PC]))
+    Global("ChainContingency","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ChainContingency","LOCALS",1)
+    SetGlobalTimer("RemoveTimer","LOCALS",18)
+    ReallyForceSpell(NearestEnemyOfType([PC]),2302)
+    ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
+    ReallyForceSpell(NearestEnemyOfType([PC]),WIZARD_DRAGONS_BREATH)
+END
+
+IF
+    See(NearestEnemyOf(Myself))
+    TookDamage()
+    Global("Contingency","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetGlobal("Contingency","LOCALS",1)
+        ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+        SetGlobalTimer("RecastProMagWeap","LOCALS",24)
+END
+
+IF
+    GlobalTimerExpired("Cast","LOCALS")
+    GlobalTimerExpired("RecastProMagWeap","LOCALS")
+    GlobalGT("Six","LOCALS",0)
+    Exists(NearestEnemyOf(Myself))
+    HPPercentLT(Myself,100)
+    OR(2)
+      See(LastAttackerOf(Myself))
+      Range(NearestEnemyOf(Myself),2)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Six","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+          SetGlobalTimer("RecastProMagWeap","LOCALS",24)
+	  SpellNoDec(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Four","LOCALS",0)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Four","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Five","LOCALS",0)
+	Global("ImmuneAbjure","LOCALS",0)
+THEN
+  RESPONSE #100
+      IncrementGlobal("Five","LOCALS",-1)
+      SetGlobal("ImmuneAbjure","LOCALS",1)
+      SetGlobalTimer("Cast","LOCALS",6)
+      SpellNoDec(Myself,WIZARD_SPELL_IMMUNITY_ABJURATION)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Nine","LOCALS",0)
+        See(NearestEnemyOfType([PC]))
+        HasBounceEffects(LastSeenBy(Myself))
+THEN
+    RESPONSE #100
+	IncrementGlobal("Nine","LOCALS",-1)
+        SetGlobalTimer("Cast","LOCALS",6)
+	SpellNoDec(LastSeenBy(Myself),WIZARD_SPELL_STRIKE)
+END
+
+IF
+ See([GOODCUTOFF.0.0.0.0.SUMMONED])
+ CheckStatGT(LastSeenBy(Myself),99,RESISTSLASHING)
+ GlobalTimerExpired("Cast","LOCALS")
+ GlobalGT("Six","LOCALS",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Six","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(LastSeenBy(Myself),WIZARD_DEATH_FOG)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Five","LOCALS",0)
+        See(NearestEnemyOfType([PC]))
+        OR(2)
+          HasImmunityEffects(LastSeenBy(Myself))
+	  CheckStatGT(LastSeenBy(Myself),0,STONESKINS)
+THEN
+    RESPONSE #100
+	IncrementGlobal("Five","LOCALS",-1)
+        SetGlobalTimer("Cast","LOCALS",6)
+	SpellNoDec(LastSeenBy(Myself),WIZARD_BREACH)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Eight","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Eight","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Eight","LOCALS",0)
+	See(SecondNearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Eight","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+        HPPercentLT(Myself,80)
+THEN    
+        RESPONSE #100
+          UseItem("potn55",Myself)
+          SetGlobalTimer("Cast","LOCALS",6)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Seven","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+         IncrementGlobal("Seven","LOCALS",-1)
+         SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(Myself,WIZARD_MORDENKAINENS_SWORD)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalTimerExpired("RemoveTimer","LOCALS")
+	GlobalGT("Three","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Three","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+          SetGlobalTimer("RemoveTimer","LOCALS",18)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Four","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        Global("Malison","LOCALS",0)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Four","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Three","LOCALS",0)
+        Global("Haste","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Four","LOCALS",-1)
+	  IncrementGlobal("Haste","LOCALS",1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_HASTE)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Five","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        CheckStatGT(LastSeenBy(Myself),4,SAVEVSSPELL)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Five","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_CHAOS)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Three","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        CheckStatGT(LastSeenBy(Myself),4,SAVEVSSPELL)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Three","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_SLOW)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Two","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Two","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Two","LOCALS",0)
+	See(SecondNearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Two","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("One","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("One","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("One","LOCALS",0)
+	See(SecondNearestEnemyOfType([PC]))
+        !HasItem("clck26",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("One","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  HasItem("eneblade",Myself)
+  See(WorstAC)
+        Allegiance(Myself,ENEMY)
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  HasItem("eneblade",Myself)
+  See(NearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  HasItem("eneblade",Myself)
+  See(SecondNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  HasItem("eneblade",Myself)
+  See(ThirdNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  HasItem("eneblade",Myself)
+  See(FourthNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+	See(WorstAC)
+        Allegiance(Myself,ENEMY)
+	GlobalTimerExpired("Cast","LOCALS")
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	OR(4)
+	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+	See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalTimerExpired("Cast","LOCALS")
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+        Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(Player1,12)
+END

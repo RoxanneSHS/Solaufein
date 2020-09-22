@@ -1,0 +1,243 @@
+IF
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+          SetGlobalTimer("Cast","LOCALS",0)
+          SetGlobalTimer("CastTrue","LOCALS",0)
+          GiveItemCreate("potn34",Myself,1,0,0)
+          UseItem("potn34",Myself)
+          SetGlobal("Beauty","LOCALS",1)
+          SetGlobal("Creep","LOCALS",2)
+          SetGlobal("Fire","LOCALS",3)
+          SetGlobal("InsectP","LOCALS",1)
+          SetGlobal("Iron","LOCALS",2)
+          SetGlobal("Mental","LOCALS",3)
+          SetGlobal("InsectS","LOCALS",2)
+          SetGlobal("Hold","LOCALS",3)
+          SetGlobal("Doom","LOCALS",3)
+          SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Iron","LOCALS",0)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Iron","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(Myself,CLERIC_IRONSKIN)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Beauty","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+	Range(NearestEnemyOfType([PC]),20)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Beauty","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(Myself,CLERIC_NATURE_BEAUTY)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Creep","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Creep","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_CREEPING_DOOM)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("InsectP","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("InsectP","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_INSECT_PLAGUE)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+        HPPercentLT(Myself,80)
+THEN    
+        RESPONSE #100
+          UseItem("potn55",Myself)
+          SetGlobalTimer("Cast","LOCALS",6)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Fire","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Fire","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_CONJURE_FIRE_ELEMENTAL)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Mental","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        CheckStatGT(LastSeenBy(Myself),4,SAVEVSSPELL)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Mental","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Command","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        CheckStatGT(LastSeenBy(Myself),4,SAVEVSSPELL)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Command","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_GREATER_COMMAND)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("InsectS","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+	  IncrementGlobal("InsectS","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_SUMMON_INSECTS)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Hold","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+        CheckStatGT(LastSeenBy(Myself),4,SAVEVSSPELL)
+THEN
+	RESPONSE #100
+	  IncrementGlobal("Hold","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	 SpellNoDec(LastSeenBy(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	GlobalGT("Doom","LOCALS",0)
+	See(NearestEnemyOfType([PC]))
+THEN
+	RESPONSE #100
+          IncrementGlobal("Doom","LOCALS",-1)
+          SetGlobalTimer("Cast","LOCALS",6)
+	  SpellNoDec(LastSeenBy(Myself),CLERIC_DOOM)
+END
+
+IF
+  HasItem("eneblade", Myself)
+  See(WorstAC)
+        Allegiance(Myself,ENEMY)
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+IF
+  HasItem("eneblade", Myself)
+  See(NearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+IF
+  HasItem("eneblade", Myself)
+  See(SecondNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+IF
+  HasItem("eneblade", Myself)
+  See(ThirdNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+IF
+  HasItem("eneblade", Myself)
+  See(FourthNearestEnemyOfType([PC]))
+  !HasBounceEffects(LastSeenBy(Myself))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+	See(WorstAC)
+        Allegiance(Myself,ENEMY)
+	GlobalTimerExpired("Cast","LOCALS")
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+	OR(4)
+	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+	See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	See(NearestEnemyOfType([PC]))
+	GlobalTimerExpired("Cast","LOCALS")
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalTimerExpired("Cast","LOCALS")
+        !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	GlobalTimerExpired("Cast","LOCALS")
+        Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(Player1,12)
+END

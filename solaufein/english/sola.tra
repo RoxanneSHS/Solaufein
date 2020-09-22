@@ -1,0 +1,968 @@
+@1 = ~'Veldrin', it seems our destinies intertwine once more. As you know, I had planned to remain in Ust Natha and search for like-minded Drow. With the death of Matron Ardulace and Phaere, however, I was no longer comfortable there.~
+@2 = ~And now I stand before you in an abyssal plane. Wonders and terrors abound: I must admit I am not quite sure what to make of things.~
+@3 = ~'Veldrin', I'm glad that I found you. I had planned to remain in Ust Natha and search for like-minded Drow. With the death of Matron Ardulace and Phaere, however, I no longer feel comfortable here.~
+@4 = ~Tension in the city was high even before you arrived. Irenicus promised an easy war with the surface elves and stirred blood-lust in many.  With Ardulace's death that tension is now as thick as a spider's web. I can do little good by staying.~
+@5 = ~Right now my mind is filled only with images of the malice of my misguided people. Perhaps I am overlooking some redeeming virtue of my home ... something that will only become apparent after I leave. Perhaps not.~
+@6 = ~Still, I am resolved. Would you allow me to accompany you?~
+@7 = ~Of course, Solaufein. You would be a welcome addition to the team.~
+@8 = ~While I support your cause and offer you my sympathy I do not need an extra hand at the moment. Perhaps you could meet us on the surface later?~
+@300 = ~Very well. I shall wait for you just North-West of the exit to the Underdark.~
+@30 = ~Actually, Solaufein, please wait here for a bit longer.~
+@9 = ~You're quite delusional if you think I would allow a drow like you to accompany me. Get lost, Solaufein.~
+@10 = ~Farewell, then.~
+@11 = ~So, my dear not-quite-Veldrin, how should I address you?~
+@12 = ~Please call me <CHARNAME>, Solaufein.~
+@13 = ~I prefer <CHARNAME> to 'surfacer' or <RACE>.~
+@14 = ~You may refer to me as My <LADYLORD>. While you are in my party try to speak only when spoken to.~
+@15 = ~Very well, <CHARNAME>. Your choice of Veldrin as a drow name was inspired. It is common enough to avoid attention and serves both males and females. How did you think of it? Have you studied drow culture? ~
+@16 = ~Adalon suggested it, actually. She used her magic to cloak us in drow forms so that we might retrieve her eggs.~
+@17 = ~The more I study drow 'culture' the more sickened I become, Solaufein. Keep your queries to yourself.~
+@18 = ~Aside from the kindness you showed me you played the role quite well. I know how hard it can be to wear a false face in that cruel city. Come, let us continue on our way.~
+@19 = ~Of course. I should have known.~
+@20 = ~Of course. I had hoped for something better but I'm quite used to that arrangement. While in your party I will follow your orders.~
+@21 = ~I cannot help but wonder if I have done the right thing. My actions have caused the death of Phaere. You may find it hard to imagine, but in my mind's eye I see her as she was long ago: loving and enthusiastic. Torture changed all of that. Or so I think. What if Phaere was merely playing a role, as was I? ~
+@22 = ~Phaere ordered us to kill you. Her only concern was the rise of her House in the Drow social structure. If she still truly loved you she would not have been quite so convincing at hating you.~
+@23 = ~I have no time for your self-doubts, Solaufein. Keep your thoughts to yourself.~
+@24 = ~True. But was I not just as convincing in my apparent hatred of her?~
+@25 = ~Actually, your concern leaked through. You followed her home after she was captured and never considered direct revenge against her.~
+@26 = ~I guess it's possible that she was not totally corrupted. But how could you have known? ~
+@27 = ~That's true. Half of my heart couldn't bear to see her hurt. The other half wanted to kill her directly. When do you give up on someone who has become evil?~
+@28 = ~Ah, <CHARNAME>, so good to see you. I've just been admiring the trees and evading Elhan's patrols. It seems strange to think of the surface as my new home. I struggle to wrap my head around the concept.~
+@29 = ~Still, I imagine I will have plenty of time to grapple with it during our travels. Shall we be off?~
+@31 = ~Yes, let's join up and travel together again.~
+@32 = ~The exit to the surface is very close. I should probably find my own way for now. Continuing on together would just make the surface elves guarding the entrance more suspicious of you.~
+@33 = ~I've been on raids in this area, so I know the lay of the land. I'll teleport past the guards and meet you again just north and west of their main encampment.~
+@34 = ~I have been thinking much on morality of late. While I was in Ust Natha I had the chance to do many things. I might have used my influence to free the surfacer slaves, for example. Yet I did not.~
+@35 = ~Looking back, I'm not quite sure why. Perhaps I was afraid of being discovered and losing any future chance to do good. Or perhaps it never occurred to me. I'm not sure which option is more disturbing.~
+@36 = ~I'm sure you were just wary, Solaufein. Nothing would be served by your discovery and execution.~
+@37 = ~Freeing them might have gotten you killed, but in your place I would still regret not finding some way to help them.~
+@38 = ~Why are you bothering me with your little moral quandries? Keep your own counsel, if you please.~
+@39 = ~A very pragmatic analysis, <CHARNAME>. Perhaps I have been too idealistic?~
+@40 = ~In any event, thank you for discussing it with me. It makes me feel a bit better to be able to go over these things with someone, especially someone who can see both sides of the issue.~
+@41 = ~That is how I feel in my heart. I wish I had found a way to free them.~
+@42 = ~As an outcast, thoughts of fate have been weighing on my mind. I am not like other drow: I feel they have strayed from the true path.~
+@43 = ~But I think back on the others in the Male Fighters Society and wonder: did they choose this evil path, or were they born with it and never corrected?~
+@44 = ~While the "corrections" of society do play a role, I think we are born with selfish and base tendencies that we must strive to overcome.~
+@45 = ~The whole notion of an "inherently evil" race is preposterous. Drow society made them what they are today.~
+@46 = ~There is a balance to all things. We are born into a state of nature that is neither good nor evil.~
+@47 = ~What then is our role in society?~
+@48 = ~Society should provide a framework that makes it easy to resist unproductive impulses. We often cannot handle them on our own.~
+@49 = ~We must be on guard against evil even within a society. We are still responsible for our own actions.~
+@50 = ~What you say sounds realistic ... if somewhat depressing. I must think on this awhile.~
+@51 = ~Well, I'm glad that responsibility can be placed somewhere. I must think on this awhile.~
+@52 = ~Are they not responsible for their own behavior? Are their evil deeds the fault of an abstract "society"?~
+@53 = ~No, personal choice does play a role. They could have chosen to resist evil at any time.~
+@54 = ~Perhaps in part, but they are not mindless automata. Choice rests ultimately with the individual.~
+@55 = ~Your "state of nature" is often harsh, brutish and short. Why venerate animalism? ~
+@56 = ~I was merely saying that "good" and "evil" are often subjective labels we apply after the fact to justify actions.~
+@57 = ~It may be harsh. But it represents reality and provides a perspective from which remorse can often be avoided.~
+@58 = ~We touched on this earlier, but it still troubles me: what is the role of society? I am an outcast from Ust Natha and surely a pariah on the surface. Will I ever be more than a vigilante?~
+@59 = ~If you want to integrate more fully with surfacers, the precedent is there. Drizzt was able to overcome such prejudice.~
+@60 = ~If you want, but society as such is hardly a sterling treasure. You may find your own path much more pleasant.~
+@61 = ~Thank you for that. But with or without me in it, what do you see as the purpose of society? Why band together and circumscribe our behavior with laws? It doesn't perfectly relate to doing what is right.~
+@62 = ~Well, one might hope that "the law" and "what is right" would be somehow linked. Then there would be no conflict.~
+@63 = ~We band together for self-defense and commerce. Peasants are willing to abide by Amnish laws if they know Amnish guards will protect them.~
+@64 = ~What if I cannot agree with the laws? Drow law would have me kill you where you stand. And then probably execute me for not killing you earlier. How do you know which laws are "good"? ~
+@65 = ~Trust your heart, Solaufein. Your instinct told you drow law wasn't right.~
+@66 = ~Analyze things carefully. Some serious reflection will always reveal an inconsistent law.~
+@67 = ~Once again you have given me much to think about. I thank you for helping me work through these issues.~
+@68 = ~As a wizard I am used to summoning powerful creatures and having them serve my whims. But now I am forced to wonder: is this any better than slavery? Perhaps a Druid's animals serve out of friendship. I harbor no such illusions about my conjurations.~
+@69 = ~Wizards have been summoning such creatures since Mystra first blessed them with magic. If you fail to do so you may find yourself overwhelmed by a less moral adversary.~
+@70 = ~Hmm. That is an interesting question. I seem to recall hearing that summoned planar creatures are only "slightly annoyed" at being forced to serve a mortal.~
+@71 = ~It does seem questionable. Perhaps we should try to limit our summonings to unintelligent creatures.~
+@72 = ~Be that as it may, I cannot help but compare myself in some of my recent battles to a slave overseer. Through the force of my will they fight and die.~
+@73 = ~Did you hear this from an actual planar creature? Or is it just propaganda?~
+@74 = ~A noble aim, and I feel remorse for those "slaves" I have led into battle.~
+@75 = ~Still, failing to use the best weapon available may cost us our lives and our quest. If push comes to shove I would be willing to summon anything to save myself or my chosen cause. What a thorny issue: I must meditate on it.~
+@76 = ~Thank you for sharing your opinions with me, <CHARNAME>. The more we talk the more I feel like I understand you. And I respect what I see.
+~
+@77 = ~It seems that we are often ambushed by powerful opponents. We talk with them or walk through a special door and suddenly find ourselves embroiled in combat. And yet I wonder: do we do the same thing to our opponents, given the chance?~
+@78 = ~I don't think there is anything wrong with such tactics. We need all the help we can get to stand up to our powerful foes.~
+@79 = ~I have never ambushed an innocent or undeclared enemy.~
+@80 = ~I try to avoid such dishonorable tactics when I can. Sometimes they seem necessary if we are to obtain our ultimate goal.~
+@81 = ~I try to avoid such dishonorable tactics when I can. I always regret when I am forced to use them.~
+@82 = ~Never? Never stalked a dragon in its lair? Never surprised an arch-mage with a strike team of insane inmate wizards? Never trapped Phaere and Ardulace into summoning their own doom? ~
+@83 = ~I think back on the "trap" we set for Phaere and Ardulace and guilt gnaws at my bones. We averted a war ... but with such deceit.~
+@84 = ~They had it coming. That sort of evil cannot go unpunished.~
+@85 = ~I'm just glad we got to them before they got to us ... and the surface elves.~
+@86 = ~I'm willing to accept a small taint in my honor if I know it purchased lives and peace.~
+@87 = ~There is truth to what you say. Once again I shall retreat to the privacy of my own thoughts to mull over your comments.~
+@88 = ~I find that my thoughts have turned to golems and children. Mages like to think of golems as unintelligent drones: beasts that follow commands exactly. While it is true that they almost never improvise, they do answer spoken commands and requests.~
+@89 = ~Spoken languages are quite dynamic: can a golem truly be unintelligent if it can comprehend a natural language? Think of the more talkative golems you've met.~
+@90 = ~I'm not sure what you're getting at, but when you put it that way they cannot be totally dumb.~
+@91 = ~Perhaps the casting wizard merely copies its own understanding and gives this to the golem? ~
+@92 = ~I'm tired of your pointless questions and vapid moralizing. Leave me be.~
+@93 = ~If that's the case then are they really any less than children? Should we not feel the same responsibilities toward them that we feel toward other living beings?~
+@94 = ~No, they are merely magically animated almost-intelligent objects.~
+@95 = ~Perhaps you're right. Wizardry does seem to involve a few grey areas. What then, if golems are intelligent?~
+@96 = ~Then consider: are we merely golems before the gods? Favored servants, perhaps, but never original thinkers? Compared to them we are barely sentient.~
+@97 = ~Where are you going with this?~
+@98 = ~I'm thinking about predestination and original thought. Alaundo foretold a future involving you. How much room to breathe and think do you really have?~
+@99 = ~Here, take my hand. Was that written in the stars? Imagine that the gods grant you a prophecy: I'll put down your hand in two minutes. But now imagine that we ... just refuse. What will happen?~
+@100 = ~We don't refuse: the prophecy doesn't allow it.~
+@101 = ~Perhaps the gods will not make that prophecy.~
+@102 = ~I don't think prophecies can be that specific.~
+@103 = ~Perhaps time is not binding for the gods and they can base their actions on views of the future without making their motives circular.~
+@104 = ~Then we may not have free will: a chilling conclusion. Why take responsibility for my actions if everything is already decided?  ~
+@105 = ~Anyway, I ask all of this because I wonder about the point of our daily struggles. Yours is a grand destiny. Sometimes I feel that mine may have been overlooked by the gods. How can they interact as we walk the same road?~
+@106 = ~Just as they always have, I imagine: through shared deeds and thoughts. I'm glad to have you at my side.~
+@107 = ~We've been through quite a bit together so far and I do not foresee that changing.~
+@108 = ~Thank you, my friend. You are a great comfort to me.~
+@109 = ~Well, eventually I'll put down your hand. The gods should be able to say something about it. Suppose the gods predict five minutes instead of two. But we hold on for six minutes. Is that even possible?~
+@110 = ~And why not? Is there some force in the multiverse more powerful than the gods that prevents them from making a specific prophecy?~
+@111 = ~A powerful idea ... but a bit hard to visualize. No doubt the gods truly are beyond our ken.~
+@112 = ~Your views on parenting and guidance interest me, <CHARNAME>. Would you allow a child of yours to put its hand in the fire?~
+@113 = ~Yes. Better that it does it while I'm watching and able to ward off serious harm. I'd rather have it know fire as an unpleasant but fuzzy childhood memory than as a harrowing adulthood experience.~
+@114 = ~No, why let it get burned unnecessarily? Still, it would probably just try again later.~
+@115 = ~Not until it is truly old enough to decide on its own. My love for it would inspire me to protect it. I would feel sorrow at its pain.~
+@116 = ~Of course. I won't always be there to protect it: at some point it will have to learn on its own. I'm not really doing it any favors by sheltering it.~
+@117 = ~Despite our daily lives of battle and strife ... you manage to find compassion in many places. It warms my heart.~
+@118 = ~Thank you, <CHARNAME>. Your words across our many conversations have been a window into your soul. I'm forced to admit that they have served as somewhat of a moral beacon for me in this time of troubles.~
+@119 = ~I think I understand myself better now. It is time to turn my sights to happier things.~
+@120 = ~Ah, your grasp on reality is firm as always. Sometimes I fear I would wax idealistic if you weren't here to ground me.~
+@121 = ~I can feel your eyes upon me, <CHARNAME>. You must have heard me muttering to myself. I was singing a song of Lady Silverhair. Was I bothering you?~
+@122 = ~Not at all, Solaufein. Your voice is lovely. What were you singing? ~
+@123 = ~Yes, please keep quiet while you're in my party.~
+@124 = ~I was singing a prayer to Eilistraee, Lady Silverhair.~
+@125 = ~Tell me more about Eilistraee, Solaufein.~
+@126 = ~Eilistraee (Solaufein pronounces the name "eel-ISS-tray-ee") is the Dark Maiden, the Lady of the Dance and the Lady Silverhair. She is the daughter of Lolth and Corellon Larethian and the sister of Vhaeraun.~
+@127 = ~Eilistraee chose banishment from the ranks of the Elven gods in an attempt to balance the evil of the Dark Elven Gods. She works to draw the Drow back into the light. She charges her followers to aid those who cannot fend for themselves, both the grateful and the ungrateful. She believes in smiting evildoers and promoting goodness and kindness on Faerun. Singing and dancing are also of paramount importance. 
+~
+@128 = ~She rules over song, dance, swordplay and the light of the moon. Lady Silverhair has been in my thoughts much of late. Through her grace I hope to find peace and redemption.~
+@129 = ~Thank you, Solaufein.~
+@130 = ~I must apologize if I have seemed pensive of late, my <LADYLORD>. My mind is occupied with a fragment of a surfacer poem:
+
+	O plunge your hands in water, plunge them in up to the wrist;
+	Stare, stare in the basin. And wonder what you've missed.
+
+	O look, look in the mirror, O look in your distress;
+	Life remains a blessing although you cannot bless.
+~
+@131 = ~What maudlin claptrap, Solaufein. I have no interest in discussing such a verse.~
+@132 = ~Solaufein ... you recite beautifully. But the subject matter is so dark.~
+@133 = ~My thoughts often are these days. I feel Phaere's blood on my hands. I did what I had to; I do what I must. How can I hope to redeem others when my own guilt is plain?~
+@134 = ~She was evil, Solaufein. Her death averted a war. You are not beyond redemption.~
+@135 = ~Her death was unfortunate. I truly wish there had been a non-violent solution. As long as you feel repentant you are not lost.~
+@136 = ~I wouldn't worry about it, Solaufein. No one lives completely without sin or fault. Your deeds have been better than most.~
+@137 = ~But if I am not beyond redemption than no one is. Was not Phaere possibly good as well? Was she slain before her own chance at redemption? ~
+@138 = ~My heart agrees with you. But my mind knows that many more would lie on the field of battle if we hadn't used deadly force.~
+@139 = ~Perhaps I should try harder to put it behind me. Thank you for listening to me again.~
+@140 = ~Come, my <LADYLORD>. Take my hand. Can you dance?~
+@141 = ~This is quite a turn from your normal doom and gloom, Solaufein.~
+@142 = ~(smile) Who are you and what have you done with Solaufein?~
+@143 = ~A turn? I hope to give you a turn across the floor. Come, my friend!~
+@144 = ~Solaufein, you dance with such grace. Your eyes are alight with laughter.~
+@145 = ~Thanks to our many discussions, <CHARNAME>, I have a clearer sense of myself and my path in the world. It has been far too long since I danced the rites of Eilistraee. Thank you for being my partner.~
+@146 = ~Any time, Solaufein.~
+@147 = ~Perhaps our next dance can be more private?~
+@148 = ~Perhaps. I'm glad to see that there's a twinkle in your eye as well, my <LADYLORD>.~
+@149 = ~The real question is: what am I about to do with you? Dance, of course!~
+@150 = ~Solaufein, you dance with such grace. Your eyes are alight with laughter.~
+@151 = ~I feel Lady Silverhair calling to me in my heart. I would like to see her moon. Might we visit an open space at night, far from the bustle of the city?~
+@152 = ~Certainly Solaufein.~
+@153 = ~Look at the Moon in the sky! I can feel Lady Silverhair's radiance in my heart.~
+@154 = ~She speaks to my soul:
+        I hear a voice you cannot hear, 
+        Which says I must not stay; 
+        I see a hand you cannot see,  
+        Which beckons me away.~
+@155 = ~Walk with me a bit, away from the others. I wish to hear the song of the moon in the quiet of nature.~
+@156 = ~My dear Solaufein, I would be happy to accompany you.~
+@157 = ~Good. I will tell you when we are far enough afield.~
+@158 = ~Oh, sweet rapture! I have felt the hand of Eilistraee in my heart and her song in my soul.~
+@159 = ~She has deigned to gift me with this sword, a blade of the moon, that I might be more able to face the challenges before us. I shall use it in her name.~
+@160 = ~In the light of her moon I see more clearly that our destinies are woven together. As long as you will have me, I am yours. I will remain at your side no matter what comes. You have my loyalty and my love.~
+@161 = ~Thank you for sharing this moment with me, Solaufein. You must know that you have my love and loyalty as well.~
+@162 = ~Your tenderness touches my heart. I would have you beside me, my love, for the rest of our journey.~
+@163 = ~I thank you, <CHARNAME>, for love and life. Let us resume our quest: I find myself looking forward to its completion as a step toward a new life with you.~
+@164 = ~She has blessed me with silvery compassion and a memory to capture my remorse. In her name I shall call down the moonlight to push back the darkness and to heal the weak.~
+@165 = ~... no ... No! Lolth! ~
+@166 = ~Solaufein, you must have had a nightmare. You are safe here, surrounded by friends.~
+@167 = ~You scared me, Solaufein. You seemed to be dreaming but I could not wake you.~
+@168 = ~(gasp) Yes, quite a nightmare. But I fear we are not safe!~
+@169 = ~In my dream I felt the weight of Lolth's eyes upon me. She has not forgiven me for betraying the drow. She sent her minions to exact revenge ...~
+@170 = ~Ghastly spiders surrounded me, biting at my flesh and sapping my strength. Each fiend I killed seemed to make the rest grow stronger. I tried to call out to you but I was caught in a choking web.~
+@171 = ~I fear my vision will soon become a reality. Lolth's pets shall strike us down if we do not make haste and prepare.~
+@172 = ~I'm sure it was just a bad dream, Solaufein. You're safe here with us.~
+@173 = ~Very well. We shall make ready our defenses.~
+@174 = ~Please take me seriously, <CHARNAME>. I feel the Spider Queen's baleful eye upon me!~
+@176 = ~Oh, I'm so glad you have returned to me. I never expected to lose you ... not like that. What happened?~
+@177 = ~We could watch the battle but we could not move or interfere. It was tortuous. When you defeated Archryssa the force holding us there seemed to snap and we returned.~
+@178 = ~Your disappearance scared me more than anything else we have encountered so far, <CHARNAME>. Since you are already in my thoughts, I would much prefer to keep you in my sight as well.~
+@179 = ~Your bravery saved us all from a dark fate. Please accept this kiss, my dashing knight.~
+@180 = ~I know the feeling well, Solaufein. Come walk up here beside me: I feel as though I never want to lose track of you.~
+@181 = ~Gladly. I will take it as a promise of things to come.~
+@182 = ~Of course. I shall set my pace to yours and greet the wonders of the world with you.~
+@183 = ~Oh, but the morn is glorious:
+
+    Come in the evening, 
+    or come in the morning; 
+    Come when you 're looked for, 
+    or come without warning.~
+@184 = ~Ah, the morning sun makes me think of you, <CHARNAME>. You led me out of the Underdark and into a new life. Thank you.~
+@185 = ~No, say nothing. Just accept my gratitude.~
+@186 = ~What a lovely way to end a day!
+
+    I have seen the sunset, stained with mystic wonders, 
+    Illumine the rolling waves with long purple forms, 
+    Like actors in ancient plays.~
+@187 = ~The sunsets on the surface are truly things of beauty. Lady Silverhair's moon will soon shine above us. All seems right with the world.~
+@188 = ~I'm glad that you've taken to the surface, Solaufein.
+~
+@189 = ~I have you to thank for it, <CHARNAME>. Travelling with you has given me a chance to raise myself up out of darkness.~
+@190 = ~The beauty of this places moves me to song:
+
+    The sounding cataract 
+    Haunted me like a passion; the tall rock, 
+    The mountain, and the deep and gloomy wood, 
+    Their colours and their forms, were then to me 
+
+    An appetite, ... a feeling and a love, 
+    That had no need of a remoter charm 
+    By thoughts supplied, nor any interest 
+    Unborrowed from the eye.~
+@191 = ~The beauty of the surface world far surpasses that of the Underdark. Trees and forests fascinate me. I hope that our journeys will always be filled with such wonders.~
+@192 = ~Come, <CHARNAME>, and walk beside me beneath the leaves.~
+@193 = ~Might I have a moment of your time, <CHARNAME>?~
+@194 = ~Certainly, Solaufein. What's on your mind?~
+@195 = ~Now's not a good time. Perhaps we can talk later?~
+@196 = ~I'm curious about your childhood. What was growing up like for you?~
+@197 = ~Not that exciting, really. I spent most of my time studying with the monks at Candlekeep.~
+@198 = ~Even as a child I dreamed of action and adventure. Gorion prepared us well for the world.~
+@199 = ~Actually, I spent most of my time getting Imoen into trouble.~
+@200 = ~You have come a long way, then. Now you seem to be a creature of action.~
+@201 = ~I prefer not to speak of my childhood. In my mind's eye my life started anew when you offered to take me with you to the surface.~
+@202 = ~Still, it pleases me to hear of yours. Thank you for humoring me, <CHARNAME>.~
+@203 = ~Ah, what child doesn't dream of glory? Your youthful dreams have been granted, I suppose.~
+@204 = ~That sounds like a pleasant way to pass the time. I miss the easy banter of a brother or a sister. Even an adoptive one.~
+@205 = ~Of course. I'll ask again later.~
+@206 = ~<CHARNAME>, might I have a moment of your time away from the others? I find myself strangely nervous, though my thoughts seem as natural as the wind.~
+@207 = ~Through our many adventures I feel we have grown quite close. You are my friend, confidante and defender. I can think of no one closer to my heart.~
+@208 = ~Would you spend this night with me? I would like to feel as close to you physically as I do mentally and emotionally.~
+@209 = ~Solaufein, nothing would delight me more. Spend this night in my arms and in my thoughts.~
+@210 = ~There is no need to rush, my dear. We will have all the time in the world when we finish our quest. Let us put off such unions until then.~
+@211 = ~I fear you have misinterpreted my friendship, Solaufein. I don't want that sort of intimacy with you.~
+@212 = ~As you wish, my love.~
+@213 = ~You show marked wisdom and restraint, <CHARNAME>. Of course we can wait until the end of our quest. I look forward to building a new life with you then.~
+@214 = ~My apologies. I did not mean to create an awkward situation between us or strain our friendship. Please disregard my words.~
+@215 = ~My love, you are awake? 
+
+    Long, long be my heart with such memories fill'd! 
+    Like the vase in which roses have once been distill'd: 
+    You may break, you may shatter the vase if you will, 
+    But the scent of the roses will hang round it still.~
+@216 = ~A night in your arms was a taste of heaven, <CHARNAME>. Thank you for sharing yourself with me.~
+@217 = ~I'm not sure which scares me more: the thought of her actually becoming evil ... or the thought of her acting it so well. I will have to think more on this. Thank you for listening to my ramblings.~
+@218 = ~I knew her best. I should have been able to tell, one way or the other. But all I could see behind her eyes was an icy wall. Perhaps I was afraid to peer too deeply.~
+@219 = ~My <LADYLORD>, you would like to travel without me for a time?~
+@220 = ~My mistake, Solaufein. Please stay with us.~
+@221 = ~Just for a while, Solaufein. Please wait right here.~
+@222 = ~Please wait for us at the exit to the Underdark.~
+@223 = ~Very well, I shall.~
+@224 = ~Hello again, my friend. Is it time for us to resume our journey?~
+@225 = ~Yes, please join us.~
+@226 = ~Not quite yet, Solaufein.~
+@227 = ~Good. I am glad to have your company again.~
+@228 = ~As you wish. I shall continue to wait.~
+@229 = ~I have nothing to say right now, my friend.~
+
+@230 = ~<CHARNAME>, I do not wish to alarm you, but I have been having disturbing visions of late.~
+@231 = ~In my dreams I see us standing outside at night. The world is peaceful, but something is wrong. There are no stars in the sky and the moon cannot be seen. It is as if some sort of perverse eclipse has blotted out the light of the sky.~
+@232 = ~While we stand in contemplation, shadows twist and turn before us. Moving with lightning speed they seem to appear and disappear, moving ever toward us. Suddenly they reach us and we begin to bleed, blinded by darkness.~
+@233 = ~I am not sure what to make of this dream, but it is definitely a warning. I fear that if we find ourselves outside at night we may be subject to some sort of attack. I also sense that this new enemy is very powerful.~
+@234 = ~Thank you for sharing this warning with us, Solaufein.~
+@235 = ~Very well, we'll be careful.~
+@236 = ~Solaufein, everytime you have a dream about something we get attacked by it. Couldn't you dream about fluffy bunnies or something safer?~
+@237 = ~I'll try, <CHARNAME>, but I can't promise anything. With my luck I'd dream of fluffy vorpal bunnies.~
+@238 = ~I don't want another fight, Solaufein. Might you be misinterpreting your dream?~
+@239 = ~Perhaps you're right, <CHARNAME>. Maybe that dream was just a nightmare, not a portent. I don't really think anything will be bothering us because of it.~
+@240 = ~I think you give the gods too much credit, Solaufein. Aren't many of them former mortals?~
+@241 = ~Yes, Cyric is an excellent example of that. Old gods fall, new gods rise. But barring such exceptional circumstances, the gods are still quite powerful. Eilistraee and Lolth have certainly exerted a very real influence in my life.~
+@1000 = ~Mazzy, do you feel that the good of the many outweighs the good of the few or the good of the one?~
+@1001 = ~That would depend entirely on the one, Solaufein. If the One is Arvoreen then that Good is much more important than the individual goods of many here on Faerun. If the one is Irenicus, on the other hand, I do not think his personal gains, whatever they may be, can justify his actions.~
+@1002 = ~Begging your pardon, but in my mind the trickier question is how to recognize when an action serves the good. Many terrible crusades have been waged for misguided goals. To be honest, I envy true Paladins their ability to know Evil when they see it.~
+@1003 = ~But even that august ability merely reveals the motives of others: I might reproduce it with a simple cantrip. How do you know when an action itself is good? A scoundrel may do good for selfish reasons: imagine a bandit who slays a band of ogres that have been terrorizing a town. The bandit acted to loot the dead ogres but from the town's perspective it was an honest benison.~
+@1004 = ~Your hypothetical bandit reminds me strangely of Korgan. How odd. Still, your moral quandary is clear.~
+@1005 = ~Such questions trouble my mind often of late when I consider <CHARNAME>'s heritage. We stand with a Child of Bhaal: are we misguided crusaders or fortunate bandits?~
+@1006 = ~Somehow I'm not fond of either of those choices. Still, I thank you for discussing it with me.~
+@1007 = ~Of course, good Solaufein. We may be neither: with any luck we're walking the path of the righteous. Analyzing your actions is important, but do not let it paralyze you when the time for bold deeds arrives.~
+@1010 = ~My noble Fentan, how much are you willing to sacrifice in your fight against evil? I know you would be willing to lay down your life in the service of your cause, but sometimes I think dying is not the ultimate price.~
+@1011 = ~For example, would you be willing to live without courage, shirking from every sword-blow and imagined danger, unable to live the life of an adventurer or help those around you?~
+@1012 = ~What a horrid thought, Solaufein. I would like to think that if Arvoreen demanded such a sacrifice of me I would be willing to make it. But to give up my courage? That's quite a price.~
+@1013 = ~Ever since I become a Truesword, thoughts of Arvoreen have kept me and my companions from fear. I'm not sure if I would even be the same person without my courage, especially since it is intertwined with my faith.~
+@1014 = ~Fair enough. But in some sense, giving yourself away is still easier than condemning others. Would you be willing to stand by and watch a friend or an innocent die if it were demanded of you? Would you kill someone you once loved?~
+@1015 = ~I think you forget, Solaufein, that I already have. I was forced to wait idly in that cell with Patrick dead. Later his unholy shade was slain by this very party. I know the price of power and the burden of valor. I have my grief but I have also made my peace. Have you?~
+@1016 = ~Perhaps not, but it grows easier every day. Thank you again, Mazzy.~
+@1020 = ~Edwin, have you ever considered the possibility that everything you see is an illusion conjured by another?~
+@1021 = ~Of course not, fool. (I am much too powerful a mage for that.)~
+@1022 = ~Remember that hapless Rielev that <CHARNAME> told us about? Living his unlife in a world controlled by Irenicus? You might merely be an unfortunate in a vat somewhere: everything you think you are seeing is merely a compelling illusion created for you by some unseen master.~
+@1023 = ~Your point has merit (I have once considered running such an experiment on someone else). However, if this illusion were truly so convincing that I would never be able to detect it then it cannot possibly affect what I perceive to be my life (else I could use that effect to discern it).~
+@1024 = ~When there are two explanations for something, I always favor the one that is the simplest (I call this maxim Edwin's Dagger and use it to cut away superfluous suppositions). Is what I perceive real, or is it a complicated illusion performed by some unknown agent on my disembodied brain? Edwin's Dagger says: it is real.~
+@1025 = ~Very wise, mage. But for Rielev or those other tortured souls it would have been very wrong.~
+@1026 = ~It is convenient for me, then, that I happen to be right. Now go away and bother someone else.~
+@1030 = ~Yes, Odesseiron? I can feel your eyes boring into me from here.~
+@1031 = ~Of course you can, observant Solaufein (yes, butter him up). I would like to make a deal with you: an exchange of arcane knowledge. But I am not sure how to approach you.~
+@1032 = ~This direct approach seem to be working, Thayvian. What's on your mind, oh egotistical friend?~
+@1033 = ~Although my powers are vast and I control magics beyond the call of normal men, I fear there is one common ability I have never mastered. It seems that almost every mage in the Realms (aside from those that travel with <CHARNAME>, strangely enough) can Teleport. I have yet to learn the spell myself.~
+@1034 = ~You have always had that particular ability (a gift from your Drow heritage). Teach it to me, and I will use it to advance the good of the party (yes, that sounds right. He'll go for that.).~
+@1035 = ~You mentioned an exchange, conjurer. Why should I give out my drow secrets for your personal *cough* ... I mean the party's benefit?~
+@1036 = ~Yes, yes, the exchange (just teach me the spell, ingrate!). I will trade you (some of) the knowledge I gained from the Nether Scroll.~
+@1037 = ~Oh, big incentive. Somehow becoming a true woman under your expert tutelage wasn't exactly high on my list of goals.~
+@1038 = ~Not *that* part, you fool! I'll never look at that part of the cursed scroll again. (Damn Netherese!) No, the Lore, the knowledge of magic. The scroll contained some tidbits on magic defense and identification. It would aid the party and your friend <CHARNAME> if you had this knowledge (come now, be tempted!).~
+@1039 = ~Oh, very well, Edwina *cough* I mean Edwin. I will exchange knowledge with you for the good of the party. But you first.~
+@1040 = ~Fine, fine (yes, it will soon be mine! All mine!). Here, let me show you the appropriate sections from the Nether Scroll.~
+@1041 = ~(reads intently) Hmm, that *was* actually useful. As per our deal, I will now reveal to you the secret to Teleportation. Come closer, this is for your ears alone ...~ 
+@1042 = ~(whisper ... mutter ...)~
+@1043 = ~Are you sure that I must click my heels together three times? What kind of fool do you take me for?~
+@1044 = ~(Sigh.) Just try it, Edwin. I haven't led you astray. Remember to use your newfound powers for the good of the party.~
+@1050 = ~Jan, I have a question of great cultural significance for you.~
+@1051 = ~Ask away, my umber friend. Even my Uncle Scratchy was all in favor of cultural significance. Why, I remember one time when he ...~
+@1052 = ~Before we stray too far afield, let me get to the meat of the matter ...~
+@1053 = ~Ah, the meat. That reminds of this excellent meat and turnip stew that Aunt Petunia used to prepare. The secret was in the paprika, or so I've been told ...~
+@1054 = ~Yes, yes. What I mean to ask you is ... what is a turnip? I can only infer from your conversation that a turnip is some sort of sacred but scarce item that doubles as a foodstuff.~
+@1055 = ~Good heavens. Do you mean to tell me that you've never seen a turnip?~
+@1056 = ~I'm afraid not. I guess it's possible that I knew them by another name in the Underdark, but I don't recall seeing any vegetables with all of the magical powers and divine flavors you ascribe to turnips.~
+@1057 = ~Unfortunately I left my turnip stand back with Trax in Athkatla or I would show you some fine specimens right this very moment. In lieu of that, perhaps you'll allow me to compose an ode to turnips?~
+@1058 = ~Perhaps a factual discussion would be more appropriate at this time.~
+@1059 = ~Right, facts first, artistic impression later. And then we can discuss Turnip History, Turnip Ethics, the Turnip Pantheon, Turnips in Art, not to mention the rapid advances turnips bring to the culinary professions. Why, even Golodon ...~
+@1060 = ~Perhaps we could start at an even more basic level. For example, what color is a turnip? How large are they? Are they sentient?~
+@1061 = ~ ... turnips as sources of Culture, proper growing techniques, spells that can use turnips as components, turnip superiority in the mobile vegetable peddling business ...~
+@1062 = ~(whispered) I can't believe you asked Jan about turnips, Solaufein.~
+@1063 = ~(whispered) Gods have mercy, we'll never hear the end of this.~
+@1064 = ~(whispered) It seemed harmless enough, but it was clearly a lapse in judgment on my part.~
+@1065 = ~ ... the great turnip famine of '73, the use of turnips in Gnomish holy stories, advances in turnip peelers ... why, there's so much to cover I don't even know where to begin.~
+@1066 = ~It would be truly tragic if you were to begin my turnip education on the wrong foot.~
+@1067 = ~Yes, almost a fate worse than death. You know, Golodon once tried to enchant his foot. He wanted to be as powerful as Vecna, what with the Hand and all, but he never quite got the knack of it. His "Golodon's Crushing Foot" and "Golodon's Interposing Foot" spells never really caught on, and I always thought that his severed foot was more apt at casting "Stinking Cloud" ...~
+@1068 = ~Argh! I can't stand it! Sometimes, gnome, you do beat all.~
+@1080 = ~Jan, might I have a moment of your time?~
+@1081 = ~Of course, Solaufein. Let me guess, you want to hear more about turnips? Let me tell you about the time a rotten turnip saved me from a griffin. Uncle Spanky and I were wandering in the countryside with a sack of old turnips, when I spotted these griffin feathers on the ground ...~
+@1082 = ~Um, perhaps in a bit. Changing topics for a moment, I think I've come up with the perfect gift for you.~
+@1083 = ~Oh really? What could it be? I remember when my Uncle Scratchy got me that set of exploding cider bottles as a surprise birthday gift. Of course, things didn't really start heating up until Cousin One-Knee decided to ...~
+@1084 = ~Actually, I've been watching your efforts to obtain Boo from Minsc and I've decided to help you out.~
+@1085 = ~Boo stays with Minsc, little man. Even the two of you will not be strong enough to separate Minsc from Boo and Boo from Minsc. Right Boo?~ 
+@1086 = ~Of course, Minsc. I had something else in mind entirely.~
+@1087 = ~I've been watching the way your eyes light up when <CHARNAME> tells stories about Minsc and Boo, and I've come to the conclusion that what you really need is a hamster.~
+@1088 = ~I have been performing some arcane research and I believe I have perfected a spell that will allow you to summon forth a Miniature Giant Space Hamster as a sort of familiar.~
+@1089 = ~I'm astounded. I don't quite know what to say.~
+@1090 = ~If my calculations are correct, Boo Two will be able to scout for the party or wait safely in our packs. Although Miniature Giant Space Hamsters are almost indestructible, I would advise against using Boo Two in direct combat, however.~
+@1091 = ~Here, I'll cast the spell for you.~
+@1092 = ~Thank you, my friend. I don't know what to say. With Boo Two at my side I shall stand against the turnip-hating scum of the realms.~
+@1093 = ~Congratulations, Jan. Now you have a hamster of your own! Soon you too will be kicking butts for goodness.~
+@1094 = ~I notice that your hamster is female, Jan.~
+@1095 = ~How, exactly, did you notice that?~
+@1096 = ~A Ranger has his ways. Regardless, I think we should be careful about leaving our hamsters alone unsupervised.~
+@1097 = ~Of course, Minsc. I'll be perfectly careful.~
+@1098 = ~Aww, she's such a cutey! I'm envious, Jan.~ 
+@1099 = ~Thank you once again, Solaufein. Caring for Boo Two will certainly keep me busy.~
+@1100 = ~Great. Boo Two's care and feeding are very important: maybe you should find out if she likes turnips.~
+@1101 = ~That was very devious, Solaufein.~ 
+@1102 = ~Well done, Solaufein.~ 
+@1103 = ~(smile) It took me quite a while to come up with this evasive tactic. I just hope Jan takes good care of her.~
+@1110= ~Aerie, I have a sort of a riddle for you.~
+@1111= ~K-keep your distance, Solaufein ... I don't think Avariel have answers to these Drow "riddles", whatever they are. The Avariel and the Drow have never gotten along ... and probably never will, but I'm willing to be c-civil if you will.~
+@1112= ~I guess that's all I can ask for. Here's the riddle: An Elf of the forest of Tethyr ... and, by which definition, a philosopher ... dreamed he was a butterfly, and from that moment he was never quite sure that he was not a butterfly dreaming it was an Elven philosopher. Should we envy him in his two-fold security?~
+@1113= ~I'm ... afraid that I don't quite understand you. Are you trying to trick me?~
+@1114= ~You strike me as a dreamer, Aerie. That can be both a good thing and a bad thing. Your dreams are beautiful, but they can also keep your sight trained on the past.~
+@1115= ~It is often said of sailors in the Underdark that their anchor-chains are fetters and with them they are tethered to the foam. Others will tell you not to spend your time dreaming, secretly yearning for your past. My advice for you is somewhat different.~
+@1116= ~As a mage I am well-acquainted with the maxim that wishes come true, not free. Keep your dreams of flight if you will, Avariel. But know that when the time comes you may have to pay a price.~
+@1117= ~You often talk about others ... but reveal little of yourself. I don't think that's v-very fair! W-why don't you tell us about your prices ... and your dreams, Solaufein?~
+@1118= ~(wearily) I have already seen my first love murdered and I have been banished from my home and society. Worse yet, I fear that I am not done paying in blood for my new course with <CHARNAME>.~
+@1119= ~I know well the price I pay in order to see the Moon in the sky, Aerie. Make sure your wish is what you want.~
+@1120= ~Aerie, to me it seems that youth is like spring, an overpraised season. Delightful if it happens to be a favored one, but in practice very rarely favored and more remarkable for biting winds than genial breezes.~
+@1121= ~I... I feel like whenever you speak to me it is to rebuke me ... to
+score points. Why must you be so dark all the time? Why are you so alien?~
+@1122= ~I bring only my words and my tone to our conversations, my friend. Anything else you find here you brought with you. Ask yourself why you might think that I am critical of you.~
+@1123= ~I'm not sure ... p-perhaps you see me as frivolous or naive compared to your more mature struggles and ideals. I certainly don't spend all of my time debating morality. I just try to do the right thing! And I would remind you that I have seen my share of ... suffering.~
+@1124= ~Of course, Avariel. But recall again that I have made no accusations. You may need to make peace with yourself before you can make peace with your image of me. Such images can be powerful.~
+@1125= ~For example, did you know that all Drow are raised to view the surface elves as evil demons? To me part of the price of being who I want to be is eternal vigilance: I must be on guard against relying unconsciously on the teachings of my youth.~
+@1126= ~Youth is a quality, not a matter of circumstances. Treasure yours while it lasts, for it is wasted on the young.~
+@1127= ~I-I never know what to say to you, Solaufein.~
+@1128= ~Don't worry about it, Aerie. I'll let you choose the topic for our next little chat.~
+@1130= ~What are you thinking about, Haer'Dalis?~
+@1143 = ~(whispered) Oh, lordy, everybody brace yourself for the brooding poet face-off.~ 
+@1131= ~Ah, my gyrefalcon. "Show me a hero, and I will write you a tragedy." You do seem to exemplify that particular phrase. Such poetic justice.~
+@1132= ~What is it like to be a poet and a bard, Haer'Dalis?~
+@1133 = ~It is to dance a jig on the edge of a knife, to embrace madness and fight it in the same moment, to siphon off a piece of your heart into a song and watch it crushed to dust by an indifferent audience.~
+@1134= ~It would appear that your life is never boring.~
+@1135 = ~Boring? I don't have the time to be bored. I have an infinity of planes to explore, a mortal life to live and, one day, a death to die. For now I am busy living; some day I'll get busy dying, along with the rest of the multiverse.~
+@1136= ~Sometimes I fear I spend far too much time dwelling on the past to get busy with either.~
+@1137 = ~I have noticed, Solaufein, that you are often as wrapped up in your ponderings as a caterpillar in its cocoon. But not all caterpillars turn into butterflies. Some become moths, and others die before they have a chance to become beautiful.~
+@1138= ~What do you suggest, then?~
+@1139= ~Suggest? I have no suggestions. Your song is your own. If you want advice, however, here is a verse from mine:~
+@1140= ~
+Turning and turning in the widening gyre
+The falcon cannot hear the falconer
+Things fall apart, the center cannot hold
+Mere anarchy is loosed upon the world
+The blood-dimmed tide is loosed, and everywhere
+The ceremony of innocence is drowned;
+The best lack all convictions, while the worst
+Are full of passionate intensity.~
+@1141 = ~My advice to you is to cherish what you have while you have it, for in the end all shall come to nothingness.~
+@1142= ~Thank you, Haer'Dalis.~
+@1150 = ~Why do you revel in Chaos, Haer'Dalis? Why are you in the Doomguard?~
+@1151 = ~Why? Why the innocent, punished? Why the sacrifice? Why the pain? There aren't any promises. Nothing certain. Only that some get called, others saved. <CHARNAME> will never know the hardship and grief of those left behind. I commit my life to Chaos with a glad heart. For within each seed, there is a promise of a flower, and within each death, no matter how small, there is always a new life. A new beginning.~
+@1152 = ~I notice a preoccupation with death in your musings, bard.~
+@1153 = ~Every one dies, not every one really lives. How we deal with death is at least as important as how we deal with life, wouldn't you say?~
+@1154 = ~In a word, yes. Never underestimate the importance of death.~ 
+@1155 = ~Don't the Gods offer some solace here? The promise of life and rewards beyond death?~
+@1156 = ~In my view the gods are not useful. In fact, few gods anywhere recite poetry. They prefer simple, vicious games, where you Do Not Achieve Transcendence but Go Straight to Oblivion; a key to the understanding of all religions is that a god's idea of amusement is Snakes and Ladders with greased rungs. There is only one religion, though there are a hundred versions of it.~
+@1157 = ~I must respectfully suggest that Eilistraee is somewhat different.~
+@1158 = ~Suggest what you like, my gyrefalcon. I have traveled the planes and formed my own opinions. The gods die too, Solaufein, and their deaths are more complete than any mortal's. There is no rebirth for a god, no resurrection, no new life in the Outer Planes. There is only oblivion, and the dusty records of scholars. One day even Eilistraee will be a rotting husk on the Astral, only fit for the Githyanki to build their cities on.~
+@1159 = ~I revel in Chaos because it makes sense.~
+@1160 = ~I revel in Chaos because life is beautiful, and would be less so without death and change.~
+@1161 = ~I revel in Chaos because it is winning.~
+@1162 = ~You are quickly teaching me not to ask questions I do not really want to hear answered.~
+@1163 = ~Then your time was not wasted.~
+@1170 = ~Keldorn, I have a question for you about the Law.~
+@1171 = ~Of course, Solaufein.~
+@1172 = ~What is this thing we call government? Is it anything else but organized violence? The law orders you to do this or not to do that, and if you fail to obey it, it will compel you by force. It seems that all government, all law and authority finally rest on force and violence, on punishment or the fear of punishment.~
+@1183 = ~In the Underdark, that was the natural order of things. Here on the surface you seem to have higher ideals about government ... but they don't seem to be embodied by actual governments here. Despite a veneer of gentility, it's still rule by the club. I guess I was expecting something different ... something loftier.~
+@1173 = ~Surely you are still merely thinking of your home in Ust Natha. There the "laws", such as they were, were enforced by the whips and spells of the Matron Mothers and their Handmaidens. Here we have courts of Law and Justice.~
+@1174 = ~Perhaps, but I have seen and heard of it on the surface here as well. For example, in Athkatla unlicensed mages are hunted down by Cowled Enforcers.~
+@1175 = ~As well they should be: magic is not to be undertaken lightly.~
+@1176 = ~Still, their local "no magic" law rests solely on force and punishment. It certainly does not rest on the consent of the governed: I disagree with your views on magic and yet the Athkatlan government will apply the law to me as well and by force if necessary.~
+@1177 = ~And it is a woeful state of affairs, I admit. I am not so green as to venerate the Law for its own sake. Law and order exist for the purpose of establishing justice and ... when they fail in this purpose they become the dangerously structured dams that block the flow of social progress.~
+@1178 = ~Well spoken, Sir.~
+@1179 = ~Unfortunately, government is a difficult problem. When I retire from adventuring, however, I hope to take my place in the local government and address such issues. In small groups where (almost) perfect communication is possible it may be possible to enact and enforce laws using some other method or incentive. Within a small band like ours, for example, we may follow <CHARNAME>'s command for reasons other than fear of punishment.~
+@1180 = ~The evil Illithid or some other telepathic race might be able to form such a communal government on a large scale. But I have no good solutions for the current teeming mass of humanity. I can only trust in Torm's grace.~
+@1181 = ~However, the insight that law is often based on force is a good one. It reminds us to be sure of our laws and doubly sure of those we set to enforce them.~
+@1182 = ~"For who watches the watchers?" Very well, Keldorn.~
+@1190 = ~A wise surfacer one said, "We never do evil so completely and cheerfully as when we do it from religious conviction." Keldorn, you and I both crusade in the name of a god, but as a Paladin you face it more directly. How can we be sure that we're doing the right thing?~
+@1191 = ~In my experience, Solaufein, integrity is the answer. We must be self-reflective enough to distinguish those actions that are truly desired by our gods from those that are merely our personal preferences.~
+@1192 = ~Ah, but integrity without knowledge is weak and useless, although knowledge without integrity is dangerous and dreadful. I think the self-reflection you mentioned is truly the key.~
+@1197 = ~But what is integrity? The ability not to pick a coin out of your neighbor's pocket? I do not think it as easy as that. If that were all, I'd say that almost all humans were honest and upright. Unfortunately they are not. Integrity is the ability to stand by an idea. But I was thinking of a particular example.~
+@1193 = ~I've often been curious as to why you didn't raise a hand or a complaint when <CHARNAME> invited me into the party. As a holy Inquisitor charged with destroying evil spellcasters you must have found me, a drow mage, to be a tempting target.~
+@1194 = ~I must admit I was initially uncertain. But Torm has granted me the power to read the motives of those around me and through that grace I can tell that you are not truly evil.~
+@1195 = ~I do not know you well enough to like you, Drow, and everything I have heard and seen of your people makes it unlikely that we will ever truly be friends. I have fought some of your kind in their surface raids. Still, despite my prejudices I am not your enemy.~
+@1196 = ~If all crusaders were as thoughtful as you, Lord Firecam, the world would be a better place. I will trouble you no further.~
+@1200 = ~Korgan, sometimes I think that the only tool you ever consider is violence.~
+@1201 = ~And what's wrong with that, drow? There's rarely a problem that I canna cleave apart with me axe.~
+@1202 = ~Violence is often necessary, but nonviolence is a powerful and just weapon ... which cuts without wounding and ennobles the man who wields it. It is a sword that heals.~
+@1203 = ~Bah, the only healing swords I would want are Adjatha and Foebane. And I'd still rather have a good axe in me hand than either of those two.~
+@1204 = ~Somehow I think you're missing the point.~
+@1205 = ~Point? You're about to be getting the edge of my axe in your gullet. If it bothers ye so, ye can have the nobility and justice, pantywaist, and I'll take a double helpin' of the treasure and the glory.~
+@1206 = ~I'm tempted to try to come up with an example where the nonviolent approach would reap richer material rewards for you, dwarf, but I think that this is one of those times where doing good for the wrong reason is of no benefit.~
+@1207 = ~Does that mean you'll be shutting your trap now, drow?~
+@1208 = ~Yes, I guess it does.~
+@1210 = ~I think laughter may be a form of courage ... as surfacers we sometimes stand tall and look into the sun and laugh, and I think we are never more brave than when we do that.~
+@1211 = ~What are ye yappin' about this time, drow? Courage has nothing to do with the sun.~
+@1212 = ~Maybe not for you with your surfacer eyes, dwarf, but merely existing in its harsh light is a trial for me.~
+@1213 = ~I wanted you to see other examples of what real courage is, instead of getting the idea that courage is a man with an axe in his hand. It's when you know you're licked before you begin but you begin anyway ... you rarely win, but sometimes you do.~
+@1214 = ~There's somethin' to what you're saying, drow, but I think that courage *is* a man with an axe in his hand. Especially if it's a well-crafted dwarven axe.~
+@1215 = ~And fear isn't something I worry about very often. As a battlerager I'd never run from a fight.~
+@1216 = ~I'll tell you what, spellchucker. Keep your fears to yourself, but share your courage with the others.~
+@1217 = ~I'll do that, Korgan.~
+@1220 = ~What's on your mind, Sarevok? You seem even more pensive than usual this day.~
+@1221 = ~Do not pester me, drow. My thoughts are my own business. Intrude at your peril.~
+@1222 = ~Believe it or not, Sarevok, I'm not afraid of you.~
+@1223 = ~You should be.~
+@1224 = ~Should I? You're the man who almost washed the Sword Coast in blood. You're the man who crawled back from the dead. You're a man of no little intellect. But often all of that is for naught. Why should a fighter and a magic-user be afraid of a mere warrior?~
+@1225 = ~My skill as a fighter is vast, far superior to yours. My special Deathbringer training ...~
+@1226 = ~... is completely useless in this case. I can summon forth scores of skins of stone to absorb even your strongest blows. In an instant I can make myself completely immune to your otherwise-impressive magical weapons. Do you really think that I couldn't overcome you, given a full minute where your blows do nothing to me? Bear in mind that I can teleport across the battlefield faster than you can run away. We are men of action, lies do not become us.~
+@1227 = ~I'm impressed, Solaufein ... this is the most arrogant I've ever seen you. I have defeated mages before, darkling. I am quite good at resisting magical Words and Fingers that would slay lesser men.~
+@1228 = ~Which is why I wouldn't bother using any of them against you, Sarevok. You've been felled by mere blows before. All one has to do is strike you a large number of times. And given a minute where your blows cannot hurt me, it's bound to happen.~
+@1229 = ~Your line of reasoning seems weak, Sarevok. I am reminded of the stories <CHARNAME> tells of you disguising yourself by spelling your name backwards.~
+@1230 = ~Now you stoop to criticize? Come back when you've marshaled an army and carved your name in stone and blood in the annals of history, mageling.~
+@1231 = ~With <CHARNAME>'s help I helped to avert a war between the Drow and the surface elves. In my eyes that's at least as good, if not better.~
+@1232 = ~Hear me, Solaufein. It is not the critic who counts, not the man who points out how the strong man stumbled, or where the doer of deeds could have done better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood, who strives valiantly, who errs and comes short again and again, who knows the great enthusiasms, the great devotions, and spends himself in a worthy cause, who at best knows achievement and who at the worst if he fails at least fails while daring greatly so his place shall never be with those cold and timid souls who know neither victory nor defeat.~
+@1233 = ~You may have done much, drow, but I have striven more greatly than you will ever know. There is more to life than hypothetical duels and recriminations over past mistakes. Now leave me to my thoughts.~
+@1234 = ~As you wish.~
+@1240 = ~Sarevok, might I speak with you for a moment?~
+@1241 = ~Come to threaten me again, drow?~
+@1242 = ~Actually, I'm rather curious about death, and you seem to have insights beyond those of most men.~
+@1243 = ~Bah! Why must I be pestered by such questions? Because I have died and been restored, I am considered by you to be an expert?~
+@1244 = ~Well, you're right. I am an expert now. Unfortunately, it would be difficult to discuss my experiences with you without a common frame of reference. A frame that, should you continue to pester me, I would be happy to provide.~
+@1245 = ~That won't be necessary. I was merely thinking of a phrase written by a famous surfacer: "Any man's death diminishes me, because I am involved in mankind; and therefore never send to know for whom the bell tolls; it tolls for thee."~
+@1246 = ~You've been to the other side, Sarevok. Tell me: the suffering, the sighing, the bleeding, the dying ... is it all done in vain? Do we improve the world at all?~
+@1247 = ~I saw little in Hell beyond torment and emptiness. But in my experiences after death I did see some things that gave me pause. I am not as sentimental as you, I did not check to see if we were "improving the world." But I will say that for every thing we fear we can find an opposing hope that encourages us. The hope of returning to life gave me the will to triumph in Hell.~
+@1248 = ~Thank you, Sarevok. Coming from you, that's quite reassuring.~
+@1250= ~Tell me, Nalia, why do you always strive to help the poor?~
+@1251 = ~Solaufein, I'm surprised. You claim you have a kind heart. Of course I strive to help the needy! They need my help the most.~
+@1252 = ~I'm sure your end is worthy, Nalia, but I must ask you to consider that you may be misapplying your force. You may push down on the keystone of an arch all you want, the structure will remain. It is much easier to attack the problem from a different angle: the arch may be collapsed by pushing one of the support blocks to the side.~
+@1253 = ~I'm not quite sure where you're going with this. Helping people is the right thing to do.~
+@1254 = ~Imagine a hypothetical situation. You are in a medium-sized town where many of the poor are dying as children or falling sick as adults due to poor sanitation. What do you do?~
+@1255 = ~Help them, of course! Perhaps I set up a free clinic for the poor or encourage the local temples to extend their charity. I might even try to heal them myself.~
+@1256 = ~And I can see you now, the great archmage, toiling away in your borrowed healer whites. Might not your effort be better spent hiring a mason to build better aqueducts? Or conjuring better housing for them?~
+@1257 = ~It seems that in your view of service, the more menial it is the better. Your calling definitely goes beyond that of simple laborer, Nalia. I encourage you to set your sights on the horizon when you plan to save those around you.~
+@1258 = ~Make sure that, like a true healer, you are attacking the problem and not merely treating a symptom.~
+@1259 = ~Sound advice, Solaufein, but not always satisfying. I wish there were a way to do long-term good that felt as good in my heart as making one child's life brighter directly.~
+@1260 = ~Nalia, you strike me as someone who would like to live as a pauper well-endowed with money.~
+@1261 = ~I get that sort of comment quite often and it is beginning to rub me the wrong way. We are rich only through what we give, and poor only through what we refuse.~
+@1262 = ~Fair enough, but I would give you pause to question your long term goals. You strive always to help the poor and needy, but to what end?~
+@1263 = ~For the betterment of society as a whole, Solaufein. To make all of our lives that much brighter.~
+@1264 = ~And are you sure that helping the poor is the most efficient route?  Perhaps the good of your society would better be served by helping at the top. Using your power to ensure that the monarch or ruling council is wise and just might have far-reaching effects compared to feeding those who cannot fend for themselves.~
+@1265 = ~Are you suggesting that I help the rich? I think the law already does that well enough: in its majestic equality it forbids the rich, as well as the poor, to sleep under the bridges, to beg in the streets, and to steal bread. How convenient.~
+@1266 = ~And why are the poor poor, Nalia? Were they born to poverty and unable to climb up? Unwilling? Were they all once wealthy enough but struck down by mischance? Were their resources taken by others? And just who are the poor? Wizards and wanderers are usually lacking in material possessions, but they are not on your list of people to help out.~
+@1267 = ~Make sure you know what you are trying to achieve (you said you hope to make society as a whole better), how you are trying to do it (you help the poor), what that means (I'm not sure you know this) or why you think it will work (I'm not sure you know this either).~
+@1268 = ~For someone who seems to have a lot of ideas on the subject, Solaufein, you don't seem very willing to help the poor directly. Perhaps you think you have nothing to give? I would disagree: no man is so poor as to have nothing worth giving. Give what you have. To someone out there it may be better than you dare to think.~
+@1269 = ~That's just it, Nalia. I am not well-suited to helping those that crowd the street directly: they would flee in fear from my Drow visage. I think my most efficient route to helping surfacer societies is to make sure that those who would dedicate their life to them, like you, are intelligent about it.~
+@1270 = ~I thank you then, Solaufein. I'll give your words some thought.~
+@1280= ~Tell me, Valygar, do you really see magic as different from any other tool?~
+@1281 = ~To be honest, yes. I cannot see magic as anything but inherently evil. Magic holds the promise of making many things so easy ... almost too easy. When eternal life is within your grasp or you can defeat your enemies with a mere word, I think you lose perspective. You cease to be reasonable.~
+@1282 = ~That is true. Clerical magic is a gift of the gods. Mystra's legacy aside, however, the magic of wizards and the laws of wizardly magic fall under the domain of reason.~
+@1283 = ~And reason is so restricted. It allows us to do things differently or more efficiently ... to teleport across the world rather than walking all the way ... yet it does not change our motives for doing what we do. We are still driven by the instinct of self-preservation or the teachings of our foremothers, or the promptings of the heart.~
+@1284 = ~In fact, I would claim that our true goals often have little to do with reason. A personal decision to study magery or take up arms as a fighter appears to be based upon reason. The same might be said for a government decision to raise taxes or sign a trade treaty. But reason is only contributing to the 'how' portion of these decisions; the more fundamental 'why' element, for all of these examples, is driven by instinctive self-preservation, emotional needs, or cultural attitudes.~
+@1285 = ~True, and that just proves my point. A man with a sword in his hand is a man who can kill you if you threaten him, but threaten a mage and he can level continents if he wants to. I'm not fool enough to think wisdom always comes with power, and it frightens me to think of what mages can do with theirs.~
+@1286 = ~So is it fair to say that your personal crusade against magic is really a crusade against people who fall easily to temptation?~
+@1287 = ~To some extent, but not completely. I believe that as humans we are all fallible, all unable to resist temptation perfectly. I would warn those who have already taken magic to give up its charms, just as I would warn those who have no experience with it to keep far away!~
+@1288 = ~I see. I am well aware of the corruption that can come with power. If it allows you to rest any easier, know that I am on guard.~
+@1289 = ~Thank you, Solaufein. It won't allow me to rest any easier, but I'm glad you're trying. I will keep my own watch. I trust no one else where magic is concerned.~
+@1290 = ~Oh, and by the way ... I like the way you're keeping your hair. It quite becomes you.~
+@1291 = ~(sigh) Thank you, Solaufein.~
+@1300 = ~Valygar?~
+@1302 = ~Yes, I've heard. And actually, that's about all I've heard from you for quite some time.~
+@1303 = ~We're not all naturally garrulous, Solaufein. Dark thoughts occupy my waking hours, unsettling images follow me at night.~
+@1304 = ~Yes, it would appear that you're winning our unofficial gloom contest.~
+@1305 = ~Don't make light of my experiences, mage. I have much on my mind.~
+@1306 = ~Yes, but I'm curious that you always keep it to yourself. Speech is a mirror of the soul: as a man speaks, so is he. I ask you now: who is Valygar?~
+@1307 = ~Ah, you're interested in my soul? Perhaps you hope to steal it from me with your magic? I assure you, I will not be easily taken!~
+@1308 = ~Not at all, Valygar. I just meant that you shroud yourself in secrecy and quiet. Will you eventually cloak your soul in darkness?~
+@1309 = ~Since it seems that no practical answer will satisfy you, here's something more poetic: Though my soul may set in darkness, it will rise in perfect light; I have loved the stars too fondly to be fearful of the night.~
+@1310 = ~I'm beginning to think that you'll do anything to get me to leave you alone. I had thought to try to ease your mind, but it appears that you already know yourself, and what you want, well enough.~
+@1311 = ~I know that I'm not the kind of man to keep my thumb jammed in the dam that holds my dreams in, Solaufein. I know that magic and I will always be enemies.~
+@1312 = ~Then you are old beyond your years.~
+@1313 = ~Have you ever seen your unborn children in the eyes of another? Thanks to my family's curse of wizardry, I am the last of my line, and the years fall heavily on me. Long ago I used to be a young man, drow. I just hope that when the time comes, someone will remember that for me.~
+@1314 = ~Fear not, my friend. I, at least, will not forget you.~
+@1315 = ~That's what I'm afraid of.~
+@1320= ~You strike me as a very angry person, Anomen.~
+@1321 = ~Of course! The world needs anger, and to possess it is no flaw. The world often continues to allow evil because it isn't angry enough.~
+@1322 = ~Yes, but often the consequences of anger are much more grevious than the causes of it. Patience in one moment of anger may avert a hundred days of sorrow.~
+@1323 = ~Shall I be patient when I know that every good and excellent thing in the world stands moment by moment on the razor-edge of danger and must be fought for? Shall I be patient with Evil? Surely some things are worth being angry!~
+@1324 = ~I'll agree with that, Anomen. Some things are truly important. But anger, if not restrained, is frequently more hurtful to us than the injury that provokes it.~
+@1325 = ~Extremism in the defense of liberty is no vice, and moderation in the pursuit of justice is no virtue, Solaufein. You may be content to sit idly by, but when goodness is threatened I shall spring to action!~
+@1326 = ~The world is a dangerous place to live, not because of the people who are evil, but because of the people who don't do anything about it.~
+@1327 = ~I am not suggesting that you give in to sloth or give up adventuring, Anomen. I'm just urging caution.~
+@1328 = ~Thank you for your advice, good Solaufein, but I don't see myself giving up righteous anger any time soon. It serves me well.~
+@1329 = ~Just so long as you don't end up serving it, Anomen.~
+@1330 = ~Anomen, I have heard it said that humility is often a feigned submission used to render others submissive. It is an artifice of pride which abases in order to exalt itself. You do not seem to suffer from the sin of false humility.~ 
+@1331 = ~Thank you, Solaufein. I'm glad to see that my modesty is appreciated.~
+@1332 = ~(sigh). I have also heard that many a man is praised for his reserve and so-called shyness when he is simply too proud to risk making a fool of himself. Again, you don't suffer from that problem.~
+@1333 = ~Again, I thank you for your kind words and piercing insight.~
+@1334 = ~At any rate, you have often given the impression of being justly proud of your virtue.~
+@1335 = ~Yes. Virtue should be cherished and exalted.~
+@1336 = ~I'm glad that you can take pride in your accomplishments, Anomen. I take pride in my mastery of magic and swordplay as well. I was going to offer you some advice, but I see now that I should have reserved it for myself.~
+@1337 = ~Oh really? What advice was that?~
+@1338 = ~"Never look down on anybody unless you are helping him up."~
+@1339 = ~I see.~
+@1340 = ~Do you?~
+@1341 = ~Yes, and with that I will leave you to your thoughts, Solaufein.~
+@1350= ~Cernd, you seem to have a great appreciation for Nature.~
+@1351 = ~This cannot come as a surprise to you, Solaufein. I do not keep my profession as a druid hidden, pretending to the world that I am a humble teamster or chandler.~
+@1352 = ~Right. But where you see beauty and grace, I often see only feral barbarism. In the state of nature animals hunt and fight tooth and claw. There is a cycle to all things, yes, but it is a cycle of birth and death with most of that death caused by others.~
+@1353 = ~I am especially disturbed when I think on the Underdark. Beholders and Mind Flayers are part of the Nature you so venerate.~
+@1354 = ~Yes, that's true. Actually, you could go farther and suggest that even the Undead are Natural as they are often brought back from the grave by the intercession of some natural entity. Most authorities agree that they are unnatural, however.~
+@1357 = ~Why do I feel that you are merely toying with me, Cernd?~
+@1358 = ~Ah, I'm glad to see that your perception is sharp on both sides of the conversational foil. For a while I was beginning to think that you were only quick when leading the charge.~
+@1359 = ~I guess I deserved that. Still, my question is an honest one. How can you continue to venerate nature when it contains so much that is bestial and savage?~
+@1360 = ~Let me parry with a question of my own: how can you still dream of saving your people when they have committed so many atrocities?~
+@1362 = ~Because I believe they are not inherently evil, they are merely mislead by society.~
+@1363 = ~Just as I believe that the truly atrocious in Nature is not necessary, not essential. Change, death, birth, life: these are all necessary. Cruelty is not. I can love the ideal in Nature while working to shape the rest.~
+@1364 = ~I see. Thank you, Cernd.~
+@1370 = ~Cernd, might I have a moment of your time?~
+@1371 = ~Of course, Solaufein. You may even have two: I'd be quite surprised if you were able to finish your thought in just one.~
+@1372 = ~You're probably right. I have another question about the state of nature.~
+@1373 = ~Ah, I sense the impending demonstration of an apparent paradox: the state of nature will be revealed to have, under your interpretation, some heinous negative quality.~
+@1374 = ~How did you guess? Anyway, it seems that the state of nature favors neither intelligence nor virtue. Morality is left completely out of the equation for most animals, making judgment impossible.~
+@1375 = ~Nature does not loathe virtue: it is unaware of its existence. But are humans any better? We create an environment where it is all right to hate, to steal, to cheat, and to lie if we dress it up with symbols of respectability, dignity and love.~
+@1376 = ~I'll admit that even "civilization" has problems with morality, but it seems that morality and reflection have no place in a natural order that is nasty, brutish and short.~
+@1377 = ~In the wilds of nature, the voice of intelligence ... is drowned out by the roar of fear. It is ignored by the voice of desire. It is contradicted by the voice of shame. It is biased by hate and extinguished by anger. Most of all it is silenced by ignorance.~
+@1378 = ~That may be true, but I take a slightly different perspective. I see civilization as part of nature. Humans are natural creatures. Nature has endowed us with intelligence and will, and we have used them to form societies. The ants and the birds do as much, merely on a smaller scale.~
+@1379 = ~As a result of this view, any virtue you ascribe to society I ascribe as well to nature.~
+@1380 = ~Fair enough, Cernd. I didn't realize that nature was so all-encompassing.~
+@1390= ~Imoen, how are you feeling today?~
+@1391= ~Slightly less perky than usual, Sola, but still hanging in there.~
+@1392= ~Sola is it? I'm glad to hear that, "Immy". I fear that you've had more difficulties with your soul than any person should be expected to endure.~
+@1393= ~That's true. But sometimes there's no point in the truth if the only thing it will do is cause pain. I try not to think about it; I try not to believe it.~
+@1394= ~Some things are true whether you believe them or not. The soul is made of consciousness and mind; it is made of life and vision. It is made of the earth and the waters; it is made of air and space. It is made of light and darkness; it is made of desire and peace.  It is made of anger and love; it is made of virtue and vice. It is made of all that is near; it is made of all that is afar. It is made of all.~
+@1395= ~That's beautiful, Solaufein, but when I think about my soul I don't think about all of that. I think about it being missing or about it being tainted by Bhaal. Maybe your Elven soul is full of those pretty paradoxes. I just feel empty.~
+@1396= ~I have heard it said that people will do anything, no matter how absurd, in order to avoid facing their own soul. You have dealt with yours more intimately than most people. That is a great personal triumph.~
+@1397= ~That's a small comfort, Solaufein.~
+@1398= ~Hear this surfacer verse instead, then, Imoen, and find solace:
+
+Hope is the thing with feathers
+That perches in the soul
+And sings the tune without the words
+And never stops at all.~
+@1399= ~Your soul will be well in the end, Imoen, I have no doubt.~
+@1400= ~Thanks, Sola.~
+
+@1410 = ~How are you doing, Imoen?~
+@1411 =~Heya, I'm fine, Uncle Sola. What's the matter, was your application for check-out privileges at the Imnesvale Branch Library denied over residency requirements?~
+@1412 =~(sigh) No, I just wanted to talk to you. When did I graduate from "Solaufein" to "Sola" to "Uncle Sola"?~
+@1413 =~When I discovered that it was easy to pick on you by calling you by endearing nicknames.~
+@1414 =~I should have known.~
+@1415 =~Come on, you can't be Mr. Broody-Pants all the time. Lighten up!~
+@1416 =~"Mr. Broody-Pants"?~
+@1417 =~You know, Mr. "I'm such a cool and brooding drow, watch me mope around and debate morality, torturing all of my companions with questions about scruples and then slicing all my foes with my sword."~
+@1418 = ~Do I really seem like that from afar?~
+@1419 = ~Here, let me do my Solaufein imitation.~
+@1420 = ~(deep Solaufein voice) Sigh. I'm brooding about Phaere. OK, done with that.  Now I'm reciting poetry about the trees. Tra-la! OK, time to cast Stoneskin. Brood, brood. What is the nature of goodness? Brood, brood. Time to make a move on <CHARNAME>. Oh, <CHARNAME>, did I do the right thing? I regret my actions. Brood. How can I tell if I'm thinking the right thoughts? Time for more poetry. But first, that's right ... Stoneskin! Tra-la.~
+@1421 = ~What did you think?~
+@1422 = ~I think I'll run away and hide now.~
+@1423 = ~Aw, don't feel bad Uncle Sola. I'm just having fun. I really did appreciate our little talk about souls before. Now, what's it gonna be? "If you step on an ant, why doesn't the government force you to marry his widow and care for his children?"~
+@1424 = ~Am I that transparent?~
+@1425 = ~Yes.~
+@1426 = ~I was going to ask you some brooding moral quandary that has been occupying my mind about the possibility of justice in the face of magical powers that cloud the mind, but I think I'll just skip it and concentrate on not looking like "Mr. Broody-Pants."~
+@1427 = ~Works for me.~
+@1428 = ~Talk to you later, Immy.~
+@1430 = ~Jaheira, might I have a moment of your time?~
+@1431 = ~Of course, Solaufein. What is on your mind?~
+@1432 = ~I've heard you argue for "Balance" many times as we've traveled with <CHARNAME>. You keep using the word, but I'm not sure I know what is means. At what level do you find this balance? Where do you measure and divide?~
+@1433 = ~Now I must ask what you mean, drow.~
+@1434 = ~For example, we routinely defeat our foes in combat. Would you try to "even things out" and "preserve the balance" by making sure that we lose half of our fights? That would attain balance at a very local level.~
+@1435 = ~Ah, I see what you're asking. What a laughable idea, of course not! I look far to the future when I set my eyes on the balance.~
+@1436 = ~Despite your "career neutrality", you seem to be a servant of goodness. I have never heard of you harming an innocent. I have never heard of you using the ends to justify the means. In short, Jaheira, in the game of balance, you only play for one team.~
+@1437 = ~I know the light stings them but use your eyes, man! We live in bloody, chaotic times. I work towards justice and order because that is what the balance requires!~
+@1438 = ~And I have no doubt that if order were to triumph you would crusade as a beacon of individuality and dissent. But that's just the war between Law and Chaos. There is also a war between Evil and Good. And I find it hard to believe that if Good were to start winning that you would commit Evil deeds just to return things to a balance.~
+@1439 = ~Actually, so do I. But the Balance I serve is not just a balanced ledger. I do not think one good deed balances with one innocent slaughtered. I think that when the world is finally in Balance there will be no reason to commit evil deeds.~
+@1440 = ~I hear you, and I think I understand what you are saying. But while you may be neutral to the war between law and chaos, I will always think of you as good in my heart.~
+@1450 = ~Jaheira, what do you think about memories?~
+@1451 = ~I think they serve us well, Solaufein. I would hate to forget what has gone before or the price others have paid to get us where we are. My memories help to define who I am. A harper once said that, "we do not know the true value of our moments until they have undergone the test of memory."~
+@1452 = ~An interesting sentiment. I think it is all a matter of love: the more you love a memory, the stronger and stranger it is.~
+@1453 = ~Well, I know what it can be like to love a memory. But do not become entrapped by the past. You must still be willing to move forward, even in the face of memories. You cannot betray your own recollections.~
+@1454 = ~As memory may be a paradise from which we cannot be driven, it may also be a hell from which we cannot escape. Don't let yourself become trapped in a gilded cage.~
+@1455 = ~I hear you, and I know what you are warning me about. I just wanted to hear how others deal with powerful memories from the past ... memories that might seem betrayed by present actions.~
+@1456 = ~If you are following your heart, you cannot betray your true friends. Fear not, Solaufein. Perhaps even these events, one day, will be pleasing to remember.~
+@1457 = ~Thank you, Jaheira.~
+@1460 = ~Minsc, you have a valiant sword-arm. But is that enough?~
+@1461 = ~Enough? It has always been sufficient for me, Solaufein. It must be: I have no more to offer. Butt-kicking for goodness is my motto!~
+@1462 = ~Yes, I've heard. But it might seem to some casual observer that of all of <CHARNAME>'s companions you are the most, shall we say, focused, of the party. You have studied a single tune to the point where you can play it quite well, but I have yet to hear any harmonies or counter-points from your instrument.~
+@1463 = ~Because I am not as smart as the others, you mean? Knowing is not enough; we must apply. Willing is not enough; we must do. And I am very good at doing, right Boo?~
+@1464 = ~But is one phrase really sufficient to summarize your whole life?  "Butt-kicking for goodness?"~
+@1465 = ~Boo and I feel that all good deeds are rewarded and all evil deeds must be punished.~
+@1466 = ~For Minsc and Boo, it is simple: kick the butts of the bad men first, and do it often.~
+@1467 = ~But action, action, action, all the time. Can that really be the best course?~
+@1468 = ~The only thing necessary for the triumph of evil is for good men to do nothing. Boo and I do not want evil to triumph, so we are always doing something. See?~
+@1469 = ~I would hate to think that something evil happened because Boo and I stood idly by! We must never silence the voice of justice. We must never still the bootheel of virtue.~
+@1470 = ~Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as ever you can. It's simple. Just do all the good. And kick evil butts.~
+@1471 = ~Right, I can't argue with that sentiment. But still ...~
+@1472 = ~It is also good to shut up sometimes.~
+@1473 = ~Right.~
+
+@1480 = ~Minsc, have you ever considered gardening? I think you would be well-suited to it. "Weed-pulling for goodness", I can almost hear it now.~
+@1481 = ~I must admit that caring for Boo takes most of my non-butt-kicking time. And we tend to move around quite a bit. Who would squish the slugs in this garden of goodness while we are away?~
+@1482 = ~Ah, but it doesn't take that long to plant a seed and you need not see it flower. Don't judge a garden by the harvest you reap but by the seeds that you plant. You don't need to be there in the end for it to be worthwhile.~
+@1483 = ~Actually, I have often thought of flowers.~
+@1491 = ~Why is that, Minsc?~
+@1492 = ~They remind of someone who has gone away.~
+@1484 = ~And now you feel you can do nothing? A druid once wrote, "The true meaning of life is to plant trees, under whose shade you do not expect to sit."~
+@1485 = ~That's very pretty, Solaufein, but flowers always make Minsc sad. To me the smallest flower that blows away can give rise to very sad thoughts.~
+@1486 = ~I'm sorry, Minsc. I didn't mean to stir up unhappy memories.~
+@1487 = ~Dynaheir always liked flowers. I couldn't save her. Boo misses her quite a bit sometimes.~
+@1488 = ~I'm sure he does. Perhaps it would make Boo happy and her spirit happy if you planted some, then.~
+@1489 = ~I'll give it some thought, little man. But sometimes nothing you can say can make things right. Pretty words will not solve everything.~
+@1490 = ~Of course. I'll leave you to practice your kick.~
+@1500 = ~Viconia?~
+@1501 = ~Yes, jaluk? Don't think you can fool me the way you fool these others. I know the passions that burn in your heart. You are no surfacer, no matter how you may ape their ways.~
+@1502 = ~You do seem to bring out the best in everyone. And yet you always survive.~
+@1503 = ~Of course, male. Shar guides my hand and I persevere.~
+@1504 = ~You make me think of an old saying: It is said a Kara-Turan monarch once charged his wise men to invent a sentence, to be ever in view, and which should be true and appropriate in all times and situations. They presented him with the words, 'And this, too, shall pass away.' How much it expresses! How chastening in the hour of pride! How consoling in the depths of affliction!~
+@1505 = ~How utterly useless.~
+@1506 = ~Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful people with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The words 'press on' have solved and always will solve the problems that I face.~
+@1507 = ~Where do you get the courage to keep going forward each day, Viconia?~
+@1508 = ~What a funny question, jaluk. Beyond thoughts of revenge, let me answer you with the words a fool once said to me: "I do what I must, when I must. Know this well."~
+@1509 = ~One day I will understand you.~
+@1510 = ~You already do, male. You just don't want to admit it. You want me to be someone different. I like who I am.~
+@1511 = ~That's what I am afraid of.~
+@1520 = ~Viconia, I cannot help but feel that we should be better friends. We have much in common: we are both outcasts from Drow society. We have both taken up the calling of a deity beyond the Spider Queen. We both travel with <CHARNAME> here on the surface.~
+@1521 = ~Jaluk, why should any of that matter? You are a mere male. You have a pleasing shape, true, and I am not fool enough to think that you will bow and scrape at my command ... but just because we are the only two Drow traveling with these surfacers, why should we get along any better than two average Drow?~
+@1522 = ~Given that two average Drow would kill each other for personal gain if no one was looking, that's not very promising.~
+@1523 = ~Precisely my point, male scum. And why should our shared heritage make a suitable conversation piece? Would you have me remind you of the tentacle rods?~
+@1524 = ~You aren't making this easy for me.~
+@1525 = ~And why should I? It is not *my* place to serve *you*. Everyone else in this little group seems to have taken to you. Am I the only one that sees you clearly?~
+@1527 = ~And what do you see in me, Viconia?~
+@1528 = ~I see that you are a Drow, Solaufein. Drow can never become paragons of surfacer virtue. The hate is in your blood. You may believe that you repent. You may even follow Eilistraee. But at some point you will lose control. Your passions will overwhelm you and you will act out in rage.~
+@1529 = ~Unable to forgive yourself you will spiral down in depression and self-recrimination, blackening your heart and soul until they match your skin. Eventually you will become a burden to those around you. Bereft of the mistaken belief that you can truly change you will cast off your mask and return to your true ways. The ways of your blood, the ways that cry out for the blood of others.~
+@1530 = ~You may be able to coat your true nature with honor, Solaufein. But the goals of a surfacer? That veneer is temporary. Your soul will burn through that false layer, just as the cursed sun of the surface burns your eyes.~
+@1531 = ~I'm not interested in being your friend because I know that your whole purpose, your whole personality, is doomed to failure.~
+@1532 = ~Come back when you have more sense, when you're willing to admit who you really are.~
+@1533 = ~I have nothing to admit to you, Viconia. I won't be coming back.~
+
+@1600 = ~Rejoice, <CHARNAME>, for I have once again felt the silvery touch of Eilistraee in my heart.~
+@1601 = ~She fears for my safety in the face of the new challenges that are set before us as we trace out your destiny. She has personally re-blessed my Moonblade, enchanting it with clerical protections and enhanced combat puissance.~
+@1602 = ~Her concern touches me to my very soul, and I hope to prove worthy of her benison. Direct me as you will, <CHARNAME>: I am now even better-suited to carry out your wishes.~
+
+@303 = ~Don't touch me again, Solaufein. I don't appreciate it.~
+@301 = ~I think you mistake our friendship, Solaufein. I'm not interested in discussing children with you.~
+@302 = ~I'm sorry, Solaufein, but I cannot dance with you in good conscience. I don't want to lead you on.~
+
+@2000 = ~<CHARNAME>, do you think that adventurers with lives as dangerous as ours could ever settle down and have children?~
+@2001 = ~Other adventurers might be able to ... but my destiny and Bhaal's blood prevent me from entertaining such thoughts.~
+@2004 = ~Your heritage is certainly unique and the responsibilities heaped upon you because of it are grave.~
+@2002 = ~Of course, Solaufein. Anything is possible if you have the will to make it so.~
+@2005 = ~You are such a delightful idealist, my friend. I wish I found that as easy to believe as you do. Wishing did not save Phaere, so long ago.~
+@2003 = ~I'm not sure if I would be willing to risk bringing a child into a world so torn apart by war and evil.~
+@2006 = ~I know that feeling well, <CHARNAME>.~
+@2007 = ~I ask because most adventurers eventually settle down to raise a family. Many initially struggle for glory and honor, only to belatedly discover that lasting happiness was never far from home and hearth.~
+@2008 = ~I am not such a person. Any child of mine would be slaughtered wholesale by my fellow Drow and probably treated little better by prejudiced surfacers.  I cannot find it within myself to bring a child into a society where that sort of reaction awaits.~
+@2009 = ~Children should play with toys, enjoy the feel of the grass and the stones, listen to the wind in the trees, feel cool water in their hands ... if I could, I would give all children the childhood I never had.~
+@2010 = ~Those are all worthy goals, Solaufein. You have achieved much: surely you could safeguard your own child.~
+@2011 = ~I agree, Solaufein. This age of blood is no time to bring new life into the world.~
+@2012 = ~I'm disappointed, Solaufein. Would you make all of these choices without even consulting this hypothetical child?~
+@2013 = ~Perhaps, but perhaps not. I have not been particularly adept at protecting my loved ones.~
+@2014 = ~I am glad we see eye to eye on this, <CHARNAME>.~
+@2015 = ~In a word: yes. This isn't like buying a tunic for someone without consulting them. The gift of life is the ability to experience both pleasure and pain. That sort of creation is a heavy responsibility.~
+@2016 = ~Children, even Drow children, cannot care for themselves or think for themselves. Unlike the monsters of the Underdark we are not born ready. Parents must think for their children and accept responsibility for them.~
+@2017 = ~I do not believe the time is yet right to for me to guide a child through this world. I would rather spare children much of the pain I have felt.~
+@2018 = ~I am sorry to ramble on so, my friend. It seems that some issue always weighs heavily upon me.~
+@2019 = ~I'm always glad to speak with you, Solaufein. Even if we do not agree.~
+@2020 = ~Not a problem.~
+
+@2030  = ~That depends on the society. Drow culture seems to have only one overt value: the greater glory of Lolth. Surface societies may have many goals: peace, security, prosperity and justice, for instance. These goals may conflict. Individual choice is then what determines the course taken when these goals do oppose one another.~
+@2031 = ~That sounds rather foreign to me if I understand you. Do you mean that individuals can make opposite choices without either one being right or wrong?~
+@2032 = ~It's seldom a matter of absolute right or wrong but more or less right or wrong given all the circumstances. And sometimes, even the gods don't seem to know ALL the circumstances. We mortals just have to make our best guesses and live with the consequences.~
+@2033 = ~Hmmm. I had always thought of the moral realm as a single narrow path, leading up in one direction and down in the other. You describe a plane with the almost imperceptible gradients.~
+@2034 = ~It's not quite that bad. There are hills and valleys and you know if you're going up or down. You just never know how deep is the valley on the far side of the hill you're climbing at the moment.~
+@2035 = ~I really must pause to consider this further. But thank you for sharing your thoughts with me.~
+
+@2036 = ~Wait a minute! Those two were the prime movers in allying the drow with Irenicus in a war of extermination against the surface elves. If that's not a declaration against all I hold dear, it'll do until the real thing comes along!~
+@2037 = ~Then your 'enemy' need not oppose you personally but merely a group or cause you approve of?~
+@2038 = ~Aside from Irenicus opposing me *very* personally, that's right. You choose your causes as carefully as your friends but when you've made your choice, stay with it!~
+
+@2040 = ~<CHARNAME>, my mind has recently been turning over a philosophical puzzle. I was wondering if you could help me out.~
+@2041 = ~Imagine that I am considering the statement: "All ravens are black." To put it more precisely: "If something is a raven, then that thing is black."~
+@2042 = ~It is a statement about the surface world, so I might explore my surroundings to try to see if it is true or not. It would be difficult to survey every raven, but I might still try to gather evidence.~
+@2043 = ~The statement is true if every raven I encounter is black. I know it to be false precisely when I see a raven that is not black.~
+@2044 = ~So every raven I encounter that turns out to be black supports that claim.~
+@2045 = ~Where are you going with this, Solaufein?~
+@2046 = ~In a moment, dear friend. I beg your patience. Imagine now that I consider another statement: "If something is not black, then that thing is not a raven." Philosophers might call this the contrapositive of my first claim.~
+@2047 = ~It turns out to be equivalent to the first statement: they are true and false at the same time. For example, I know the second statement to be false if I spy a raven that is not black. That's also exactly when the first statement is false.~
+@2048 = ~If the claims are true at the same time, if they are equivalent, then evidence for one should support the other, and vice-versa. The second claim is supported whenever I see something that is not a raven that turns out not to be black.~
+@2049 = ~So I might galavant about the area, spotting such things: a Silver Dragon, a Crimson Death, a Green Slime, a Blue Whale, a yellow sunset. Each of these is a not a raven and each of these is not black. So each one supports my second claim. Which is equivalent to the first. So every Silver Dragon I see supports the notion that all ravens are black.~
+@2050 = ~I need never leave my room at all: I can spot brown furniture all day and gather evidence that all ravens are black. How can this be?~
+@2051 = ~Perhaps the two statements are not truly identical?~
+@2052 = ~Perhaps evidence for one claim is not evidence for an equivalent claim?~
+@2053 = ~Perhaps the number of possible things you can see is important here.~
+@2054 = ~Perhaps, but if they are false at all the same times it is common to think that they are true at all the same times. And if that is the case, they do mean the same thing. However, in a world as wonderous as Faerun, perhaps some things are neither true nor false.~
+@2055 = ~Perhaps, but that is hard to imagine. Consider "<CHARNAME> is a Bhaalspawn" and "Bhaal is the father of <CHARNAME>". Evidence for the one would seem to apply directly to the other because they are equivalent.~
+@2056 = ~Ah, an interesting notion. The second claim involves surveying all non-black things. There might be quite a few of those! Perhaps such evidence is merely weaker than evidence gained by inspecting the relatively smaller number of ravens.~
+@2057 = ~In any event, ravens are not my concern. But imagine instead that you are trying to prove that all drow are evil. Using the argument above, you might support that claim by looking for good things and noticing that they are not drow. Every elven ranger or human paladin you encounter is an argument for (and probably argues that) all drow are evil.~
+@2058 = ~This human paladin might have in the past, friend, but no longer.~
+@2059 = ~Thank you, Keldorn.~
+@2060 = ~I know you can offer me no magic solace in this area, <CHARNAME>.  I just worry that convincing other surfacers that the drow should be given a chance will be difficult.~
+@2061 = ~Trust me, Solaufein: most surfacers you encounter will not be doing logical puzzles in their minds to convince themselves that the drow are evil. Prejudice is rarely so probing.~
+@2062 = ~You need not concern yourself with the milling throng of surfacers. You can change the opinions of your companions one friendship at a time.~
+@2064 = ~Thank you, <CHARNAME>. I'm glad that even on this difficult road we can find times to chat.~
+
+@2070 = ~Solaufein ... shut up and kiss me!~ 
+@2071 = ~As you wish, my <PRO_LADYLORD>. How could I resist such an offer?~
+@2072 = ~(time passes quite pleasantly)~
+@2073 = ~Interesting ... I can no longer remember what was troubling me about the ravens. Clearly they were no match for the passion in your eyes. Thank you for taking the time to put things in perspective, <CHARNAME>.~
+@2074 = ~My eyes weren't the only things filled with passion, Solaufein. Let me know the next time you're feeling ... lost in thought.~
+
+@2080 = ~<CHARNAME>, do you think people can change over time? I speak not of minor changes, but of fundamental likes and dislikes.~
+@2081 = ~Yes, Solaufein. Redemption is always possible, as is a fall from grace.~
+@2082 = ~Certainly. You saw Phaere change from a loving friend to a cold-hearted monster. That's certainly a dramatic change.~
+@2083 = ~Yes, but such changes do not happen rapidly, and they cannot be forced from the outside.~
+@2084 = ~No. Sometimes people pretend to change, or think that they have changed ... but in my experience, such changes are only skin deep.~
+@2085 = ~Not really. I think that most of our important views are fixed during childhood and adolescence. Very little truly changes after that.~
+@2086 = ~I'm glad to hear that. Redemption is a topic that is near and dear to my own heart.~
+@2087 = ~Yes, but her change came after torture and coercive magics. Sometimes I wonder if the drow that emerged can be considered the same person as the drow that I once knew.~
+@2088 = ~Really? Phaere's change was dramatic, rapid and forced from the outside. She left me a caring friend and came back an empty enemy.~
+@2089 = ~That bodes poorly for my race as a whole, for cruelty and hatred are taught to our children at an early age.~
+@2090 = ~Regardless, I don't mean to ask about changes in morality so much as changes in important values. Might I value honesty one day and not the next? Could I discover that honor is more important that justice? As I grow older will I sacrifice valor at the altar of spirituality?~
+@2091 = ~Sometimes I wonder about identity and the traits that make me who I am. There seem to be quite a few things that do not truly define me: I am a drow, but I am not like most drow; I live neither on the surface nor in the Underdark; I am neither a pure fighter nor a pure wizard; I am neither a natural philosopher nor a priest. So much has changed since I left the Underdark ... what is left to say who Solaufein is?~
+@2092 = ~Let me pose a riddle to you, <CHARNAME>. Imagine that a town gives rise to a famous explorer, a sailor who travels the seas. When she dies, the town decides to preserve her small ship for posterity and place it on display in the center of town. As time goes by, the planks from the original ship become rotten and are replaced with new wood from the nearby forest.~
+@2093 = ~The planks are replaced one at a time, until eventually the last plank from the original ship is gone. Is it still the same ship?~
+@2094 = ~Of course, Solaufein. Your hair and your skin die and are replaced as times goes by, but you are still you. This ship in your mind is not different.~
+@2095 = ~Yes. The identity of such a ship exists only in the minds of the observers.~
+@2096 = ~No, but I'm not sure when it stopped being the original.~
+@2097 = ~Ah, but I might claim to have a Soul, something the ship lacks. When all of the wood has been replaced, everything that makes up the boat has as well. When all of my hair has been replaced, my heart and mind remain the same.~
+@2098 = ~It is a frightening thought indeed to consider that your identity is defined by others and not by your own intrinsic qualities.~
+@2099 = ~Nor am I, my friend. Such gradual changes can be quite insidious.~
+@2100 = ~I ask because I am afraid that the planks of my spirit are being slowly replaced as I travel with you. Sometimes I wonder who I will be a few years down the road. Thank you for taking the time to talk with me, <CHARNAME>, but I fear I must think on this further. I will ask you about it again when I am ready.~
+@2101 = ~Very well, Solaufein. But don't keep yourself wrapped up in your thoughts for too long.~
+
+@2151 = ~Pardon me for interrupting your thoughts, my friend, but I was wondering why you decided to buy this particular book from that merchant.~
+@2152 = ~I saw this book and thought you might like it. Here, it opened to this poem ...~
+@2153 = ~Verily, that is a lovely sonnet, <CHARNAME>. What made you think of me when you read it?~
+@2154 = ~Are you fishing for a compliment, Solaufein?~
+@2155 = ~Um, the lines all rhymed?~
+@2156 = ~Not at all. But if you are passing them out today, I could probably be convinced to accept one.~
+@2157 = ~I find that I gain a glimpse into someone's character when I learn a bit about their literary tastes. Truly, I am interested in hearing what you liked about this poem.~
+@2158 = ~Sometimes when I wake up in the morning, I dread the idea that it will be yet another day of fighting for my life against enemies I've never even heard of. But then I remember that it will be another day by your side, and that outweighs any fear I might feel.~
+@2159 = ~When I met you, I never imagined that you would come to mean so much to me. This poem ... it made me realize how much happiness you have brought me. Thank you, Solaufein.~
+@2160 = ~We both know something about pain, you and I. But I would not trade any of the hardships I have endured in my life because they led me to you. I promise you, my love, that I will always be with you to share the burdens and joys that may come our way.~
+@2161 = ~And I thank you, my dear. For a new life, for hope, for your unwavering trust in me. For the love that has graced our lives.~
+@2164 = ~Thank you for that simple confession, <CHARNAME>. I will treasure this book; it warms my heart. Come, let us discover what other gifts this day will bring us.~
+
+@2170 = ~My friend, may I trouble you a moment?~
+@2171 = ~It is never trouble to speak to you.~
+@2172 = ~Could we talk about this some other time?~
+@2173 = ~As you wish. I shall return to my thoughts for now and leave you to yours.~
+@2174 = ~I find my thoughts returning to a conversation we had about the gods. It was early in our acquaintance.~
+@2175 = ~At the time, I asked you what you thought of their role in our lives. Considering your origins, I was interested in what you had to say, but I admit I also used it as a way to be close to you, to touch your hand. Do you remember?~
+@2176 = ~How could I forget?~
+@2177 = ~It was the first hint I had that you might ... care for me.~
+@2178 = ~I remember how nervous I was. That simple touch loosed a thousand butterflies in my stomach.~
+@2190 = ~Was I truly so opaque before then? To my own ears my words never seemed all that guarded. Still, that moment was special.~
+@2179 = ~I could feel your hand imprinted on mine for the rest of that day. I wished I had asked you if the gods had prophesied that I would fall in love with you, for I could see no other reason for so daunting a prospect as loving a Child of Murder.~
+@2180 = ~Daunting?  I ... I see.~
+@2181 = ~I can't say that I'm not daunted by my fate, myself.~
+@2182 = ~It no longer daunts me, my dearest, you needn't look at me that way. I can no longer imagine my life without you as my constant companion. Or rather, I don't choose to imagine it. Consider this surfacer verse: while not written for our situation, it is strangely apropos.~ 
+@2183 = ~How could I love you more?
+I would give up
+Even that beauty I have loved too well
+That I might love you better.
+Alas, how poor the gifts that lovers give
+I can but give you of my flesh and strength,
+I can but give you these few passing days
+And passionate words that, since our speech began,
+All lovers whisper in all ladies' ears.~
+@2184 = ~I try to think of some one lovely gift	  
+No lover yet in all the world has found;
+I think: If the cold somber gods 
+Were hot with love as I am
+Could they not endow you with a star
+And fix bright youth for ever in your limbs?
+Could they not give you all things that I lack?
+
+You should have loved a god; I am but dust.
+Yet no god loves as loves this poor frail dust.~
+@2185 = ~I have another prophecy for you: I will hold you close tonight, I will lose myself in the sanctuary of your arms, and I will thank all the gods for crossing our paths.~
+@2186 = ~I look forward to it, Solaufein.~
+@2187 = ~Would that all of our prophecies were so sweet.~
+@2188 = ~The prophecy of your poem strikes too true to life for comfort.~
+@2189 = ~I know it, <CHARNAME>. But when the time comes you will make the right decision. Come, let us not speak of it now. Take my hand; the path lies before us.~
+
+@2200 = ~<CHARNAME>, ever since I joined your party I have noticed your perplexed looks at me. Is it too forward of me to ask what is troubling you?~
+@2201 = ~Oh, no troubles. I'm just a little surprised in the change in you. I never expected you'd be so... well-versed in surfacer poetry.~ 
+@2202 = ~It's... nothing.~ 
+@2203 = ~I hate to do this, but we really can't chat at this moment. Perhaps later we can talk some more?~ 
+@2204 = ~Are we not entitled to hobbies, my <PRO_LADYLORD>? I'm sure you're fond of something other than fighting and adventuring. We drow do appreciate the finer things in life, believe it or not. But you are right, it is unusual for any denizens of the Underdark to be well versed in foreign literature. The philosophy book I have was purchased in blood. That particular skirmish is one of the few battles I'm truly proud to have won.~ 
+@2205 = ~I'm guessing the Fighter's Guild doesn't have many available tomes for you to read?~ 
+@2206 = ~Yet you managed to get your hands on a few interesting tomes. Your philosophy book is full of second-hand translations, isn't it? But your history book is older and was written in Elven. Where did you get it?~ 
+@2207 = ~How did you ever to manage to deal with being yourself in Ust Natha?  Maintaining the illusion of being a 'normal' drow had to be so difficult for your spirit.~ 
+@2208 = ~No, they did not. (smiles) However you seem to be taking this drow into the heart of your party surprising well. I thought you would be questioning my change in manner rather than taking me at face value.~ 
+@2228 = ~Well... I'm none too proud of how I acquired that book of history. It was during ... it was during one of the first surface raiding parties I went on. That book was one of the spoils I had found as we pillaged. I can not remember what compelled me to keep it then, nor what inspired me to read it later on.~ 
+@2230 = ~Still, that book became quite important to me as the years went by. It gave me a glimpse of a world beyond the cruelty of Ust Natha.~
+@2209 = ~It was difficult on my spirit, <CHARNAME>. But it was not hard for me to act as I did. Before I met Phaere, I cared nothing about other drow. My outward personality in Ust Natha was similar to my real persona as a young adult drow so many years ago.~ 
+
+@2231 = ~Once it did become a mask, however, it was quite an internal torture. Every day I would dread that Phaere or a Matron Mother would somehow see through me and guess my motives:
+
+Some of the hurts you have cured,
+  And the sharpest you still have survived,
+But what torments of grief you endured
+  From evils which never arrived!~
+
+@2210 = ~I didn't think you were a poet, Solaufein, but I'm not at all surprised that you are kinder than the demeanor you presented in the Underdark.~ 
+@2211 = ~Don't worry, I'll be asking something about that soon. But I do want to know where you got those books.~ 
+@2212 = ~How did you survive Ust Natha? I don't think I would ever be able to stay alive in such a place without tainting my soul.~ 
+@2213 = ~Don't worry about it, my friend. I know you're kinder than you realize.~ 
+@2214 = ~Phaere? I find it hard to picture her as other than truly evil ... but she must have been otherwise when you fell in love with her. Still, she helped you become who you are now. It is hard to believe that something like that could have helped to forge you into what I see today, Solaufein.~ 
+@2215 = ~Well, looking back you did not do such a great job at being 'evil'. You failed to fool me, my dear friend: you were too kind.~ 
+@2216 = ~How about a lighter subject? Where on earth did you get that elven history book?~ 
+@2217 = ~Oh? How did you guess?~ 
+@2218 = ~To another drow I'm sure that you hid it well ... you masked your desire to avoid evil orders as a natural hatred for your superiors. I think the biggest clue for me was your reaction when we were assigned to slaughter the deep gnomes.~ 
+@2219 = ~<CHARNAME>, I-~
+@2220 = ~Hush. Let me finish. When we met in Ust Natha, I believed you were an arrogant bastard and you believed I was a foreign drow. You couldn't think of anything you could do to help the Svirfneblin. You took it out on Phaere. I thought you were too full of yourself to let some gnome blood stain your flail.~ 
+@2221 = ~I can not say that I'm perfectly pleased with the way things turned out there. I should offer you my apologies.~
+@2222 = ~Solaufein, don't apologize! There's nothing to apologize about. I told the Svirfneblin leader to give me his helmet as proof to show to you. For a such an evil race, the drow can be gullible. But they did manage to produce excellent actors.~ 
+@2223 = ~Perhaps. But do not worry about it; they are fine. I didn't kill them. Perhaps after our adventures are over you could look into a career as an actor. You did have me convinced for a while.~ 
+@2224 = ~The Svirfneblin patrol did not survive, but their deaths helped to avert a full-fledged war between the drow and the surface elves. Take comfort in that if you must.~
+@2225 = ~Thank you my friend... I think?~ 
+@2226 = ~Ah, I see. So will you tell me a little about that elven history book you carry? It's been a mystery to me since you joined the party.~ 
+@2227 = ~I only meant to tease, Solaufein. You're actually quite amazing considering the darkness you grew up with in Ust Natha.~ 
+@2229 = ~Very well, <CHARNAME>. We will converse at a later date.~
+@2240 = ~Are you sure, <CHARNAME>? I would not want you to feel you can not talk to me.~
+@2241 = ~Actually... I have a few questions about how you behaved in Ust Natha. Was it all just an act?~
+@2242 = ~I wanted to know why you're so well-versed in poetry, actually.~
+@2243 = ~Yes. I'm sure.~
+@2244 = ~Thank you for sharing that bit of yourself with me, Solaufein.~
+@2246 = ~Of course, <CHARNAME>. I wouldn't have it any other way.~
+@2245 = ~Any time, Solaufein. Any time.~
+
+@2250 = ~Solaufein, I fear that you may have misinterpreted our friendship. Although I value you highly as a member of our team, I cannot be as close to you as your recent conversations would seem to suggest.~
+@2251 = ~I ... I understand, <CHARNAME>. I apologize for overstepping my boundaries, and I hope that I haven't made you uncomfortable. I won't happen again.~
+
+@2300 = ~(Solaufein takes first watch as the group settles down for the night. You observe as he takes out some poetry to read by moonlight, and catch him whispering the lines of one poem in particular)~
+@2301 = ~Through the blackest shadow of the darkness of the heart I wander in bewilderment 
+You who know the world of love, decide: Is my love reality or dream?~
+@2302 = ~A thing which fades with no outward sign, 
+is the flower of the heart of man in this world!~
+@2303 = ~This night of no moon there is no way to meet him; I rise in longing 
+My breast pounds, a leaping flame. My heart is consumed in fire.~
+@2304 = ~(Keep quiet.)~
+@2305 = ~(Solaufein stares into the campfire, which sets his face in a ghostly glow. His voice is pure despair, filled with uncharacteristic longing.)~
+@2306 = ~I know she is light and faithless, but she has come back half-repentant and very pale and very sad. 
+A butterfly needs somewhere to rest at evening.~
+@2307 = ~(Solaufein stares into the campfire, which sets his face in a ghostly glow. When he responds, his voice is gentle, almost awe-struck.)~
+@2308 = ~Waiting anxiously for you, unable to sleep, but falling into a doze
+Are those words of love floating to my pillow, or is this too a dream?~
+@2309 = ~My eyes open and here is my tear-drenched sleeve.~
+@2310 = ~Perhaps it was a sudden rain.~
+@2311 = ~(Solaufein stares into the campfire, which sets his face in a ghostly glow. There is only sadness in his voice when he continues.)~
+@2312 = ~The autumn wind blows white clouds about the sky. Grass turns brown.~
+@2313 = ~Leaves fall. Wild geese fly south. 
+The last flowers bloom, orchids and chrysanthemums with their bitter perfume.~
+@2314 = ~I dream of that beautiful face I can never forget.~
+@2315 = ~(Make a slight noise)~
+@2316 = ~(Feign sleep)~
+@2317 = ~(His entire attention is now focused on you. Despite this, his expression is indiscernible; he has unconsciously retreated a little into the shadow.)~
+@2318 = ~I ... I'm sorry if I interrupted anything.~
+@2319 = ~Keep it down. Some of us are trying to sleep.~
+@2320 = ~You are never ... an interruption. It is I who must apologize if my reading bothered you.~
+@2321 = ~No, no. It didn't. That was beautiful.~
+@2322 = ~Yes, it did bother me.~
+@2323 = ~You liked it?~
+@2324 = ~Yes, I did. But my love, it seems these dark images are symptoms of a deeper question?~
+@2325 = ~Yes, I did. I'm glad I was able to hear them. However, the hour grows late, and I'm afraid I simply can't stay up any longer.~
+@2326 = ~You know me far too well, <CHARNAME>: I am careful with my feelings. I admit being with you has brought up parallels with the past, memories of those I knew and worked with in Ust Natha.~
+@2327 = ~The lessons of the past will always hold a place in my heart. Memories can be beautiful ... but pursuing memories can leave you with an empty stomach. Sometimes I wonder how to balance my desire to learn from the past, and thus avoid repeating its mistakes ... with my desires appreciate the present as it comes.~
+@2328 = ~Memories linger ... but grow distant with time. Am I still Solaufien if the context through which I see and judge the world has changed? If my perceptions become rooted in my experiences with the surface world, will I still see as clearly what I was fighting for when I left Ust Natha? Should the dead be cast out of our thoughts as soon as their blood has dried? But if we do not cast them out, will we have enough attention for the needs of the present?~
+@2329 = ~The dead are gone, Solaufein, and beyond our reach. That is all there is to remember.~
+@2330 = ~There is no need to worry. Your past experiences continue to define you. It is not wrong to remember them, no more than it is wrong to make new memories.~
+@2331 = ~Yes, you are right. I ... it is late. I have much to think about.~
+@2332 = ~Thank you, for being here for me. I will always appreciate your opinions, even when they conflict with my own.~
+@2333 = ~You show a perspective beyond your years, my friend. I do look forward to sharing new memories with you.~
+@2334 = ~The past makes us who we are, just as how we react to the present determines who we will be.~
+@2335 = ~I will not keep you awake then, my love. Sleep well, and thank you ... for being here with me.~
+@2336 = ~A sound perspective, <CHARNAME>. I am glad of your wisdom at times like these.~
+@2337 = ~(You close your eyes, but still, Solaufein's voice haunts you before you truly run to dreams.) Mermen weep their pearly tears down a moon-green sea.~
+@2338 = ~Blue fields are breathing their jade to the sun....~
+@2339 = ~And a moment that ought to have lasted forever has come and gone before I knew.~
+
+@6000 = ~<CHARNAME>, I have been thinking about the time that Bodhi captured me.~
+@6041 = ~I must admit that the time that I spent in her clutches and under her thrall weighs heavily on my mind.~
+@6001 = ~Hmm, can't say that I remember that specific incident in all the chaos that follows in your wake.~ 
+@6002 = ~Yes, I remember it rather well.~
+@6003 = ~Seeing you change so dramatically was quite a shock at first. But I'm hardly one to talk, seeing as I have an unfortunate habit of becoming an avatar of Bhaal every now and then.~
+@6004 = ~Yes, I was pretty tempted to just leave you there to rot.~
+@6005 = ~I am sorry that I caused you any pain, or any fear for either your safety or mine. At that point, we did not know each other well, and I cannot thank you sufficiently for trusting me enough to restore me to life.~
+@6006 = ~You were part of my party. You trusted me to lead you, and if I had never brought you to face Bodhi, you wouldn't have been her victim. I owed it to you to restore you if I could.~
+@6007 = ~Bodhi was an incredibly powerful vampire, Solaufein, especially with the taint of Bhaal that she had from possessing Imoen's soul. I'm not sure anyone could have resisted her.~
+@6008 = ~You have never given me cause to regret it, Solaufein.~
+@6039 = ~I did have my doubts about restoring you.~
+@6009 = ~Since coming to the surface, I had nearly forgotten the darker depths of my soul. I am no longer tempted daily to act as other drow do. Bodhi found all of my shadows, and marshaled them to further her purpose. I still have dreams ... nay, nightmares ... about how I unleashed my new powers upon you and our other companions. I feel only horror when I realize that part of me actually enjoyed it.~
+@6010 = ~I have shadows over my own soul, Solaufein. I think I understand some of what you must feel.~ 
+@6011 = ~We both have had to confront darkness and demons in our hearts. It is part of what draws me to you. Though you are not drow, you are mastering your own struggle against committing evil acts.~
+@6012 = ~Bodhi reminded me of how corruptible the mortal soul is, a lesson I thought I had learned some time ago. But that is a conversation for another time. Let us turn our sights now to happier things and the road ahead.~
+@6013 = ~I ... see. Yes, I can understand that. We hardly knew each other, and it would have seemed like I was betraying you to one of your great enemies. I can only apologize for the pain I caused ...~
+@6014 = ~Damn right it seemed like betrayal.~ 
+@6015 = ~It felt like you were deserting me for the more likely winner. Not a big confidence booster.~
+@6038 = ~It's all right, Solaufein. I think I understand.~
+@6040 = ~Thank you for seeing my point of view, <CHARNAME>. And thank you for trusting me enough to restore me to life.~
+@6016 = ~Are appearances all that matter to you? You seem to forget that I was taken and held against my will.~
+@6017 = ~Well, you seemed to enjoy it a little too much for that to be completely true. I have a hard time believing you had absolutely no choice about it.~
+@6018 = ~Surely by now you know me better than that. I was trying ...~
+@6019 = ~I know that in my head ... but you don't seem to understand how it made me feel.~
+@6020 = ~I know I caused you pain. I cannot tell you how sorry I am. We know each other so much better now ... don't you know how much I regret ...~
+@6021 = ~Maybe I do now ... but at the time I certainly didn't. You spent your whole life in the Underdark, after all. Bodhi offered you the kind of power that most drow would kill for. Do kill for.~
+@6022 = ~That is unfair, <CHARNAME>. Do you truly think me like other drow? Why are you refusing to understand? My own will was submerged beneath Bodhi's.~
+@6023 = ~Oh, come on, Solaufein, don't you remember that little speech you gave me right before you leaped at my throat? It didn't exactly sound like you were fighting her enthrallment too hard.~
+@6024 = ~<CHARNAME> ... Bodhi *forced* me to become a vampire. That was not the man you know and, I hope, love. Why are you refusing to understand?~
+@6025 = ~So you're telling me that not even a small part of you enjoyed it? Seems like that glitter in your eyes ...~
+@6026 = ~And are you entirely indifferent to the power that your sire's blood gives you? Think carefully before you accuse others of lust for power. Truly, you of all people should understand what it is like to struggle against the evil that your blood calls you to.~
+@6027 = ~I do not mean to say that all drow are born evil; I do not believe that. But I know myself well enough to say that the depths of my soul have many a shadow. And Bodhi found them all, and harnessed them to her purposes. Look at me, look in my eyes, <CHARNAME>...can you not tell my true feelings?~
+@6028 = ~Sorry, Solaufein, but that just isn't convincing.~ 
+@6029 = ~It ... it is strange that we could have experienced so much together and yet know so little of each other's true thoughts. I ... did not know how deeply this wound still festered. I again offer my apologies for the pain I caused...still seem to be causing...and I will trouble you no more.~ 
+@6030 = ~Is that the best explanation you can give me? I'm through with you. I was a fool to think a romance with a drow could ever work.~
+@6031 = ~No more a fool than I was to think that a surfacer could ever truly understand me.~ 
+@6032 = ~You're right, I do have my own shadows to deal with. I ... think I understand at least a little, Solaufein.~ 
+@6033 = ~We both have had to confront darkness and demons in our hearts. It is part of what draws me to you.~
+@6034 = ~Bodhi reminded me of how corruptible the mortal soul is, a lesson I thought I had learned some time ago. But that is a conversation for another time.~
+@6035 = ~I'm glad we cleared the air about this.~
+@6036 = ~I still need to think about this some more, but I ... I'm glad we're together.~
+@6037 = ~As am I, <CHARNAME>.~
+

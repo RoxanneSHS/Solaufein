@@ -1,0 +1,157 @@
+@1 = ~Solaufein~
+@2 = ~When asked about his past, SOLAUFEIN adds little beyond what you already know. As one of a small number of good Drow he will always be an outcast. Solaufein prefers not to speak of his old life in Ust Natha. The memory of the time he shared with Phaere before she was turned against him is too poignant and the memory of her eventual hatred and death is too cruel. Still, Solaufein will admit to being the leader of the Male Fighters' Guild in Ust Natha. He is also a magician of no small talent. When Phaere was taken from him he became a fervent (but secret) follower of Eilistraee Silverhair. He can be given to brooding melancholy.~ 
+@3 = ~I am pleased with our progress.~
+@4 = ~Things are not progressing as they should.~
+@5 = ~I do not like the way this group behaves.~
+@6 = ~I cannot remain in a group of this sort any longer.~
+@7 = ~This mod is for BG2EE or EET only~
+@8 = ~By Eilistraee's light!~
+@9 = ~Revenge Spider~
+@10 = ~Archryssa~
+@11 = ~Moonray~
+@12 = ~Lunar Spell Memorization~ 
+@13 = ~Dimension Door~ 
+@14 = ~Tsuki no Ken +4~
+@15 = ~Tsuki no Ken: Moon's Blade +4
+According to legend, this ancient blade was originally forged in Kara-Tur by a Tengu weaponsmith with a strange sense of humor. Records of its passing were lost to antiquity until it turned up in the care of a high priestess of Eilistraee. Since then it has been used by followers of Lady Silverhair to protect the weak and strike down the wicked. It was personally granted to Solaufein by the Goddess herself. The blade gleams with a dark silvery light and its passing makes a sound like rustling leaves in a dark forest. 
+
+STATISTICS:
+
+Equipped Abilities:  Free Action, Luck, +2 AC Bonus, +1 attack per round
+Combat Ability:  Each hit has a 25% chance blinding the victim with lunar radiance and inflicting 12 points of fire damage over the course of 3 seconds. 
+THACO:  +4 bonus
+Damage:  1D8 +4
+Damage type:  slashing
+Weight:  3
+Speed Factor:  0
+Proficiency Type:  Long Sword
+Type:  1-handed~ 
+@16 = ~Solaufein Romance for BG2EE or EET~
+@22 = ~Boo Two~
+@23 = ~Return to Party~
+@24 = ~Release Boo Two~
+@30 = ~Redael, Eclipse Kensai~
+@31 = ~Nrodlek, Eclipse Anti-Paladin~
+@32 = ~Radnuht, Eclipse Barbarian~
+@33 = ~Reffus, Eclipse Cleric~
+@34 = ~Ylekilnu, Eclipse Druid~
+@35 = ~Citpeks, Eclipse Sorcerer~
+@36 = ~Total Eclipse~
+@37 = ~Eilistraee's Blessing~
+@38 = ~Eclipse Blade +4~
+@39 = ~Eclipse Blade +4
+This evil blade seems to suck in the light from the surrounding area. It is cold to the touch, like metal that been too long from the touch of the sun. This weapon was used by servants of the Unholy Eclipse in a battle against <CHARNAME> and Solaufein. Its provenance before that point is a complete mystery. 
+
+STATISTICS:
+
+Equipped Abilities:  Immunity to Blindness, Immunity to Missiles, Regeneration
+Combat Ability:  Victim must save versus spells at -4 or be blinded for 80 seconds. (All blind characters suffer -10 to their THAC0s.)
+THACO:  +4 bonus
+Damage:  1D8 +4
+Damage type:  slashing
+Weight:  3
+Speed Factor:  0
+Proficiency Type:  Long Sword
+Type:  1-handed~ 
+@40 = ~Eclipse Avenger +4~
+@41 = ~Eclipse Avenger +4
+This evil blade seems to suck in the light from the surrounding area. It is cold to the touch, like metal that been too long from the touch of the sun. This particular specimen appears to be a weak Unholy Avenger. This weapon was used by servants of the Unholy Eclipse in a battle against <CHARNAME> and Solaufein. Its provenance before that point is a complete mystery. 
+
+STATISTICS:
+
+Equipped Abilities:  Immunity to Blindness, Immunity to Missiles, Regeneration
+Combat Ability:  Dispel Magic on each hit. Victim must save versus spells at -4 or be blinded for 80 seconds. (All blind characters suffer -10 to their THAC0s). 
+THACO:  +4 bonus
+Damage:  1D10 +4
+Damage type:  slashing
+Weight:  11
+Speed Factor:  6
+Proficiency Type:  Two-Handed Sword
+Type:  2-handed
+~ 
+@42 = ~Eclipse Club +4~
+@43 = ~Eclipse Club +4
+This evil club seems to suck in the light from the surrounding area. It is cold to the touch, like wood that been too long from the touch of the sun. This weapon was used by servants of the Unholy Eclipse in a battle against <CHARNAME> and Solaufein. Its provenance before that point is a complete mystery. 
+
+STATISTICS:
+
+Equipped Abilities:  Immunity to Blindness, Immunity to Missiles, Regeneration
+Combat Ability:  Victim must save versus spells at -4 or be blinded for 80 seconds. (All blind characters suffer -10 to their THAC0s). 
+THACO:  +4 bonus
+Damage:  1D6 +4
+Damage type:  blunt
+Weight:  1
+Speed Factor:  0
+Proficiency Type:  Club
+Type:  1-handed~ 
+@44 = ~Eclipse Shadow Defense~
+
+@50 = ~Surfacer Poetry and Philosophy~
+@51 = ~This is Solaufein's hard-won collection of surfacer poetry and prose. It is a more or less hand-bound collection of frayed scrolls and tattered pages. The book appears to contain an extensive collection from authors like Auden, David, Moore, Rimbaud, Tickell and Wordsworth. Unfortunately, many of the more popular excerpts appear to have come to Solaufein by way of translation through Svirfneblin and Duergar tongues, lending them a somewhat morbid and twisted interpretation. Still, the tome is a monument to his dedication: possessing such an item was certainly a fatal crime in Ust Natha.~
+
+
+
+@80 = ~Spider Queen's Revenge~
+
+@81 = ~Tsuki no Ken +5~
+@9982 = ~Tsuki no Ken: Moon's Blade +5
+According to legend, this ancient blade was originally forged in Kara-Tur by a Tengu weaponsmith with a strange sense of humor. Records of its passing were lost to antiquity until it turned up in the care of a high priestess of Eilistraee. Since then it has been used by followers of Lady Silverhair to protect the weak and strike down the wicked. It was personally granted to Solaufein by the Goddess herself. The blade gleams with a dark silvery light and its passing makes a sound like rustling leaves in a dark forest. 
+
+In order to help Solaufein triumph over the new, stronger challenges he faces alongside <CHARNAME>, the blade has been re-blessed by Eilistraee with the power of the Full Moon. It glows with a stronger lunar radiance and provides clerical protections to Solaufein. 
+
+STATISTICS:
+
+Equipped Abilities:  Free Action, Luck, +2 AC Bonus, +1 attack per round
+Additional Equipped Abilities:  Armor of Faith, Draw Upon Holy Might, Death Ward, Chaotic Commands
+Combat Ability:  Each hit has a 25% chance blinding the victim with lunar radiance and inflicting 12 points of fire damage over the course of 3 seconds. 
+THACO:  +5 bonus
+Damage:  1D8 +5
+Damage type:  slashing
+Weight:  3
+Speed Factor:  0
+Proficiency Type:  Long Sword
+Type:  1-handed~ 
+
+@90 = ~Solaufein's Body~
+@91 = ~This is the body of Solaufein. Solaufein was captured by Bodhi and infected with vampirism. His unlife was quite unpleasant and you were forced to kill him. What are you doing staring at the body? Go and find some way to revive him already!~
+@92 = ~Undead Solaufein~
+@130 = ~Eilistraee has taken back the Moonblade. It was for Solaufein only.~
+
+@300 = ~SOLO AUTO-BUFF: ~
+@301 = ~This script will allow any spellcaster to buff rapidly when no enemies are present. Press "S" for Slow, Long-Lasting buffs (typically spells that last for a long time and should be cast whenever you wake up), "F" for Fast, Combat buffs (typically spells that last just a few rounds, use before the big fights), "D" for Free-Action (which lasts a short time and messes up haste) and "N" for Melf's Meteors. This script also automatically drinks healing potions, detects traps, and attacks enemies (spellcasters, then mundanes).~
+
+@302 = ~PARTY AUTO-BUFF: ~
+@303 = ~This script will allow any spellcaster to buff the entire party rapidly when no enemies are present. Press "S" for Slow, Long-Lasting buffs (typically spells that last for a long time and should be cast whenever you wake up), "F" for Fast, Combat buffs (typically spells that last just a few rounds, use before the big fights), "D" for Free-Action (which lasts a short time and messes up haste) and "N" for Melf's Meteors. Buffs will be cast on the PC first and then all other party members. Memorize six copies of any spell you want to affect everyone. This script also automatically drinks healing potions, detects traps, and attacks enemies (spellcasters, then mundanes).~
+
+@304 = ~Auto-Buff~
+
+@500 = ~Worn Leather Book~
+@501 = ~The leather cover of this slim volume of poetry has been burnished over the years by many hands. As you pick it up, it falls open to this page:
+ 
+When in disgrace with fortune and men's eyes
+I all alone beweep my outcast state,
+And trouble deaf heaven with my bootless cries,
+And look upon myself, and curse my fate,
+Wishing me like to one more rich in hope,
+Featured like him, like him with friends possessed,
+Desiring this man's art, and that man's scope,
+With what I most enjoy contented least;
+Yet in these thoughts my self almost despising,
+Haply I think on thee, and then my state,
+Like to the lark at break of day arising
+From sullen earth, sings hymns at heaven's gate;
+For thy sweet love remembered such wealth brings
+That then I scorn to change my state with kings.~
+
+@999000 = ~Eventually parting ways with his companions, Solaufein continued in the service of Eilistraee Silverhair as he struggled to find a place among the surface dwellers. He travelled from town to town, but more often than not he was cast out because of his obvious Drow heritage. Solaufein eventually decided to forsake the idea of an open-armed integration with the surfacers and spent a time travelling across the realms and battling foes. He hunted dragons deep in Calimshan and freed the High Forest of a dangerously large troll infestation. Demons, Illithid and would-be evil overlords alike came to fear him, for his might and magic were both honed razor-sharp. But although his blade never missed the mark he began to feel as though he had lost his way. His soul was not that of a wandering crusader: he could not find contentment in his graceful dismantling of tactical challenges. He became despondent and fell into a brooding melancholy. He even attempted to seek out Drizzt Do'urden in order to question him about the place of a compassionate Drow on the surface world. It was when he had almost given up hope that his luck turned. On the borders of Anauroch, the great desert, he heard one night the familiar chants of praise to Eilistraee coming from across a rocky outcrop. There he found a small village of Drow who had chosen to abandon their homeland for the surface. Choosing to remain with them for a time, he helped found the first known Drow settlement on the surface, even gaining a few trade agreements with nearby villages. On the site where he first found his new family dancing under the moonlight, they constructed a great temple to Eilistraee, to thank her for guiding them and bringing them such fortune. In the following years Solaufein defended the settlement against many attacks, from the regular orc raids, to the occasional attacks of adventuring parties. In the defense of those dear to him that he found his heart and blade singing as one. Despite this, Solaufein found that he was even an outcast among his own kind. Those under his care could never quite understand what he had been through to get to this point, could never quite understand the pain in his heart as he gazed up through the night sky at his hard-won Moon. When he was certain that his settlement would thrive without his presence, Solaufein once again left to wander. Those with him at the time report his last words as: "The error of youth is to believe that intelligence is a substitute for experience, while the error of age is to believe experience is a substitute for intelligence."~
+
+@999001 = ~After <CHARNAME>'s ascension, Solaufein became restless in his attempts to find a place on the surface. Eventually parting ways with his companions, Solaufein continued in the service of Eilistraee Silverhair as he struggled to find a place among the surface dwellers. He travelled from town to town, but more often than not he was cast out because of his obvious Drow heritage. Solaufein eventually decided to forsake the idea of an open-armed integration with the surfacers and spent a time travelling across the realms and battling foes. He hunted dragons deep in Calimshan and freed the High Forest of a dangerously large troll infestation. Demons, Illithid and would-be evil overlords alike came to fear him, for his might and magic were both honed razor-sharp. In the song of battle he found his true calling. <CHARNAME> was lost to him, but what he had learned from <PRO_HIMHER> he never forgot: be pragmatic above all. His soul was that of a wandering crusader: he found contentment in his graceful dismantling of tactical challenges. His introspective nature never left him, however, and he even attempted to seek out Drizzt Do'urden in order to question him about the place of a compassionate Drow on the surface world. While searching for the ranger, he found something more. On the borders of Anauroch, the great desert, he heard one night the familiar chants of praise to Eilistraee coming from across a rocky outcrop. There he found a small village of Drow who had chosen to abandon their homeland for the surface. Choosing to remain with them for a time, he helped found the first known Drow settlement on the surface, even gaining a few trade agreements with nearby villages. On the site where he first found his new family dancing under the moonlight, they constructed a great temple to Eilistraee, to thank her for guiding them and bringing them such fortune. In the following years Solaufein defended the settlement against many attacks, from the regular orc raids, to the occasional attacks of adventuring parties. He organized the settlement around the famous model of Duke Phelan and he and his legions became a strong force for justice. He embraced the paradox of preserving peace by preparing for war. He was a strong leader and a learned sage. And if he still cried out his torment at <CHARNAME>'s memory to the full moon ... there was no one to hear him. When he was certain that his keep would thrive without his presence, Solaufein once again left to wander. Those with him at the time report his last words as: "The error of youth is to believe that intelligence is a substitute for experience, while the error of age is to believe experience is a substitute for intelligence. Why did I let <PRO_HIMHER> go?"~
+
+@999002 = ~Eventually parting ways with his companions, Solaufein continued in the service of Eilistraee Silverhair as he struggled to find a place among the surface dwellers. He travelled from town to town, but more often than not he was cast out because of his obvious Drow heritage. Solaufein eventually decided to forsake the idea of an open-armed integration with the surfacers and spent a time travelling across the realms and battling foes. He hunted dragons deep in Calimshan and freed the High Forest of a dangerously large troll infestation. Demons, Illithid and would-be evil overlords alike came to fear him, for his might and magic were both honed razor-sharp. But although his blade never missed the mark he began to feel as though he had lost his way. His soul was not that of a wandering crusader: he could not find contentment in his graceful dismantling of tactical challenges. He became despondent and fell into a brooding melancholy. He even attempted to seek out Drizzt Do'urden in order to question him about the place of a compassionate Drow on the surface world. It was when he had almost given up hope that his luck turned. On the borders of Anauroch, the great desert, he heard one night the familiar chants of praise to Eilistraee coming from across a rocky outcrop. There he found a small village of Drow who had chosen to abandon their homeland for the surface. Choosing to remain with them for a time, he helped found the first known Drow settlement on the surface, even gaining a few trade agreements with nearby villages. He spoke to those who would listen of the lessons he had learned at <CHARNAME>'s side: of the virtue of compassion and the importance of love. On the site where he first found his new family dancing under the moonlight, they constructed a great temple to Eilistraee, to thank her for guiding them and bringing them such fortune. In the following years Solaufein defended the settlement against many attacks, from the regular orc raids, to the occasional attacks of adventuring parties. In the defense of those dear to him that he found his heart and blade singing as one ... but there was always something missing. Solaufein's trials were meant to be a two-part harmony and he found the tune strangely melancholy when played by one alone. Those under his care could never quite understand what he had been through to get to this point, could never quite understand the pain in his heart as he gazed up through the night sky at his hard-won Moon. When he was certain that his settlement would thrive without his presence, Solaufein once again left to wander. Those with him at the time report his last words as: "The error of youth is to believe that intelligence is a substitute for experience, while the error of age is to believe experience is a substitute for intelligence. Why did I let <PRO_HIMHER> go?"~
+
+@999003 = ~Solaufein and <CHARNAME> continued adventuring in search of a place where they could both be accepted. They travelled from town to town, but more often than not, they were cast out because of his obvious Drow heritage.  Together they eventually decided to forsake the idea of an open-armed integration with the surfacers and they spent a time travelling across the realms and battling foes. They hunted dragons deep in Calimshan and freed the High Forest of a dangerously large troll infestation. Demons, Illithid and would-be evil overlords alike came to fear them, for their might and magic were both honed razor-sharp. In the song of battle he found his true calling. He embraced with <CHARNAME> the lesson that he had learned at <PRO_HISHER> side: be pragmatic above all. His soul was that of a wandering crusader: he found contentment in his graceful dismantling of tactical challenges. His introspective nature never left him, however, and with <CHARNAME>'s help he even attempted to seek out Drizzt Do'urden in order to question him about the place of a compassionate Drow on the surface world. While searching for the ranger, they found something more.  On the borders of Anauroch, the great desert, he heard one night the familiar chants of praise to Eilistraee coming from across a rocky outcrop.  There they found a small village of Drow who had chosen to abandon their homeland for the surface. Choosing to remain with them for a time, they helped found the first known Drow settlement on the surface, even gaining a few trade agreements with nearby villages. In the following years Solaufein and <CHARNAME> defended the settlement against many attacks, from the regular orc raids, to the occasional attacks of adventuring parties.  They organized the settlement around the famous model of Duke Phelan and together they became a strong force for justice. He embraced the paradox of preserving peace by preparing for war. He and <CHARNAME> were strong leaders and loved by their people. <CHARNAME>'s fire was always sufficient to bring him out of his brooding melancholies and theirs was a happy life.  Solaufein was always the first to admit that nothing lasts forever ... but his time with <CHARNAME> felt eternal in his mind and heart. They had purchased their future at a terrible personal cost and it was worth every effort.~
+
+@999004 = ~Solaufein and <CHARNAME> continued adventuring in search of a place where they could both be accepted. They travelled from town to town, but more often than not, they were cast out because of his obvious Drow heritage.  Together they eventually decided to forsake the idea of an open-armed integration with the surfacers and they spent a time travelling across the realms and battling foes. They hunted dragons deep in Calimshan and freed the High Forest of a dangerously large troll infestation. Demons, Illithid and would-be evil overlords alike came to fear them, for their might and magic were both honed razor-sharp.  But although his blade never missed the mark he began to feel as though he had lost his way. His soul was not that of a wandering crusader: he could not find contentment in his graceful dismantling of tactical challenges. He became despondent and fell into a brooding melancholy, only to be revived by <CHARNAME>'s love. They decided to seek out Drizzt Do'urden in order to question him about the place of a compassionate Drow on the surface world. It was when they had almost given up hope that their luck turned. On the borders of Anauroch, the great desert, Solaufein heard one night the familiar chants of praise to Eilistraee coming from across a rocky outcrop.  There they found a small village of Drow who had chosen to abandon their homeland for the surface. Choosing to remain with them for a time, they helped found the first known Drow settlement on the surface, even gaining a few trade agreements with nearby villages. In the following years Solaufein and <CHARNAME> defended the settlement against many attacks, from the regular orc raids, to the occasional attacks of adventuring parties.  Together they spoke to those who would listen of the lessons they had learned while pursuing <CHARNAME>'s destiny: of the virtue of compassion and the importance of love. On the site where he first found his new brethren dancing under the moonlight, they constructed a great temple to Eilistraee, to thank her for guiding them and bringing them such fortune. The night that the temple was dedicated, Eilistraee herself sent down a daughter to them, along with a prophecy that their child would help to unite the Underdark and the surface world. The child would go on to become Solaufein's pride and joy, a shining light in his soul and <CHARNAME>'s. Legend has it that when the child first reached her tiny hand toward a glowing campfire she was startled to find her parents doubled over with mirth, lost in the memory of Solaufein's question from long ago. When they were certain that their settlement would thrive without them and that their daughter was old enough to face the world, the three of them set off to continue their adventures. Solaufein and <CHARNAME> would continue to be the center of strange events throughout their lives. So, too, would their daughter, tutored by two of the greatest heroes in the Realms, forge a legend to rival that of her parents. That, however, is another story ...~
+@1005 = ~The Final Battle with Bodhi.
+
+Bodhi appeared in an ambush shortly before I reached her haven, warning me that she was aware of my pursuit and stealing Solaufein from me. Before she vanished and unleashed more of her undead creations upon me, Bodhi warned me that if I continue I will lose even more than I thought possible.  I cannot give up on the Rhynn Lanthorn... but now the life and immortal soul of my companion is at stake, as well!~

@@ -1,0 +1,14 @@
+IF
+	GlobalGT("SolaufeinJob","GLOBAL",8)
+	Global("spawnSol3","GLOBAL",0)
+	GlobalGT("PhaereJob","GLOBAL",9)
+	Global("SolaJoin","GLOBAL",0)
+	!Dead("Solaufein")
+	!Dead("Sola")
+	!InPartyAllowDead("Sola")
+THEN
+	RESPONSE #100
+		CreateCreatureDoor("sola10",[400.339],4)
+		SetGlobal("spawnSol3","GLOBAL",1)
+END
+

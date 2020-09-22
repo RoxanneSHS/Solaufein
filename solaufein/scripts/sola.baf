@@ -1,0 +1,1158 @@
+IF
+    Global("SolaPortPower","GLOBAL",0)
+    Global("SolaJoin","GLOBAL",1)
+    XPGT(Player1,1750000)
+THEN
+  RESPONSE #100
+    AddXPObject(Myself,500000)
+    Continue()
+END
+
+IF
+    Global("SolaPortPower","GLOBAL",0)
+    Global("SolaJoin","GLOBAL",1)
+    XPGT(Player1,2250000)
+THEN
+  RESPONSE #100
+    AddXPObject(Myself,500000)
+    Continue()
+END
+
+IF
+    Global("SolaPortPower","GLOBAL",0)
+    Global("SolaJoin","GLOBAL",1)
+    XPGT(Player1,2750000)
+THEN
+  RESPONSE #100
+    AddXPObject(Myself,500000)
+    Continue()
+END
+
+IF
+    Global("SolaPortPower","GLOBAL",0)
+    Global("SolaJoin","GLOBAL",1)
+    XPGT(Player1,3250000)
+THEN
+  RESPONSE #100
+    AddXPObject(Myself,500000)
+    Continue()
+END
+
+IF
+    Global("SolaPortPower","GLOBAL",0)
+THEN
+    RESPONSE #100
+        AddSpecialAbility("dimdoor")
+        GiveItemCreate("sw1h06",Myself,1,0,0)  // long + 2
+        GiveItemCreate("solabook",Myself,1,0,0)  // long + 2
+        GiveItemCreate("helm04",Myself,1,0,1)  // defense
+        GiveItemCreate("ring02",Myself,1,0,1)  // fire res
+        GiveItemCreate("scrl1v",Myself,1,0,0)  // stoneskin
+        GiveItemCreate("scrl7k",Myself,1,0,0)  // mislead
+        GiveItemCreate("scrl7o",Myself,1,0,0)  // pro-magic
+        GiveItemCreate("scrl75",Myself,5,0,0)  // identify
+        GiveItemCreate("potn28",Myself,10,0,0)  // potion of fortitude
+        GiveItemCreate("wand05",Myself,15,15,1)  // fire
+        IncrementGlobal("SolaPortPower","GLOBAL",1)
+END
+
+IF
+  Global("SolaBackFromDead","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetDialog("Sola")
+    StartDialogueNoSet(Player1)
+END
+
+IF
+     Global("SolaRepLoss","GLOBAL",1)
+     !InParty(Myself)
+THEN
+    RESPONSE #100
+      SetGlobal("SolaRepLoss","GLOBAL",0)
+      ReputationInc(2)
+END
+
+IF
+    Global("SolaJoin","GLOBAL",0)
+    NumTimesTalkedTo(0)
+    Range(Player1,12)
+THEN
+    RESPONSE #100
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    OR(2)
+      Global("SolaJoin","GLOBAL",1)
+      Global("SolaJoin","GLOBAL",5)
+    ReputationGT(Player1,10)
+    !Global("SolaRepLoss","GLOBAL",1)
+THEN
+    RESPONSE #100
+        SetGlobal("SolaRepLoss","GLOBAL",1)
+        ReputationInc(-2)
+        Continue()
+END
+
+IF
+    Global("SolaJoin","GLOBAL",5)
+THEN
+    RESPONSE #100
+      SetGlobal("SolaJoin","GLOBAL",2)
+      SetGlobal("SolaLeave","GLOBAL",0)
+      RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+      JoinParty()
+END
+
+IF
+    Global("SolaJoin","GLOBAL",1)
+    OR(3)
+      Alignment(Player1,LAWFUL_EVIL)
+      Alignment(Player1,NEUTRAL_EVIL)
+      Alignment(Player1,CHAOTIC_EVIL)
+THEN  
+    RESPONSE #100
+        SetGlobal("SolaJoin","GLOBAL",2)
+        SetGlobal("SolaLeave","GLOBAL",0)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",120)
+        ChangeAlignment(Myself,CHAOTIC_NEUTRAL)
+        SetDialog("Sola")
+        RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+        JoinParty()
+END
+
+IF
+    Global("SolaJoin","GLOBAL",1)
+    !Alignment(Player1,LAWFUL_EVIL)
+    !Alignment(Player1,NEUTRAL_EVIL)
+    !Alignment(Player1,CHAOTIC_EVIL)
+THEN  
+    RESPONSE #100
+        SetGlobal("SolaJoin","GLOBAL",2)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",120)
+        SetDialog("Sola")
+        RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+        JoinParty()
+END
+
+IF
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    CombatCounter(0)
+    !Range([NEUTRAL],10)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    OR(5)
+        Global("SolaTalk","GLOBAL",1)
+        Global("SolaTalk","GLOBAL",2)
+        Global("SolaTalk","GLOBAL",3)
+        Global("SolaTalk","GLOBAL",4)
+        Global("SolaTalk","GLOBAL",5)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaTalk","GLOBAL",1)
+        SetGlobal("SolaPCTalk","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    CombatCounter(0)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    InParty(Myself)
+    See(Player1)
+    !Range([NEUTRAL],10)
+    Global("SolaSpiderSpawn","GLOBAL",4)
+    OR(4)
+        Global("SolaTalk","GLOBAL",6)
+        Global("SolaTalk","GLOBAL",7)
+        Global("SolaTalk","GLOBAL",8)
+        Global("SolaTalk","GLOBAL",9)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaTalk","GLOBAL",1)
+        SetGlobal("SolaPCTalk","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    CombatCounter(0)
+    !Range([NEUTRAL],10)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    Global("SolaFoeSpawn","GLOBAL",6)
+    OR(4)
+        Global("SolaTalk","GLOBAL",10)
+        Global("SolaTalk","GLOBAL",11)
+        Global("SolaTalk","GLOBAL",12)
+        Global("SolaTalk","GLOBAL",13)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaTalk","GLOBAL",1)
+        SetGlobal("SolaPCTalk","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+  !Global("SolaLeave","GLOBAL",0)
+  InParty(Myself)
+  OR(2)
+  AreaCheck("ar2100")
+  AreaCheck("ar2500")
+  Global("FirstJoinUD","Locals",0)
+THEN
+    RESPONSE #100
+         SetGlobal("SolaLeave","GLOBAL",0)
+         SetGlobal("FirstJoinUD","Locals",1)
+END
+
+IF
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    CombatCounter(0)
+    !Range([NEUTRAL],10)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    GlobalGT("SolaMoon","GLOBAL",4)
+    !Global("SolaSleep","GLOBAL",0)
+    OR(5)
+      Global("SolaTalk","GLOBAL",14)
+      Global("SolaTalk","GLOBAL",15)
+      Global("SolaTalk","GLOBAL",16)
+      Global("SolaTalk","GLOBAL",17)
+      Global("SolaTalk","GLOBAL",18)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaTalk","GLOBAL",1)
+        SetGlobal("SolaPCTalk","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    CombatCounter(0)
+    !Range([NEUTRAL],10)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    Global("SolaTalk","GLOBAL",19)
+    PartyRested()
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaTalk","GLOBAL",1)
+        SetGlobal("SolaPCTalk","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+  RealGlobalTimerExpired("SolaTimer","GLOBAL")
+  CombatCounter(0)
+  !Range([NEUTRAL],10)
+  InParty(Myself)
+  See(Player1)
+  !Detect([ENEMY])
+  !Detect([EVILBUTBLUE])
+  !Global("SolaVampire","GLOBAL",0)
+  GlobalGT("SolaTalk","GLOBAL",19)
+  Global("SolaAmbitionTalk","GLOBAL",0)
+THEN
+  RESPONSE #100
+      IncrementGlobal("SolaAmbitionTalk","GLOBAL",1)
+      SetGlobal("SolaPCTalk","GLOBAL",1)
+      RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+      StartDialogueNoSet(Player1)
+END
+
+
+IF
+    TimeOfDay(3)
+    Delay(30)
+    OR(2)
+    AreaType(OUTDOOR)
+    AreaType(FOREST)
+    Global("SolaDiscussMorning","GLOBAL",0)
+    Global("SolaPCTalk","GLOBAL",0)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Range([NEUTRAL],10)
+    CombatCounter(0)
+    !AreaCheck("AR2500")
+    !AreaCheck("AR4500")
+    !AreaCheck("AR1404")
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaDiscussMorning","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  !Detect([ENEMY])
+  !Detect([EVILBUTBLUE])
+  !Range([NEUTRAL],10)
+  CombatCounter(0)
+  !AreaCheck("AR2500")
+  !AreaCheck("AR4500")
+  !AreaCheck("AR1404")
+  HasItem("solabk2",Myself)
+  Global("SolaDiscussBook","GLOBAL",0)
+  !Global("SolaTalk","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaDiscussBook","GLOBAL",1)
+    RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+    TimeOfDay(1)
+    Delay(30)
+    OR(2)
+    AreaType(OUTDOOR)
+    AreaType(FOREST)
+    Global("SolaDiscussEvening","GLOBAL",0)
+    Global("SolaPCTalk","GLOBAL",0)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Range([NEUTRAL],10)
+    CombatCounter(0)
+    !AreaCheck("AR2500")
+    !AreaCheck("AR4500")
+    !AreaCheck("AR1404")
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaDiscussEvening","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    AreaType(FOREST)
+    Delay(30)
+    TimeOfDay(DAY)
+    Global("SolaDiscussWoods","GLOBAL",0)
+    Global("SolaPCTalk","GLOBAL",0)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Range([NEUTRAL],10)
+    CombatCounter(0)
+    !AreaCheck("AR2500")
+    !AreaCheck("AR4500")
+    !AreaCheck("AR1404")
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaDiscussWoods","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaTalk","GLOBAL",-1)
+    Global("SolaFoeSpawn","GLOBAL",6)
+    Global("SolaMoonTimer","GLOBAL",0)
+THEN
+    RESPONSE #100
+      RealSetGlobalTimer("SolaTimer","GLOBAL",13200)
+      SetGlobal("SolaMoonTimer","GLOBAL",1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",0)
+    Global("SolaFoeSpawn","GLOBAL",6)
+    OR(2)
+      Global("SolaTalk","GLOBAL",14)
+      Global("SolaTalk","GLOBAL",-1)
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Range([NEUTRAL],10)
+    CombatCounter(0)
+    OR(3)   
+        !TimeOfDay(2)
+        AreaType(CITY)
+        AreaType(DUNGEON)
+THEN
+    RESPONSE #100
+        SetGlobal("SolaMoon","GLOBAL",1)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",2)
+    TimeOfDay(2)
+    !AreaType(CITY)
+    !AreaType(DUNGEON)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Range([NEUTRAL],10)
+    CombatCounter(0)
+THEN
+    RESPONSE #100
+        SetGlobal("SolaMoon","GLOBAL",3)
+        RealSetGlobalTimer("SolaRewardTimer","GLOBAL",30)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",4)
+    InParty(Myself)
+    Detect(Player1)
+    Range(Player1,5)
+    RealGlobalTimerExpired("SolaRewardTimer","GLOBAL")
+    !See([ENEMY])
+    !See([EVILBUTBLUE])
+    CombatCounter(0)
+    !GlobalsGT("SolaRemorse","SolaPragma")
+    TimeOfDay(2)
+    !AreaType(CITY)
+    !AreaType(DUNGEON)
+    !AreaCheck("AR4500")
+    !XPGT(Myself,3500000)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaMoon","GLOBAL",1)
+        StartCutSceneMode()
+        MoveViewObject(Myself,2)
+        SmallWait(7)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        CreateVisualEffectObject("spcrtwpn",Myself)
+        GiveItemCreate("SolaBlad",Myself,1,0,0)
+        EndCutSceneMode()
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",4)
+    InParty(Myself)
+    Detect(Player1)
+    Range(Player1,5)
+    RealGlobalTimerExpired("SolaRewardTimer","GLOBAL")
+    !See([ENEMY])
+    !See([EVILBUTBLUE])
+    CombatCounter(0)
+    !GlobalsGT("SolaRemorse","SolaPragma")
+    TimeOfDay(2)
+    !AreaType(CITY)
+    !AreaType(DUNGEON)
+    !AreaCheck("AR4500")
+    XPGT(Myself,3500000)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaMoon","GLOBAL",1)
+        StartCutSceneMode()
+        MoveViewObject(Myself,2)
+        SmallWait(7)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        CreateVisualEffectObject("spcrtwpn",Myself)
+        GiveItemCreate("SolaBla2",Myself,1,0,0)
+        EndCutSceneMode()
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",4)
+    InParty(Myself)
+    Detect(Player1)
+    Range(Player1,5)
+    RealGlobalTimerExpired("SolaRewardTimer","GLOBAL")
+    !See([ENEMY])
+    !See([EVILBUTBLUE])
+    CombatCounter(0)
+    GlobalsGT("SolaRemorse","SolaPragma")
+    TimeOfDay(2) 
+    !AreaType(CITY)
+    !AreaType(DUNGEON)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaMoon","GLOBAL",1)
+        StartCutSceneMode()
+        MoveViewObject(Myself,2)
+        SmallWait(7)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        AddSpecialAbility("solaspl")
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        AddSpecialAbility("solaspl")
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        AddSpecialAbility("solaspl")
+        Wait(1)
+        ReallyForceSpellRES("solunar",Myself)
+        Wait(1)
+        EndCutSceneMode()
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        ChangeAlignment(Myself,CHAOTIC_GOOD)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaMoon","GLOBAL",6)
+    !Global("SolaTalk","GLOBAL",-1)
+    Global("SolaSleep","GLOBAL",0)
+    TimeOfDay(2)
+    InParty(Myself)
+    See(Player1)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Detect([NEUTRAL])
+    CombatCounter(0)
+    AreaType(OUTDOOR)
+    !AreaType(CITY)
+    !AreaType(DUNGEON)
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaSleep","GLOBAL",1)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaSleep","GLOBAL",2)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,Rest())
+        ActionOverride(Player2,Rest())
+        ActionOverride(Player3,Rest())
+        ActionOverride(Player4,Rest())
+        ActionOverride(Player5,Rest())
+        ActionOverride(Player6,Rest())
+        IncrementGlobal("SolaSleep","GLOBAL",1)
+        StartDialogueNoSet(Player1)
+END
+        
+IF
+    OR(2)
+      Global("SolaTalk","GLOBAL",6)
+      Global("SolaTalk","GLOBAL",-1)
+    Global("SolaSpiderSpawn","GLOBAL",0)
+    PartyRested()
+    !AreaType(CITY)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Detect([NEUTRAL])
+    InParty(Myself)
+    See(Player1)
+THEN
+    RESPONSE #100
+        SetGlobal("SolaSpiderSpawn","GLOBAL",2)
+        SetGlobalTimer("SolaSpiderTimer","GLOBAL",18)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaSpiderSpawn","GLOBAL",4)
+    Global("SolaTalk","GLOBAL",-1)
+    Global("SolaFoeSpawn","GLOBAL",0)
+    Global("SolaArchTimer","GLOBAL",0)
+THEN
+    RESPONSE #100
+      RealSetGlobalTimer("SolaTimer","GLOBAL",13200)
+      SetGlobal("SolaArchTimer","GLOBAL",1)
+END
+
+IF
+    Global("SolaSpiderSpawn","GLOBAL",3)
+    GlobalTimerExpired("SolaSpiderTimer","GLOBAL")
+    LevelGT(Player1,11)
+    !Difficulty(EASIEST)
+    !Difficulty(EASY)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        CreateCreatureObjectDoor("spidph01",Myself,0,0,0)
+        CreateCreatureObjectDoor("spidph01",Myself,0,0,0)
+        Wait(2)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        IncrementGlobal("SolaSpiderSpawn","GLOBAL",1)
+        EndCutSceneMode()
+END
+
+IF
+    Global("SolaSpiderSpawn","GLOBAL",3)
+    GlobalTimerExpired("SolaSpiderTimer","GLOBAL")
+    OR(3)
+      !LevelGT(Player1,11)
+      Difficulty(EASIEST)
+      Difficulty(EASY)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        CreateCreatureObjectDoor("spidph01",Myself,0,0,0)
+        Wait(2)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        IncrementGlobal("SolaSpiderSpawn","GLOBAL",1)
+        EndCutSceneMode()
+END
+        
+IF
+    OR(2)
+        Global("SolaTalk","GLOBAL",10)
+        Global("SolaTalk","GLOBAL",-1)
+    Global("SolaFoeSpawn","GLOBAL",0)
+    RealGlobalTimerExpired("SolaTimer","GLOBAL")
+    Global("SolaSpiderSpawn","GLOBAL",4)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    !Detect([NEUTRAL])
+    CombatCounter(0)
+    InParty(Myself)
+    See(Player1)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        SetGlobal("SolaFoeSpawn","GLOBAL",2)
+        CreateCreatureObjectDoor("solafoe",Myself,0,0,0)
+        Wait(8)
+        ActionOverride("solafoe",StartDialogueNoSet(Player1))
+        Continue()
+END
+
+IF
+    Global("SolaFoeSpawn","GLOBAL",3)
+    Detect(SecondNearest([PC]))
+THEN
+    RESPONSE #100
+        CreateVisualEffectObject("SPDIMNDR",SecondNearest([PC]))
+        CreateVisualEffectObject("SPDIMNDR",ThirdNearest([PC]))
+        CreateVisualEffectObject("SPDIMNDR",FourthNearest([PC]))
+        CreateVisualEffectObject("SPDIMNDR",FifthNearest([PC]))
+        ActionOverride(SecondNearest([PC]),MoveBetweenAreas("AR0000",[0.0],0))
+        ActionOverride(ThirdNearest([PC]),MoveBetweenAreas("AR0000",[0.0],0))
+        ActionOverride(FourthNearest([PC]),MoveBetweenAreas("AR0000",[0.0],0))
+        ActionOverride(FifthNearest([PC]),MoveBetweenAreas("AR0000",[0.0],0))
+END
+
+IF
+    Global("SolaGateIn","GLOBAL",0)
+    CombatCounter(0)
+    Dead("SolaFoe")
+THEN
+    RESPONSE #100
+        ClearAllActions()
+        AddXPObject(Myself,50000)
+        IncrementGlobal("SolaGateIn","GLOBAL",1)
+        SetGlobal("SolaFoeSpawn","GLOBAL",5)
+        MoveGlobalObjectOffScreen(Player1,Myself)
+        MoveGlobalObjectOffScreen(Player2,Myself)
+        MoveGlobalObjectOffScreen(Player3,Myself)
+        MoveGlobalObjectOffScreen(Player4,Myself)
+        MoveGlobalObjectOffScreen(Player5,Myself)
+        MoveGlobalObjectOffScreen(Player6,Myself)
+        CreateVisualEffectObject("SPDIMNDR",Player1)
+        CreateVisualEffectObject("SPDIMNDR",Player2)
+        CreateVisualEffectObject("SPDIMNDR",Player3)
+        CreateVisualEffectObject("SPDIMNDR",Player4)
+        CreateVisualEffectObject("SPDIMNDR",Player5)
+        CreateVisualEffectObject("SPDIMNDR",Player6)
+        RealSetGlobalTimer("SolaTimer","GLOBAL",3200)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaGateIn","GLOBAL",1)
+    Global("SolaFoeSpawn","GLOBAL",5)
+THEN
+    RESPONSE #100
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaJoin","GLOBAL",2)
+    Global("SolaLeave","GLOBAL",0)
+    !Detect([ENEMY])
+    !Detect([EVILBUTBLUE])
+    CombatCounter(0)
+    !InParty(Myself)
+THEN
+    RESPONSE #100
+        SetDialog("Sola")
+        IncrementGlobal("SolaLeave","GLOBAL",1)
+END
+
+IF
+    AreaCheck("AR2401")
+    Global("SolaTeleport","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaTeleport","GLOBAL",1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("SolaTeleport","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaTeleport","GLOBAL",3)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    MoveBetweenAreas("ar2500",[300.300],0)
+    LeaveParty()
+END
+
+IF
+    Global("SolaJoin","GLOBAL",2)
+    Global("SolaLeave","GLOBAL",2)
+THEN
+    RESPONSE #100
+        IncrementGlobal("SolaLeave","GLOBAL",2)
+        CreateVisualEffectObject("SPDIMNDR",Myself)
+        MoveBetweenAreas("ar2500",[300.300],0)
+END
+
+
+IF
+  RealGlobalTimerExpired("SolaBanter","GLOBAL")
+  InParty(Myself)
+  Global("SolaDoneBanter","GLOBAL",0)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  Global("SolaPickingBanterTarget","GLOBAL",0)
+  CombatCounter(0)
+  OR(2)
+    !InMyArea("Aerie")
+    InParty("Aerie")
+  OR(2)
+    !InMyArea("Anomen")
+    InParty("Anomen")
+  OR(2)
+    !InMyArea("Cernd")
+    InParty("Cernd")
+  OR(2)
+    !InMyArea("Edwin")
+    InParty("Edwin")
+  OR(2)
+    !InMyArea("HaerDalis")
+    InParty("HaerDalis")
+  OR(2)
+    !InMyArea("Imoen2")
+    InParty("Imoen2")
+  OR(2)
+    !InMyArea("Jaheira")
+    InParty("Jaheira")
+  OR(2)
+    !InMyArea("Keldorn")
+    InParty("Keldorn")
+  OR(2)
+    !InMyArea("Korgan")
+    InParty("Korgan")
+  OR(2)
+    !InMyArea("Mazzy")
+    InParty("Mazzy")
+  OR(2)
+    !InMyArea("Minsc")
+    InParty("Minsc")
+  OR(2)
+    !InMyArea("Nalia")
+    InParty("Nalia")
+  OR(2)
+    !InMyArea("Sarevok")
+    InParty("Sarevok")
+  OR(2)
+    !InMyArea("Valygar")
+    InParty("Valygar")
+  OR(2)
+    !InMyArea("Viconia")
+    InParty("Viconia")
+THEN
+  RESPONSE #100
+    SetGlobal("SolaPickingBanterTarget","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Aerie")
+  !Global("Sola_Aerie","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Aerie","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Anomen")
+  !Global("Sola_Anomen","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Anomen","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Cernd")
+  !Global("Sola_Cernd","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Cernd","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Edwin")
+  !Global("Sola_Edwin","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Edwin","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("HaerDalis")
+  !Global("Sola_HD","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_HD","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Imoen2")
+  !Global("Sola_Imoen","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Imoen","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Jaheira")
+  !Global("Sola_Jaheira","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Jaheira","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Jan")
+  !Global("Sola_Jan","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Jan","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Keldorn")
+  !Global("Sola_Keldorn","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Keldorn","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Korgan")
+  !Global("Sola_Korgan","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Korgan","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Mazzy")
+  !Global("Sola_Mazzy","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Mazzy","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Minsc")
+  !Global("Sola_Minsc","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Minsc","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Nalia")
+  !Global("Sola_Nalia","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Nalia","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Sarevok")
+  !Global("Sola_Sarevok","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Sarevok","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Valygar")
+  !Global("Sola_Valygar","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Valygar","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaPickingBanterTarget","GLOBAL",1)
+  Global("SolaGoingToBanter","GLOBAL",0)
+  IsValidForPartyDialog("Viconia")
+  !Global("Sola_Viconia","GLOBAL",-1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sola_Viconia","GLOBAL",1)
+    SetGlobal("SolaGoingToBanter","GLOBAL",1)
+END
+
+IF
+  RealGlobalTimerExpired("SolaBanter","GLOBAL")
+  Global("SolaGoingToBanter","GLOBAL",0)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+    SetGlobal("SolaPickingBanterTarget","GLOBAL",0)
+END
+
+IF
+  Global("SolaGoingToBanter","GLOBAL",1)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)       
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("SolaPickingBanterTarget","GLOBAL",0)
+    SetGlobal("SolaGoingToBanter","GLOBAL",0)
+    ActionOverride("Aerie",SetDialogue("BAERIE"))
+    ActionOverride("Anomen",SetDialogue("BANOMEN"))
+    ActionOverride("Cernd",SetDialogue("BCERND"))
+    ActionOverride("Edwin",SetDialogue("BEDWIN"))
+    ActionOverride("HaerDalis",SetDialogue("BHAERDA"))
+    ActionOverride("Imoen2",SetDialogue("IMOEN2J"))
+    ActionOverride("Jaheira",SetDialogue("BJAHEIR"))
+    ActionOverride("Jan",SetDialogue("BJAN"))
+    ActionOverride("Keldorn",SetDialogue("BKELDOR"))
+    ActionOverride("Korgan",SetDialogue("BKORGAN"))
+    ActionOverride("Mazzy",SetDialogue("BMAZZY"))
+    ActionOverride("Minsc",SetDialogue("BMINSC"))
+    ActionOverride("Nalia",SetDialogue("BNALIA"))
+    ActionOverride("Valygar",SetDialogue("BVALYGA"))
+    ActionOverride("Viconia",SetDialogue("BVICONI"))
+    RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+    SetGlobal("Sola_Try_Aerie","GLOBAL",0)
+    SetGlobal("Sola_Try_Anomen","GLOBAL",0)
+    SetGlobal("Sola_Try_Cernd","GLOBAL",0)
+    SetGlobal("Sola_Try_Edwin","GLOBAL",0)
+    SetGlobal("Sola_Try_HD","GLOBAL",0)
+    SetGlobal("Sola_Try_Imoen","GLOBAL",0)
+    SetGlobal("Sola_Try_Jan","GLOBAL",0)
+    SetGlobal("Sola_Try_Jaheira","GLOBAL",0)
+    SetGlobal("Sola_Try_Keldorn","GLOBAL",0)
+    SetGlobal("Sola_Try_Korgan","GLOBAL",0)
+    SetGlobal("Sola_Try_Mazzy","GLOBAL",0)
+    SetGlobal("Sola_Try_Minsc","GLOBAL",0)
+    SetGlobal("Sola_Try_Nalia","GLOBAL",0)
+    SetGlobal("Sola_Try_Valygar","GLOBAL",0)
+    SetGlobal("Sola_Try_Viconia","GLOBAL",0)
+    SetGlobal("Sola_Try_Sarevok","GLOBAL",0)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("SolaGoingToBanter","GLOBAL",1)
+  !GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("SolaPickingBanterTarget","GLOBAL",0)
+    SetGlobal("SolaGoingToBanter","GLOBAL",0)
+    RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+    SetGlobal("Sola_Try_Aerie","GLOBAL",0)
+    SetGlobal("Sola_Try_Anomen","GLOBAL",0)
+    SetGlobal("Sola_Try_Cernd","GLOBAL",0)
+    SetGlobal("Sola_Try_Edwin","GLOBAL",0)
+    SetGlobal("Sola_Try_HD","GLOBAL",0)
+    SetGlobal("Sola_Try_Imoen","GLOBAL",0)
+    SetGlobal("Sola_Try_Jan","GLOBAL",0)
+    SetGlobal("Sola_Try_Jaheira","GLOBAL",0)
+    SetGlobal("Sola_Try_Keldorn","GLOBAL",0)
+    SetGlobal("Sola_Try_Korgan","GLOBAL",0)
+    SetGlobal("Sola_Try_Mazzy","GLOBAL",0)
+    SetGlobal("Sola_Try_Minsc","GLOBAL",0)
+    SetGlobal("Sola_Try_Nalia","GLOBAL",0)
+    SetGlobal("Sola_Try_Valygar","GLOBAL",0)
+    SetGlobal("Sola_Try_Viconia","GLOBAL",0)
+    SetGlobal("Sola_Try_Sarevok","GLOBAL",0)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("SolaDoneBanter","GLOBAL",1)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaDoneBanter","GLOBAL",0)
+    ActionOverride("Aerie",SetDialogue("AERIE25J"))
+    ActionOverride("Anomen",SetDialogue("ANOME25J"))
+    ActionOverride("Cernd",SetDialogue("CERND25J"))
+    ActionOverride("Edwin",SetDialogue("EDWIN25J"))
+    ActionOverride("HaerDalis",SetDialogue("HAERD25J"))
+    ActionOverride("Imoen2",SetDialogue("IMOEN25J"))
+    ActionOverride("Jaheira",SetDialogue("JAHEI25J"))
+    ActionOverride("Jan",SetDialogue("JAN25J"))
+    ActionOverride("Keldorn",SetDialogue("KELDO25J"))
+    ActionOverride("Korgan",SetDialogue("KORGA25J"))
+    ActionOverride("Mazzy",SetDialogue("MAZZY25J"))
+    ActionOverride("Minsc",SetDialogue("MINSC25J"))
+    ActionOverride("Nalia",SetDialogue("NALIA25J"))
+    ActionOverride("Valygar",SetDialogue("VALYG25J"))
+    ActionOverride("Viconia",SetDialogue("VICON25J"))
+    EndCutSceneMode()
+END
+
+IF
+  Global("SolaDoneBanter","GLOBAL",1)
+  !GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaDoneBanter","GLOBAL",0)
+    EndCutSceneMode()
+END
+
+IF 
+  Global("SolaEverSetBanter","GLOBAL",0)
+THEN 
+  RESPONSE #100
+    RealSetGlobalTimer("SolaBanter","GLOBAL",6400)
+    SetGlobal("SolaEverSetBanter","GLOBAL",1)
+END
+
+IF
+  Global("SolaEclipseWarn","GLOBAL",0)
+  OR(2)
+      Dead("Sendai")
+      Dead("Abazigal")
+  OR(2)
+    TimeOfDay(0)
+    TimeOfDay(3)
+  CombatCounter(0)
+  See(Player1)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("SolaEclipseWarn","GLOBAL",1)
+    StartDialogueNoSet(Player1)
+    EndCutSceneMode()
+END
+
+IF
+  Global("SolaEclipseWarn","GLOBAL",2)
+  TimeOfDay(2)
+  OR(2)
+    AreaType(OUTDOOR)
+    AreaType(FOREST)
+  CombatCounter(0)
+  InParty(Myself)
+  See(Player1)
+THEN
+  RESPONSE #100
+      IncrementGlobal("SolaEclipseWarn","GLOBAL",1)
+      CreateCreatureObject("SolaSpy1",Myself,0,0,0)
+END
+
+IF
+  HasItem("solablad",Myself)
+  XPGT(Myself,3500000)
+  CombatCounter(0)
+  !Detect([ENEMY])
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+        Wait(1)
+        ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE)
+        Wait(1)
+        DestroyItem("solablad")
+        CreateVisualEffectObject("spcrtwpn",Myself)
+        GiveItemCreate("SolaBla2",Myself,1,0,0)
+        Wait(4)
+        SetGlobal("SolaBladeUpgrade","GLOBAL",1)
+        StartDialogueNoSet(Player1)
+    EndCutSceneMode()
+END

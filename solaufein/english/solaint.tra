@@ -1,0 +1,267 @@
+// Galoomp the bookseller
+@1 = ~Books, you say? Pardon me, kind sir, but do you have any books of poetry? Or perhaps any treatises on philosophy?~
+@2 = ~I'm afraid not, drow. And even if I did, I wouldn't sell any art of knowledge to your hateful kind!~
+@3 = ~Very well, sir. I could hardly expect more.~
+@4 = ~Now, As I was sayin' ...~
+
+// Lady Yuth, scrolls 
+@10 = ~You strike me as a scholar, my lady. Might you have any books on poetry or philosophy? I do admit that I am trying to flesh out my collection.~
+@11 = ~Yes, I imagine those two subjects must have been very difficult to acquire back in your ... home town?~
+@12 = ~I'm afraid that I don't have any complete volumes, but I will share one of my favorite pieces with you. It was penned by Desnos:
+  I have so fiercely dreamed of you
+  And walked so far and spoken of you so,
+  Loved a shade of you so hard
+  That now I've no more left of you.
+  I'm left to be a shade among the shades
+  A hundred times more shade than shade
+  To be shade cast time and time again into your sun-transfigured life.~
+@13 = ~You have a piercing insight, m'lady. The danger of falling in love with our perception of a thing, rather than the thing itself, is quite real. I sometimes fear that I may have done so with my perception of the Surface World.~
+@14 = ~Lying alone in the Underdark it was easy to fall in love with the prospect of a life of freedom under the stars. Now I see things more clearly in the light of the sun.~
+@15 = ~Still, I thank you for your kindness. I shall add your poem to my collection.~
+@16 = ~Of course, rare one. Thank you for stopping by.~
+
+// Pai'Ni in the graveyard
+@20 = ~That you have a weak male drow in your party is all the more galling! Does the jaluk support the killing of spiders? No wonder he walks the surface! You will all die!~ 
+@21 = ~This sort of senseless evil is the reason I left Underdark. I have a special hatred for spiders. You will not escape my wrath!~
+
+@30 = ~Knowledge and inspiration, you say? I am a seeker of those things, friend. Can you grant me the boon of your wisdom?~
+@31 = ~Of course, seeker. I sense that you have knowledge enough, so I'll bless you with inspiration. Listen closely, drow, and hear of the beauty of nature:~
+@32 = ~O Solitude! if I must with thee dwell,
+  Let it not be among the jumbled heap
+  Of murky buildings; climb with me the steep,--
+Nature's observatory--whence the dell,
+Its flowery slopes, its river's crystal swell,
+  May seem a span; let me thy vigils keep
+  'Mongst boughs pavilion'd, where the deer's swift leap~
+@33 = ~Startles the wild bee from the fox-glove bell.
+But though I'll gladly trace these scenes with thee,
+  Yet the sweet converse of an innocent mind,
+Whose words are images of thoughts refin'd,
+  Is my soul's pleasure; and it sure must be
+Almost the highest bliss of human-kind,
+  When to thy haunts two kindred spirits flee.~
+@34 = ~Go with my blessing and Oghma's, seeker.~
+// jaheria
+@36 = ~It is just what I have been saying all along. The majesty of cities pales before the true glory of nature. We should get out of Athkatla and walk through the grass again.~
+// valen
+@37 = ~It reminds me that fox-glove, or "digitalis", is an effective poison. Perhaps it is time to make more poisoned throwing daggers. My sting is much worse than the bee's. Hmm ...~
+@38 = ~Don't spoil the moment, thief.~
+@35 = ~Thank you, kind sir. My heart leaps at the verse.~
+
+// Flydian
+@40 = ~<CHARNAME>, I think this sounds right up our alley. Not only will we be able to help out some villagers, but we'll have the perfect excuse to see more of this glorious surface countryside.~
+@41 = ~In addition, I must admit that I'm curious about these surface animals and the mercantile system of the area.~
+@42 = ~Flydian, where did you say that village was again?~
+
+// Khellon, evil trademeet guy
+@50 = ~Somehow, I just don't believe this little fellow. I wonder why?~
+
+// Faldorn
+@60 = ~While I must admit that I know of no druids among the drow, from what I have heard they should not be this ... self-serving. Something is not quite right here, <CHARNAME>.~
+@61 = ~And who are you judge me, dark elf? Your kind are an abomination in the eyes of nature: excessively civilized in all the worst ways. Your caverns are completely unnatural: not an inch remains untouched. I cannot countenance that sort of disregard for the natural order. I shall sow my fields with your blood and grind your bones to dust.~ 
+@62 = ~You may well try, woman, but I must disagree with you: the drow are not an abomination. The drow and all our cruelty are as natural as the cruelty that can be found here in the light of the sun.~
+@63 = ~I beg you to restrain yourself: not every problem you encounter can be solved with outright violence.~
+
+// Ogre at Windspear
+@70 = ~Hold! What you are doing is wrong. Why do you do this thing?~
+@71 = ~Ogre, you have spoken the Words, and you have spoken them rightly.~
+@72 = ~We will tell you our reasons why we subdue all evil beings.~
+@73 = ~I was trained in a hostile world, the descendant of a famous paladin.~
+@74 = ~I assure you, I am not an evil being. We mean you no harm. Please, let us discuss this calmly and rationally.~
+
+// Samia
+@80 = ~<CHARNAME>, this woman's words ring true. I am pleased to see that we will get the chance to parley and avoid blows altogether, especially after what happened with those knights.~
+@81 = ~I urge you to listen to this woman calmly, and I urge her to treat us the same way. What are you doing here, my lady?~
+
+// Grancor
+@90 = ~<CHARNAME>, something about this rings alarm bells in my head. It reminds me of an ambush tactic employed by some Duergar that used to live near Ust Natha.~ 
+
+@100=  ~Be wary, <CHARNAME>. Dragons of the Dread Flame are as cunning as they are evil. I have no doubt that this powerful creature was behind the illusion that tricked you into combat with those knights.~
+@101 = ~You're quite right, drow. Now get out of the way and let me talk to <CHARNAME>. My business is with Gorion's Ward. Perhaps you are wondering why I have done all of this to you?~ 
+@102 = ~<CHARNAME>, if you do choose to face this dragon, remember that its strengths are four-fold. Red Dragons have a powerful fiery breath and it will show no compunction about trying to incinerate us two or three times a minute.~ 
+@103 = ~In addition, the huge size of a dragon's wings enables it to buffet the air and push back smaller foes like ourselves. Dragons also have razor-sharp claws, a powerful melee attack. Finally, all dragons possess some innate magical powers.~
+@104 = ~I would suggest using items that we have been saving for a special occasion, like scrolls or potions, if we are to tangle with this evil beast.~
+@105 = ~That's all very good advice, drow, but for now I suggest that you all get out of here.~
+
+@110 = ~Could we not discuss this, mage to mage? I'm sure that we have much to learn from each other. This need not end in violence.~
+
+// Captain Arat
+@120 = ~That's not quite correct, my good captain. Trolls will also fall to poison, certain weapons that cause deep bleeding, and the life-stealing attacks of some undead. Of these other methods, poison is the most likely to be of use to us:~
+@121 = ~A troll that falls down inside a magical Cloudkill will not get back up. My good captain, I must thank you for your generosity ... but I wonder if a score of flame arrows will be sufficient.~
+@122 = ~Perhaps you could find it in your heart to equip us with a few more troll-slaying devices?~
+@123 = ~Of course, my good ... drow!? Well, if Nalia hired you there must be a spark of goodness within you. Here, take these additional armaments. Good luck!~
+
+// Viconia
+@130 = ~You, drow! They will be after you next! Prejudice and fear run rampant in Athkatla. Free me and we can work together.~
+@131 = ~Forgive me, lady, but I must ask: are you not there for a reason? Have they some legitimate grievance with you?~
+@132 = ~Bah! I have done nothing! These rivvil would kill me merely because of what I am. I swear to you by Shar, I have done nothing to them.~
+@133 = ~Then I will free you. (Solaufein walks up to the stake and cuts the drow free.)~
+
+@140 = ~You already have one drow by your side, and I must admit that I am curious to hear that tale told. Please, accept me into your party.~
+@141 = ~While I could not stand to see you unjustly executed, Viconia, based on what <CHARNAME> has told me about you from Baldur's Gate, I am not at all sure that we will get along.~
+
+@150 = ~<CHARNAME>, this sounds like an excellent use of our time. Not only is it a worthy cause, but I have a selfish reason for wanting to go.~
+@151 = ~Athkatla does not feel very "accepting" of my drow heritage. I have heard rumors that the famous Drizzt Do'Urden had good luck winning the hearts and trust of small towns far to the North.~
+@152 = ~I would be interested in running a little experiment to see if the people of a hamlet in need are receptive to help, not matter what form it takes.~
+@153 = ~Now, child, who was this Umar you were mentioning?~
+
+@160 = ~<CHARNAME>, I would hazard against swearing to an unknown oath. It is exactly that sort of mistake that ends up forcing creatures from the other planes into the servitude of mortal magicians.~
+@161 = ~Oh? And what would you know of sorcery ... drow!? By Mystra, are the guards at the gates letting anyone into our fair city?~
+@162 = ~Actually, though, we might find it profitable to trade arcane knowledge, you and I. Everyone knows that drow wizards posses vast knowledge and you have the glimmer of magecraft about you.~
+@163 = ~I'll say this much: you remind me of the wizards back in my home city of Ust Natha. But I will let you in on a little drow secret, since you asked so nicely. (Solaufein whispers something to Tolgerias)~
+@164 = ~(gulp!) You can't be serious? With a spider? (pales)~
+@165 = ~Deadly serious, my friend. Now, you were saying something to <CHARNAME>?~
+@166 = ~Um, yes. Just give me a moment to regain my composure. Now ...~
+
+// Madulf
+@170 = ~Peace, friend ogre. I too know what it is like to be scorned for your heritage without thought of your personality.~
+@171 = ~Hmm. You'se a drow, so villagers not like you much either, yes?~
+@172 = ~That would be one way of putting it. Suffice to say, my general reception on the surface world has been slightly chillier than I would have expected.~
+@173 = ~What would you like us to say to the villagers?~
+
+// Valygar
+@180 = ~How utterly fascinating: to fly between the planes! Spelljammer ships were common in Ust Natha, but I never had the chance to use one. What else can you tell us about this sphere?~
+
+// Shade Lord
+@190 = ~What's this? I sense among you one almost as dark as I. Step forward, drow, and let me see you.~
+@191 = ~I will not parlay with you, fiend. Even at night the moon shines brightly, and my Lady Silverhair's radiance shall burn you to a crisp.~
+@192 = ~It need not be that way, friend ... no ...~
+@193 = ~I'm no friend of yours, demon!~
+@194 = ~But you could be. I can see your soul, drow ... and I see a flaw. A penchant for power. A lust for potence. You have been willing ... are willing ... shall be willing ... to accept the freedom of unlife in exchange for power. My vision is unclear ... but I see a lich where now stands an elf. Listen:~
+@195 = 
+~We wear the mask that grins and lies,
+It hides our cheeks and shades our eyes,--
+This debt we pay to human guile;
+With torn and bleeding hearts we smile,
+And mouth with myriad subtleties.
+
+Why should the world be overwise,
+In counting all our tears and sighs?
+Nay, let them only see us, while
+  We wear the mask.~
+@196 = ~What do you know of masks and darkness, drow? Have the surfacers taken to you? Have they embraced you freely? Or is your black face a social stigma of the highest order?~
+@197 = ~Unlife cares not a drop of blood about the color of your skin, elf. Join us in our eternal brotherhood.~ 
+@198 = ~You have called a verse to me, and surprised me. I had always thought your sort of undead had no soul, no appreciation for beauty.~
+@199 = ~Far from it, elf. The music of the night is so very sweet.~
+@200 = 
+~Then I shall repay you in kind: 
+
+I have been one acquainted with the night.
+I have walked out in rain--and back in rain.
+I have outwalked the furthest city light.
+
+I have looked down the saddest city lane.
+I have passed by the watchman on his beat
+And dropped my eyes, unwilling to explain.~
+@201 = ~I know the night, fiend. I know that the surfacers will not always accept me. But I will never join you! Never! I would never join you or forsake the Light.~
+@202 = ~It may not be your choice, drow. You may find yourself siding with me against your better judgment.~
+@203 = ~Eilistraee! Protect me from this temptation! Grant me the power to smite this fiend!~
+@204 = ~Two can play at that game, fool. Lolth! I have never called upon you before, but hear my prayer. This drow stands before me as a foe of evil. Help me to strike him down!~
+
+// Knight of Solamnia
+@210 = ~I have never heard of that world, my Lady. Would you be so kind as to share a poem or a song from Ansalon, that I might know it a little better?~
+@211 = ~A strange request, but thoughts of my true world fill my heart, and I am easily moved. Listen then, dark one, as I speak of home:~
+@212 = ~Home no more home to me, whither must I wander?
+  Hunger my driver, I go where I must.
+Cold blows the winter wind over hill and heather;
+  Thick drives the rain, and my roof is in the dust.
+Loved of wise men was the shade of my roof-tree.
+  The true word of welcome was spoken in the door--
+Dear days of old, with the faces in the firelight,
+  Kind folks of old, you come again no more.~
+@213 = ~Home was home then, my dear, full of kindly faces,
+  Home was home then, my dear, happy for the child.
+Fire and the windows bright glittered on the moorland;
+  Song, tuneful song, built a palace in the wild.
+Now, when day dawns on the brow of the moorland,
+  Lone stands the house, and the chimney-stone is cold.
+Lone let it stand, now the friends are all departed,
+  The kind hearts, the true hearts, that loved the place of old.~
+@214 = ~Thank you, my Lady. <CHARNAME>, if at all possible we must find a way to return these good knights to their world of Ansalon. No knight with a soul that sad should be riven from her homeland.~
+@215 = ~Thank you for your kind thoughts, good sir. Perhaps when you are done adventuring here you can help us to find our way home. Until then ...~
+
+// Gaal
+// inside joke: Gaal and Sola have the same voice actor
+@220 = ~You have the most beautiful voice I have heard on the surface world, Gaal.~
+@221 = ~Err, yes, thank you.~
+@222 = ~I'd really like to hear you exercise it a bit more. Might you tell us something about this Unseeing Eye of yours?~
+@223 = ~Certainly. Wait, what do you mean by 'surface world'?~
+@224 = ~Take a close look at me, Gaal. What do you see?~
+@225 = ~Blasphemy! I see nothing! My lying eyes have been plucked from my head in the service of the One God. Ask not what I see, ask instead what I know.~
+@226 = ~Very well. What do you know about me?~
+@227 = ~I know that you are ... familiar. You smell ... reassuring ... to the senses granted to me by the One God. Like a ... familiar rodent that lives next door. Very confusing. But you are clearly not the enemy.~
+@228 = ~You're quite a character, Gaal. Of all of the people I have met you are uniquely qualified not to be prejudiced against me. Unfortunately, you are a complete lunatic. Must be bad karma, I suppose.~
+@229 = ~At any rate, please tell us more about the Unseeing Eye.~
+
+// Raelis
+@230 = ~Before you begin, Raelis, I was wondering if you could spare a moment to indulge my curiosity.~
+@231 = ~We are eager to return home, but since you are part of the group that returned Haer'Dalis to us *and* restored the Portal Gem, I can be accommodating. What is it that you wish, dark one?~
+@232 = ~You are both planar travelers and playwrights -- might you grant me a glimpse of your philosophy? Your poetry?~
+@233 = ~What a lovely request! I would be honored. It is unfortunate that my second sight reveals a time of intense trials ahead of you.~
+@234 = ~We serve chaos, to a degree: "When you think of the long and gloomy history of man, you will find more hideous crimes have been committed in the name of obedience than have ever been committed in the name of rebellion."~
+@235 = ~What a depressing thought! But it rings true with my experiences in drow society. What remains, then, of happiness?~
+@236 = ~The pursuit of happiness is a most ridiculous phrase; if you pursue happiness you'll never find it.~
+@237 = ~There I must disagree. For surely if you fail to pursue it you will also fail to find it.~
+@238 = ~I think we're both right, drow. Facts are facts and will not disappear on account of your likes.~
+@239 = ~Nor on account of yours, nay-sayer. But I did not interrupt you to quibble, I merely wanted to get a feeling for your thoughts. Thank you. You were saying something about those conduits?~ 
+
+// Simyaz
+@240 = ~Can I assume that you are the leader, drow, and that these surfacers are your slaves?~
+@241 = ~No, I am a free adventurer under <CHARNAME> the surface <RACE>.~
+@242 = ~How curious! How do you live apart from your House and Queen, drow?~
+@243 = ~She was never my Queen, Githyanki. Eilistraee holds my heart and allegiance.~
+@244 = ~I know nothing of your darkling gods, but I assume anything would be saner than Lolth. Listen, for I have a proposal.~
+@245 = ~Speak on, Githyanki.~
+
+// slave leader
+@250 = ~<CHARNAME>, with the Githyanki distracting the Illithid and the aid of these control circlets we may be able to sneak out of here. It may be possible to just waltz out the main door in all of the confusion.~
+@251 = ~However, my experience with the Devourers makes me think that they will have locked the doors with their mental powers. We may need to either slay their master brain, the hive master for this colony, or call upon your fearsome godlike strength to get out of here.~ 
+@252 = ~Until we know more, I suggest that we advance slowly. As we have already seen, the Illithid have a strange penchant for gathering in large groups just behind closed doors in otherwise empty rooms. We can expect a fight at the end of every hallway.~
+
+// Drizzt
+@260 = ~Vendui, abbil. Phull dos Drizzt Do'Urden?~
+@261 = ~Dos telanth ilythiiri? Dos phuul ilythiiri. I did not expect to find anyone speaking the true tongue of the drow here, much less someone who claims to be a friend. Yes, abbil, I am Drizzt. Who are you?~
+@999262 = ~I am Solaufein, most recently of the border city of Ust Natha.  <CHARNAME> and I have just returned from toppling the house Despana and their wicked plans to summon a demon by sacrificing the eggs of a silver dragon.~
+// @262 = ~I am Solaufein, most recently of the border city of Ust Natha.  <CHARNAME> and I have just returned from toppling the house Ardulace and their wicked plans to summon a demon by sacrificing the eggs of a silver dragon.~
+@263 = ~Sounds like a full afternoon. What did you do after dinner?~
+@264 = ~Squinted quite a bit in the bright light of the sun and tried to look at my new home.~
+@265 = ~Ah, the sun's glare can be quite harsh to ones such as we. It is a pain you should relish, friend. Why did you leave Ust Natha?~
+@266 = ~Lolth holds not my heart -- I am sworn to Eilistraee. I had hoped to remain in Ust Natha and help other doubting drow, but things became too unstable after <CHARNAME> passed through.~
+@267 = ~And what will you do now, Solaufein-no-longer-of-Ust-Natha?~
+@268 = ~Travel with <CHARNAME> as long as <PRO_HESHE> will have me and make my way in the surface world. Do you have any advice?~
+@269 = ~The secret to acceptance among the surfacers? The trick that will make them cast aside prejudice and judge you only on your heart and mind?~
+@270 = ~There is no such thing, I'm afraid. You have crawled your way out of darkness only to discover that things do not become any easier. You have traded one societal expectation that you do evil deeds for another.~
+@271 = ~Things are different, however. In the Underdark, you must be vile or suffer the wrath of the other drow. Here it matters not what you do: you may suffer the wrath of the surfacers. But you will not be forced into evil: your path is your own.~
+@272 = ~Hardly reassuring, but I suppose it is the best I will get.~
+@273 = ~You must find the way for yourself, friend. Your Lady Silverhair will guide you when necessary. Do not look to me or my experiences: find your own truth.~
+@274 = ~Thank you, Drizzt. Perhaps when I am done traveling with <CHARNAME> I will look you up and compare notes.~
+@275 = ~I look forward to it. Now, where were we?~
+@276 = ~We were on our way to slay Bodhi, an evil vampire who has stolen the Lanthorn, a precious artifact of the surface elves.~
+@277 = ~Sounds like a worthy task. Can we help you at all in your quest?~
+@278 = ~I was hoping that you would offer. She is a strong opponent, and I would be honored to fight at your side. <CHARNAME> willing, of course.~
+
+// Elf Kids
+@280 = ~And not all strangers are enemies, no matter how strange they may appear. What troubles you, children?~
+
+// Demin
+@290 = ~But wait ... is that a drow I spy among you? Are you more illusions sent to torment me?~
+@291 = ~We are not illusions, priestess. I am Solaufein, recently of Ust Natha. Eilistraee holds my heart; you need have no fear of me.~
+@292 = ~That may be true, but what are you doing here?~
+@293 = ~I travel with <CHARNAME>, who recovered the Lanthorn at Elhan's direction and is now preparing to chase the Exile out of your fair city. I hope to play a small supporting role in the upcoming melee.~
+@294 = ~Irenicus has taken <CHARNAME>'s soul as well as your city. It is truly an unfortunate state of affairs.~
+
+// Leaflord
+@300 = ~** BY THE WAY, DROW:  EILISTRAEE IS PLEASED THAT YOU WOULD HELP THE SURFACE ELVES.  GO WITH HER BLESSING. **~
+
+// Wraith Sarevok
+@310 = ~Don't give in to hate, <CHARNAME>. I fear that in this little corner of Hell your motives and actions will shape your body and soul.~
+
+// Raamilat, anonymous donor
+@320 = ~I see you still divide your energies between the Art and the lash, then, Raamilat.~
+@321 = ~What? Solaufein! My boy, what a pleasure to greet an old pupil again! Especially one who took both my lessons with such aplomb.~
+@322 = ~Yes. I owe you much.~
+@323 = ~And I shall quit your debt this day, but ... you're here in the company of obvious rebels. Please do tell me that Mother Ardulace suffered prolonged agonies before your departure; she and that devil-daughter of hers.~
+@324 = ~Their passing was swift, though not without pain. It matters not. I am more interested to hear you, a drow of standing, refer to the mongrel outcast as "Master".~
+@325 = ~A courtesy title only ... for now. If the wizard succeeds in his design, who knows? I can foresee greater opportunity for those of our gender outside the Dark Mother's maw.~
+@326 = ~As do I ... for all drow. But I question that a divine Irenicus would be an improvement.~
+@327 = ~Well, if I considered *all* drow, I would be tempted to agree. But for myself only? Alas, it has been *so* pleasant chatting with you that I have nearly forgotten the service I definitely do owe my "Master." Good-bye, dear boy.~ 

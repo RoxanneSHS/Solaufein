@@ -1,0 +1,72 @@
+IF
+    Global("StartEndBios","AR6200",1)
+    Global("SolaTalk","GLOBAL",-1)
+    Global("SolaBio","ar6200",0)
+    InParty("Sola")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaBio","ar6200",1)
+        TextScreen("SOLAEND0")
+        SmallWait(1)
+        Continue()
+END
+
+IF
+    Global("StartEndBios","AR6200",1)
+    !Global("SolaTalk","GLOBAL",-1)
+    Global("PlayerChoseEssence","GLOBAL",1)
+    !GlobalsGT("SolaRemorse","SolaPragma")
+    Global("SolaBio","ar6200",0)
+    InParty("Sola")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaBio","ar6200",1)
+        TextScreen("SOLAEND1")
+        SmallWait(1)
+        Continue()
+END
+
+IF
+    Global("StartEndBios","AR6200",1)
+    !Global("SolaTalk","GLOBAL",-1)
+    Global("PlayerChoseEssence","GLOBAL",1)
+    GlobalsGT("SolaRemorse","SolaPragma")
+    Global("SolaBio","ar6200",0)
+    InParty("Sola")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaBio","ar6200",1)
+        TextScreen("SOLAEND2")
+        SmallWait(1)
+        Continue()
+END
+
+IF
+    Global("StartEndBios","AR6200",1)
+    !Global("SolaTalk","GLOBAL",-1)
+    !Global("PlayerChoseEssence","GLOBAL",1)
+    !GlobalsGT("SolaRemorse","SolaPragma")
+    Global("SolaBio","ar6200",0)
+    InParty("Sola")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaBio","ar6200",1)
+        TextScreen("SOLAEND3")
+        SmallWait(1)
+        Continue()
+END
+
+IF
+    Global("StartEndBios","AR6200",1)
+    !Global("SolaTalk","GLOBAL",-1)
+    !Global("PlayerChoseEssence","GLOBAL",1)
+    GlobalsGT("SolaRemorse","SolaPragma")
+    Global("SolaBio","ar6200",0)
+    InParty("Sola")
+THEN
+    RESPONSE #100
+        SetGlobal("SolaBio","ar6200",1)
+        TextScreen("SOLAEND4")
+        SmallWait(1)
+        Continue()
+END

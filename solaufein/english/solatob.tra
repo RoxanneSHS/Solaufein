@@ -1,0 +1,69 @@
+// Sola in ToB
+// Illasera
+@1 = ~Wait, this need not end in violence. Can't we talk about this?~
+@2 = ~A drow? What are you doing here? Sendai promised me that this fight would be mine. Why did she send you here? You should never have left the Enclave near Amkethran.~
+@3 = ~I assure you, madam, I do not know your 'Sendai'.~
+@4 = ~In that case, you are even less important to me. Time to die, <CHARNAME>!~
+
+// Sarevok 
+@10 = ~This Oath idea has merit, <CHARNAME>. From a practical perspective, Sarevok has much to offer us. With him bound by such an oath you can make free use of his power without fearing his betrayal. I recommend pursuing this option.~
+@11 = ~This Oath idea has merit, but it reeks of domination and slavery. Do we really want a companion who can only be trusted when compelled magically? Why not give Sarevok a chance to prove himself by your side of his own free will?~
+@12 = ~Interesting. The drow argues in my favor. What say you, <CHARNAME>?~
+
+// Mel
+@20 = ~That's always sound advice, but something tells me that this woman is reading from a script rather than speaking from the heart.~
+@21 = ~<CHARNAME>, we should do something to help the people of this town. This wretched refugee camp could benefit from our intervention.~
+
+// Captain Samand
+@30 = ~<CHARNAME>, I feel that we should investigate this matter ourselves. I feel a special sympathy for those who are wrongfully accused. Can you imagine what it would be like to have your freedom taken from you by mistake?~
+@31 = ~It matters not how strait the gate,
+  How charged with punishments the scroll,
+I am the master of my fate:
+  I am the captain of my soul.~
+@32 = ~Let us see what we can learn of Kiser and Mateo.~
+
+// Kiser
+@40 = ~Regardless of what Kiser suggests, I think we should talk to this Errard and get a second opinion on the matter. There is more going on here than meets the eye.~
+
+// Errard
+@50 = ~Pardon me, friend, but would you mind explaining exactly how this magical divination works?~
+@51 = ~Yes, I would mind. I am a highly trained mage charged with defending a city, not a master lecturer or a lending library. Learn your own spells, darkling.~
+
+// Saradush Tavern Il-Khan Soldier
+@60 = ~I don't think that woman wants your attention.~
+@61 = ~What's it to you, drow? What right do you have to come in here and tell decent soldiers like us how to spend our time? We're just flirting a bit. That's a hell of a lot better than whatever your kind does -- killing babies, worshipping spiders, raiding others, fighting yourselves.~
+@62 = ~I ... ~
+@63 = ~Yeah, what?~
+@64 = ~You're right. What you are doing isn't quite as bad as what most of my people do. But that doesn't make what you are doing right, either. What would it take to convince you to stop imposing on that woman?~
+
+// Volo 
+@70 = ~Tell me about Solaufein.~
+@71 = ~A probing mind and a sharp blade, Solaufein has served <CHARNAME> well since their initial encounter in the Underdark. While neither as famous nor was well-accepted as Drizzt, the Underdark's poet laurete still holds the attention of many.~
+@72 = ~Little is known of Solaufein's personality beyond his worship of Eilistraee and what he shared in private with <CHARNAME>. Still, he seems to be a pragmatic walker of the world's paths.~
+@73 = ~Little is known of Solaufein's personality beyond his worship of Eilistraee and what he shared in private with <CHARNAME>. Still, he seems to be a remorseful walker of the world's paths.~
+@74 = ~I admit that I am a private person, Bard. My thoughts run deep, like still waters. Still, I appreciate anything you can do to convince the surface world that not all drow are hateful.~
+
+// Asmay
+@80 = ~<CHARNAME>, our task seems clear: we must stop Gromnir's reign of terror. This sort of 'random' execution reminds me far too much of the political strife that plagued the warring Houses in Ust Natha.~
+@81 = ~The Matron Mothers would play the lesser houses against each other, suggesting that one attack another in order to gain favor. The lowly fight and die; they are seen only as pawns by their rulers.~
+@82 = ~This 'Ust Natha' of yours is starting to sound quite a bit like Saradush, drow. We fight the Fire Giants while Gromnir feasts and accuses people of being traitors.~
+
+// End!
+// Somewhat written by Pamm!
+@1000 = ~We have together come to the end. As many poems as I have known, I can think of none that would persuade you to stay with me and none that would comfort me should you choose to ascend to godhood.~
+@1001 = ~You have brought me to the light, <CHARNAME>, and I will love you forever for it. Whether you go or stay, my heart will not be changed. But if you go, I feel the light will diminish for me without you at my side.~
+@1002 = ~I will not truly try to sway you, my friend. But I will tell you to follow your mind and follow your heart. In a decision like this, they should be in perfect alignment. Let me leave you with these words, in case I never again look on you with mortal eyes.~
+// poem by Robert Service
+@1003 = ~I know a garden where the lilies gleam, 
+And one who lingers in the sunshine there;
+She is than white-stoled lily far more fair,
+And oh, her eyes are heaven-lit with dream!~
+@1004 = ~ I know a garret, cold and dark and drear, 
+  And one who toils and toils with tireless pen, 
+  Until his brave, sad eyes grow weary -- then 
+  He seeks the stars, pale, silent as a seer.~
+@1005 = ~And ah, it's strange; for, desolate and dim,
+Between these two there rolls an ocean wide; 
+Yet he is in the garden by her side
+And she is in the garret there with him.~
+@1006 = ~Ussta xukoth, I will love you always no matter which you choose.~

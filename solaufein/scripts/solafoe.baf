@@ -1,0 +1,58 @@
+IF
+  Global("SolaFoeFight","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("SolaFoeFight","GLOBAL",1)
+    ReallyForceSpell(Myself,CLERIC_IRONSKIN)
+    ReallyForceSpell(Myself,1730)  // aura of flaming death
+    ReallyForceSpell(Myself,WIZARD_DEATH_SPELL)
+    SetGlobal("SolaFoeSpawn","GLOBAL",3)
+    CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+    ReallyForceSpell("sola",WIZARD_LOWER_RESISTANCE)
+    ReallyForceSpell("sola",WIZARD_LOWER_RESISTANCE)
+    ReallyForceSpell("sola",WIZARD_LOWER_RESISTANCE)
+    ChangeAIScript("wtasight",DEFAULT)
+    ChangeAIScript("pries18c",GENERAL)
+    Enemy()
+END
+
+IF
+  !See([PC])
+        Dead("sola")
+        ActionListEmpty()
+THEN
+  RESPONSE #100
+        Kill(Player1)
+END
+
+IF
+  !See([PC])
+        ActionListEmpty()
+THEN
+        RESPONSE #100
+          DisplayString(Myself,4511)
+          CreateVisualEffectObject("SPDIMNDR","sola")
+          MoveGlobalObject("sola",Myself)
+          ApplyDamagePercent("sola",10,CRUSHING)
+          ReallyForceSpell(Myself,CLERIC_TRUE_SIGHT)
+          ReallyForceSpell(Myself,CLERIC_HEAL)
+          ReallyForceSpell(Myself,CLERIC_IRONSKIN)
+          ReallyForceSpell(Myself,1730)
+END
+  
+IF
+  OR(2)
+    CheckStat(Myself,0,STONESKINS)
+    HPPercentLT(Myself,50)
+  HPGT(Myself,0)
+  Global("SolaFoeSecondWind","LOCALS",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,49304)
+    SetGlobal("SolaFoeSecondWind","LOCALS",1)
+    CreateCreatureObjectDoor("solaspi",Myself,0,0,0)
+    ReallyForceSpell(Myself,CLERIC_HEAL)
+    ReallyForceSpell(Myself,CLERIC_IRONSKIN)
+    ReallyForceSpell(Myself,1730) 
+END

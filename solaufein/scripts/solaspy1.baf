@@ -1,0 +1,9 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    DestroySelf()
+    StartCutSceneMode()
+    ClearActions(Player1)
+    StartCutScene("solacut1")
+END

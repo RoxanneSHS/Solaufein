@@ -1,0 +1,67 @@
+IF
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Prep","LOCALS",1)
+    AddSpecialAbility("boo2cap")
+    Ally()
+END
+
+IF
+  Global("SolaBooFirstTime","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  CheckStat(Myself,22,WIS)
+THEN
+  RESPONSE #100
+    DestroyItem("MEL01")
+    DestroySelf()
+END
+
+IF
+  HPLT(Myself,2)
+  Detect("Jan")
+THEN
+  RESPONSE #100
+    ActionOverride("Jan",AddSpecialAbility("boo2free"))
+    DestroyItem("MEL01")
+    DestroySelf()
+END
+
+IF
+  HPLT(Myself,2)
+  !Detect("Jan")
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,AddSpecialAbility("boo2free"))
+    DestroyItem("MEL01")
+    DestroySelf()
+END
+
+IF
+  !InMyArea(Player1)
+THEN
+  RESPONSE #100
+    MoveGlobalObject(Myself,Player1)
+END
+
+IF
+	ActionListEmpty()
+	!StateCheck(Myself,STATE_INVISIBLE)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+	      Hide()
+END
+
+IF
+	ActionListEmpty()
+	!ModalState(DETECTTRAPS)
+THEN
+	RESPONSE #100
+		FindTraps()
+END

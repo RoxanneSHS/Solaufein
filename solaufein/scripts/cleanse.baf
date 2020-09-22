@@ -1,0 +1,21 @@
+IF
+Contains("MISCBP",Myself)
+Contains("solabody",Myself)
+THEN
+ RESPONSE #100
+SetInterrupt(FALSE)
+SetGlobal("CleanseVampire","AR1401",2)
+DestroyItem("solabody")
+DestroyItem("MISCBP")
+SetGlobal("SolaBackFromDead","GLOBAL",1)
+CreateVisualEffect("SPMETSW2",[2592.1701])
+CreateVisualEffect("SPMETSW2",[2645.1742])
+Wait(1)
+CreateVisualEffect("SPFLESHS",[2565.1677])
+Wait(1)
+MoveGlobal("AR1401","Sola",[2565.1677]) 
+Wait(1)
+ChangeEnemyAlly("sola",NEUTRAL)
+ActionOverride("Sola",ChangeAIScript("sola",OVERRIDE))
+SetInterrupt(TRUE)
+END

@@ -1,0 +1,18 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId("Sola")
+        CreateCreatureObjectEffect("VAMPAMB","SPFLESHS","sola")
+        Wait(1)
+        CreateVisualEffectObject("SPDISPMA",Myself)
+        DropInventory()
+        LeaveParty()
+        SetLeavePartyDialogFile()
+        SetGlobal("SolaVampire","GLOBAL",1)
+        CreateCreatureObjectEffect("solavamp","SPFLESHS","sola")
+        CreateVisualEffectObject("SPDIMNDR","sola")
+        ActionOverride("sola",DestroySelf())
+        EndCutSceneMode()
+        ActionOverride("bodhiamb",StartDialogueNoSet(Player1))
+END

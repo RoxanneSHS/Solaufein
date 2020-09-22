@@ -1,0 +1,60 @@
+IF
+    Dead("solae1")
+    Dead("solae2")
+    Dead("solae3")
+    Dead("solae4")
+    Dead("solae5")
+    Dead("solae6")
+THEN
+    RESPONSE #100
+        DestroySelf()
+END
+
+IF
+    OR(6)
+        !Dead("solae1")
+        !Dead("solae2")
+        !Dead("solae3")
+        !Dead("solae4")
+        !Dead("solae5")
+        !Dead("solae6")
+    GlobalTimerExpired("SolaEclipseTimeStop","GLOBAL")
+    Difficulty(EASIEST)
+THEN
+    RESPONSE #100
+        SetGlobalTimer("SolaEclipseTimeStop","GLOBAL",24)
+        ReallyForceSpellRES("soeclip",Myself)
+END
+
+IF
+    OR(6)
+        !Dead("solae1")
+        !Dead("solae2")
+        !Dead("solae3")
+        !Dead("solae4")
+        !Dead("solae5")
+        !Dead("solae6")
+    GlobalTimerExpired("SolaEclipseTimeStop","GLOBAL")
+    Difficulty(EASY)
+THEN
+    RESPONSE #100
+        SetGlobalTimer("SolaEclipseTimeStop","GLOBAL",18)
+        ReallyForceSpellRES("soeclip",Myself)
+END
+
+IF
+    OR(6)
+        !Dead("solae1")
+        !Dead("solae2")
+        !Dead("solae3")
+        !Dead("solae4")
+        !Dead("solae5")
+        !Dead("solae6")
+    GlobalTimerExpired("SolaEclipseTimeStop","GLOBAL")
+    !Difficulty(EASY)
+    !Difficulty(EASIEST)
+THEN
+    RESPONSE #100
+        SetGlobalTimer("SolaEclipseTimeStop","GLOBAL",12)
+        ReallyForceSpellRES("soeclip",Myself)
+END

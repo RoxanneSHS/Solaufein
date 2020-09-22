@@ -1,0 +1,34 @@
+IF
+  Die()
+  See(SecondNearest([ENEMY.0.SPIDER]))
+THEN
+  RESPONSE #100
+    DisplayString(SecondNearest([ENEMY.0.SPIDER]),@80) 
+    ReallyForceSpellDead(SecondNearest([ENEMY.0.SPIDER]),CLERIC_HEAL)
+    ReallyForceSpellDead(SecondNearest([ENEMY.0.SPIDER]),WIZARD_IMPROVED_HASTE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SolaSpiWeb","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SolaSpiWeb","LOCALS",1)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+END
+
+IF
+  ActionListEmpty()
+  See(WorstAC)
+THEN
+  RESPONSE #100
+    AttackReevaluate(WorstAC,10)
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),10)
+END
