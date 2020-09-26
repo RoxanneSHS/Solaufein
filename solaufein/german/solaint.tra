@@ -1,0 +1,212 @@
+@1 = ~Bücher, sagt Ihr? Verzeiht, guter Herr, aber habt Ihr Bücher mit Gedichten? Oder vielleicht sogar Abhandlungen über Philosophie?~
+@2 = ~Ich fürchte, nein, Drow. Und selbst wenn ich welche hätte, würde ich keine Kunst oder Wissenschaft an einen Eurer verhassten Rasse verkaufen!~
+@3 = ~Na gut, mein Herr. Mehr konnte ich wohl nicht erwarten.~
+@4 = ~Nun, wie ich gerade sagte...~
+@10 = ~Ihr erscheint mir eine Gelehrte zu sein, meine Dame. Hättet Ihr vielleicht einige Bücher mit Poesie oder Philosophie? Ich gestehe ein, dass ich versuche, meine Sammlung zu erweitern.~
+@11 = ~Ja, ich kann mir vorstellen, dass diese beiden Themen sehr schwierig zu beschaffen waren... in Eurer Heimatstadt?~
+@12 = ~Ich fürchte, ich habe keine vollständigen Bände, aber ich will eins meiner Lieblingsstücke mit Euch teilen. Desnos hat es geschrieben:
+  Ich habe so heftig von Dir geträumt.
+  Ich bin so lange gegangen, habe so viel gesprochen,
+  So sehr einen Schatten von Dir geliebt,
+  Dass mir von Dir nichts mehr bleibt.
+  Mir bleibt nur, Schatten zu sein unter Schatten
+  Hundertmal schattenhafter zu sein als der Schatten
+  Der Schatten zu sein, der wieder und wieder erscheinen wird in deinem sonnenerfüllten Leben.~
+@13 = ~Ihr besitzt bemerkenswerten Scharfsinn, meine Dame. Die Gefahr, dass sich jemand in das Bild verliebt, das er sich von einer Sache macht, anstatt in die Sache selbst, ist äußerst real. Ich fürchte manchmal, mir geht es so mit dem Bild, das ich mir von der Oberfläche gemacht habe.~
+@14 = ~Im Unterreich war es einfach, die Aussicht auf ein Leben in Freiheit unter den Sternen zu lieben. Jetzt sehe ich die Dinge klarer, im Licht der Sonne.~
+@15 = ~Dennoch danke ich Euch für Eure Freundlichkeit. Ich werde das Gedicht meiner Sammlung hinzufügen.~
+@16 = ~Gern, seltener Gast. Danke für den Besuch.~
+@20 = ~Dass Ihr ein schwächliches Drowmännchen in Eurer Gruppe habt, ist noch abscheulicher! Unterstützt der jaluk das Töten von Spinnen? Kein Wunder, dass er auf der Oberfläche lebt! Ihr werdet alle sterben!~ 
+@21 = ~Diese Art von sinnloser Bösartigkeit ist der Grund, weshalb ich das Unterreich verlassen habe. Ich habe einen besonderen Hass auf Spinnen. Ihr werdet meinem Zorn nicht entkommen!~
+@30 = ~Weisheit und Inspiration, sagt Ihr? Ich suche nach diesen Dingen, Freund. Könnt Ihr mir den Segen Eurer Weisheit geben?~
+@31 = ~Natürlich, Suchender. Ich spüre, Ihr besitzt Weisheit genug, also werde ich Euch mit Inspiration segnen. Hört genau hin, Drow, und vernehmt von der Schönheit der Natur:~
+@32 = ~O Einsamkeit, die heftig nach mir sucht:
+  Verschon mich doch im Meer der Häuser hier!
+  Erklimm mit mir den Turm im Felsrevier -
+Sternwarte der Natur - und schau zur Schlucht,
+Die winzig daliegt an kristallner Bucht:
+  O laß mich Wache halten neben dir,
+  Wo tief im Dorn geschmeidiges Getier~
+@33 = ~Den Bienenschwarm erschreckt, der Blüten sucht!
+Gern mach ich's mir, dir beigesellt, bewusst.
+  Doch erst Gespräch, das arglos uns befreit
+Und dem Gedanken Bild und Wendung leiht,
+  Berückt mein Herz. Nein, kaum noch höh're Lust,
+Als hinzufliehn geschwisterlich zu zweit
+  An deine wie ein Obdach warme Brust!~
+@34 = ~Geht mit meinem und Oghmas Segen, Suchender.~
+@35 = ~Danke, guter Herr. Mein Herz frohlockt bei diesen Versen.~
+@36 = ~Das ist genau das, was ich die ganze Zeit schon sage. Die Majestät der Städte verblasst vor der wahren Pracht der Natur. Wir sollten Athkatla verlassen und wieder durch Gras laufen.~
+@37 = ~Das erinnert mich daran, dass Fingerhut, oder "Digitalis", ein wirksames Gift ist. Vielleicht ist es Zeit, ein paar vergiftete Wurfdolche herzustellen. Mein Stachel ist viel stärker als der der Biene. Hmm...~
+@38 = ~Verderbt nicht den Moment, Dieb.~
+@40 = ~<CHARNAME>, ich denke, das liegt ganz auf unserer Linie. Wir werden nicht nur einigen Dorfbewohnern helfen können, sondern wir haben auch einen hervorragenden Grund, mehr von der prachtvollen Landschaft der Oberfläche zu sehen.~
+@41 = ~Außerdem, muss ich gestehen, bin ich neugierig auf diese Tiere der Oberfläche und das wirtschaftliche System der Gegend.~
+@42 = ~Flydian, wo war noch mal dieses Dorf?~
+@50 = ~Irgendwie glaube ich diesem kleinen Kerl nicht recht. Warum wohl?~
+@60 = ~Ich muss zwar zugeben, dass es unter den Drow keine Druiden gibt, aber nach dem, was ich von ihnen gehört habe, sollten sie nicht so... selbstsüchtig sein. Irgend etwas ist hier nicht ganz in Ordnung, <CHARNAME>.~
+@61 = ~Und wer seid Ihr, dass Ihr mich richten wollt, Dunkelelf? Eure Rasse ist eine Abscheulichkeit in den Augen der Natur: übertrieben zivilisiert in der schlechtesten Art und Weise. Eure Höhlen sind völlig unnatürlich: keine Handbreit bleibt unberührt. Ich kann diese Verachtung der natürlichen Ordnung nicht gutheißen. Ich werde mein Feld mit Eurem Blut düngen und Eure Gebeine zu Staub zermahlen.~ 
+@62 = ~Ihr mögt das versuchen, Frau, aber ich muss Euch widersprechen: die Drow sind kein Abscheulichkeit . Die Drow und all unsere Grausamkeit sind genauso natürlich wie die Grausamkeit, die man hier im Licht der Sonne findet.~
+@63 = ~Ich bitte Euch um Zurückhaltung: nicht jedes Problem, dem Ihr begegnet, kann mit offener Gewalt gelöst werden.~
+@70 = ~Halt! Was Ihr tut, ist falsch! Weshalb tut Ihr das?~
+@71 = ~Oger, Ihr habt die Worte gesprochen, und Ihr habt recht gesprochen.~
+@72 = ~Wir werden Euch unsere Gründe nennen, weshalb wir alle bösen Wesen vernichten.~
+@73 = ~Ich wurde in einer feindlichen Welt ausgebildet, der Nachkomme eines berühmten Paladins.~
+@74 = ~Ich versichere Euch, ich bin kein böses Wesen. Ich will Euch nichts böses. Lasst uns das bitte ruhig und vernünftig diskutieren.~
+@80 = ~<CHARNAME>, this woman's words ring true. I am pleased to see that we will get the chance to parley and avoid blows altogether, especially after what happened with those knights.~
+@81 = ~I urge you to listen to this woman calmly, and I urge her to treat us the same way. What are you doing here, my lady?~
+@80 = ~<CHARNAME>, die Worte dieser Frau klingen wahr. Ich bin erfreut zu sehen, dass wir die Möglichkeit haben zu sprechen und einen Kampf zu vermeiden, besonders nach dem, was mit diesen Rittern geschehen ist.~
+@81 = ~Ich beschwöre Euch, diese Frau in Ruhe anzuhören, und ich beschwöre sie, uns genauso zu behandeln. Was macht Ihr hier, meine Dame?~
+@90 = ~<CHARNAME>, etwas hier lässt bei mir die Alarmglocken läuten. Es erinnert mich an eine Hinterhaltstaktik, die einige Duergar in der Nähe von Ust Natha anwendeten.~ 
+@100=  ~Seid auf der Hut, <CHARNAME>. Drachen der Furchterregenden Flamme sind genauso gerissen, wie sie böse sind. Ich habe keine Zweifel, dass dieses mächtige Wesen hinter der Illusion steckte, die uns zum Kampf gegen diese Ritter zwang.~
+@101 = ~Da habt Ihr völlig recht, Drow. Und jetzt geht aus dem Weg und lasst mich zu <CHARNAME> sprechen. Ich bin an Gorions Schützling interessiert. Möglicherweise wundert Ihr Euch, weshalb ich Euch das alles angetan habe?~ 
+@102 = ~<CHARNAME>, falls Ihr Euch entscheiden solltet, diesem Drachen entgegenzutreten, denkt daran, dass er vier große Stärken hat. Rote Drachen besitzen einen mächtigen Feueratem, und er wird nicht zögern, uns zwei oder drei Mal in der Minute verbrennen zu wollen.~ 
+@103 = ~Ausserdem ermöglicht ihm die enorme Größe seiner Flügel, die Luft in Bewegung zu versetzen und auf diese Weise kleinere Feinde wie uns zurückzuwerfen. Drachen besitzen außerdem rasiermesserscharfe Klauen und damit einen mächtigen Angriff im Nahkampf. Und schließlich verfügen alle Drachen über angeborene magische Fähigkeiten.~
+@104 = ~Ich würde vorschlagen, dass die Rollen oder Tränke verwenden, die wir für eine besondere Gelegenheit aufgespart haben, wenn wir uns mit diesem bösen Geschöpf anlegen wollen.~
+@105 = ~Das sind alles sehr gute Vorschläge, Drow, aber fürs Erste schlage ich vor, dass Ihr alle von hier verschwindet.~
+@110 = ~Können wir das nicht von Magier zu Magier bereden? Ich bin sicher, wir können viel voneinander lernen. Das hier muss nicht in Gewalt enden.~
+@120 = ~Das ist nicht ganz korrekt, mein guter Hauptmann. Trolle sterben auch durch Gift, bestimmte Waffen, die starke Blutungen verursachen, und den Lebenskraftentzug einiger Untoter. Von diesen anderen Methoden wird Gift wahrscheinlich am nützlichsten für uns sein:~
+@121 = ~Ein Troll innerhalb einer magischen Todeswolke steht nicht wieder auf. Mein guter Hauptmann, ich muss Euch für Eure Freigiebigkeit danken... aber ich frage mich, ob ein Bündel Flammenpfeile ausreicht.~
+@122 = ~Vielleicht könntet Ihr es übers Herz bringen, uns mit einigen weiteren Gerätschaften zum Töten von Trollen auszurüsten?~
+@123 = ~Natürlich, mein guter... Drow!? Nun, wenn Nalia Euch angeheuert hat, muss ein Funken Güte in Euch sein. Hier, nehmt diese zusätzliche  Ausrüstung. Viel Glück!~
+@130 = ~Ihr, Drow! Hinter Euch werden sie als nächstes her sein! Vorurteile und Furcht sind weit verbreitet in Athkatla. Befreit mich, und wir können zusammenarbeiten.~
+@131 = ~Vergebt mir, Weibchen, aber ich muss Euch fragen: Gibt es keinen Grund, dass Ihr hier seid? Haben sie einen begründeten Vorwurf gegen Euch?~
+@132 = ~Bah! Ich habe nichts getan! Diese rivvil wollen mich nur für das töten, was ich bin. Ich schwöre Euch bei Shar, ich habe ihnen nichts getan.~
+@133 = ~Dann werde ich Euch befreien. (Solaufein geht zum Scheiterhaufen und schneidet die Drow los.)~
+@140 = ~Ihr habt bereits einen Drow an Eurer Seite, und ich muss zugeben, dass ich neugierig darauf bin, diese Geschichte zu hören. Bitte, nehmt mich in Eure Gruppe auf.~
+@141 = ~Obwohl ich Eure unrechtmässige Hinrichtung nicht hätte ertragen können, Viconia - nach dem zu urteilen, was mir <CHARNAME> von Euch in Baldurs Tor erzählt hat, bin ich nicht so sicher, dass wir uns verstehen werden.~
+@150 = ~<CHARNAME>, dass hört sich wie eine Gelegenheit an, unsere Zeit ausgezeichnet zu nutzen. Es ist nicht nur eine würdige Sache, sondern ich habe auch einen eigennützigen Grund.~
+@151 = ~In Athkatla ist mein Drow Erbe nicht gerade willkommen. Ich habe Gerüchte gehört, dass es dem berühmten Drizzt Do'Urden gelungen ist, die Herzen und das Vertrauen kleinerer Städte im Norden für sich zu gewinnen.~
+@152 = ~Ich wäre an einem kleinen Experiment interessiert, um zu sehen, ob die Einwohner dieses Dorfes für Hilfe in ihrer Not empfänglich sind, gleich in welcher Form sie kommt.~
+@153 = ~Nun, mein Kind, wer war diese Umar, die Du erwähntest?~
+@160 = ~<CHARNAME>, ich würde davon abraten, einen Eid auf Unbekanntes zu schwören. Es ist genau diese Art Fehler, der Wesen von anderen Ebenen dazu zwingt, sterblichen Magiern zu dienen.~
+@161 = ~Oh? Und was wisst Ihr schon von Zauberei... Drow!? Bei Mystra, lassen die Wachen am Tor denn jeden in unsere schöne Stadt?~
+@162 = ~Nun, allerdings könnte es vorteilhaft für uns sein, dass wir ein wenig arkanes Wissen austauschen, Ihr und ich. Jeder weiß, dass Drow-Zauberer über gewaltiges Wissen verfügen, und Ihr scheint Magie zu meistern.~
+@163 = ~Ich will nur sagen: Ihr erinnert mich an die Zauberer in meiner Heimatstadt Ust Natha. Aber ich werde Euch in ein kleines Geheimnis der Drow einweihen, da Ihr so nett gefragt habt. (Solaufein flüstert Tolgerias etwas zu.)~
+@164 = ~(würgt) Das könnt Ihr nicht ernst meinen! Mit einer Spinne? (erbleicht)~
+@165 = ~Todernst, mein Freund. Nun, Ihr wolltet <CHARNAME> noch etwas sagen?~
+@166 = ~Ah, ja. Gebt mir nur einen Moment, um mich wieder zu fassen. Also...~
+@170 = ~Friede, Freund Oger. Ich weiss, wie es ist, wenn man aufgrund seiner Herkunft verachtet wird, ohne Ansehen der eigenen Person.~
+@171 = ~Hmm. Du sein Drow, also Dörfler dich nicht mögen, ja?~
+@172 = ~So könnte man es auszudrücken. Allgemein ist der Empfang, der mir auf der Oberfläche bereitet wird, ein wenig kühler, als ich es erwartet hatte.~
+@173 = ~Was wollt Ihr, dass wir zu diesen Dorfbewohnern sagen?~
+@180 = ~Wie faszinierend: Durch die Ebenen zu fliegen! Spelljammer waren alltäglich in Ust Natha, aber ich hatte nie Gelegenheit, eines der Schiffe zu benutzen. Was könnt Ihr uns noch über diese Sphäre erzählen?~
+@190 = ~Was ist das? Unter Euch spüre ich jemanden, beinahe so dunkel ist wie ich. Tretet vor, Drow, lasst mich Euch bwtrachten.~
+@191 = ~Ich werde nicht mit Euch verhandeln, Scheusal. Selbst in der Nacht scheint der Mond hell, und die Strahlen der Dame mit dem Silberhaar werden Euch zu Asche verbrennen.~
+@192 = ~Es muss nicht so sein, mein Freund... nein...~
+@193 = ~Ich bin nicht Euer Freund, Dämon!~
+@194 = ~Aber Ihr könntet es sein. Ich sehe Eure Seele, Drow... und ich sehe einen Makel. Ein Verlangen nach Stärke. Lust auf Macht. Ihr wart willens... seid willens... werdet willens sein... Macht durch die Freiheit des Untodes zu erlangen. Meine Vision ist undeutlich... aber ich sehe einen Lich, wo jetzt ein Elf steht. Hört zu:~
+@195 = 
+~Wir tragen die Maske, die immer grinsend lügt,
+Die Augen beschattet und die Wangen verbirgt -
+Diesen Preis zahlen wir für der Menschen Tücke,
+Mit blutig zerrissenen Herzen ist unser Lächeln gewirkt
+Und tausend Unwahrheiten in den Worten versteckt.
+
+Wie sollte der Lauf der Welt auch anders gehen
+Und zählen unser Seufzen, unsre Tränen?
+Nein, sie sollen uns dann nur sehen, wenn
+Wir die Maske tragen.~
+@196 = ~Was wisst Ihr von Masken und Dunkelheit, Drow? Sind die Oberflächenbewohner angetan von Euch? Haben sie Euch aufgenommen? Oder ist Euer dunkles Gesicht ein gesellschaftlicher Schandfleck ersten Ranges?~
+@197 = ~Der Untod schert sich keinen Blutstropfen um Eure Hautfarbe, Elf. Tretet unserer ewigen Bruderschaft bei.~ 
+@198 = ~Ihr habt mir einen Vers zitiert und das hat mich überrascht. Ich habe immer gedacht, die Untoten hätte keine Seele, keine Würdigung der Schönheit.~
+@199 = ~Weit entfernt, Elf. Die Musik der Nacht ist so süß.~
+@200 =~Dann werde ich Euch in gleicher Weise antworten: 
+
+  Und eins geworden mit der Nacht
+  Ging ich im Regen ein und aus
+  Die Stadt hat mir kein Licht gebracht
+
+  Und traurig sehn die Gassen aus
+  auf Wächter geb ich keine Acht
+  will nichts erklärn, nur gradeaus...~
+@201 = ~Ich kenne die Nacht, Scheusal. Ich weiß, dass nicht alle Oberflächenbewohner mich akzeptieren. Aber ich werde mich nie Euch anschliessen! Nie! Ich werde nie das Licht verraten.~
+@202 = ~Es könnte sein, dass Ihr keine Wahl haben werdet, Drow. Es könnte sein, dass Ihr an meiner Seite stehen werdet entgegen Eurer Entscheidung.~
+@203 = ~Eilistraee! Bewahre mich vor dieser Versuchung! Verleih mir die Kraft, dieses Scheusal zu besiegen!~
+@204 = ~Dieses Spiel können auch zwei spielen, Narr. Lolth! Ich habe Euch nie zuvor angerufen, doch erhört mein Gebet. Dieser Drow steht vor mir als ein Feind des Bösen. Helft mir, ihn niederzuschlagen!~
+@210 = ~Ich habe nie von dieser Welt gehört, meine Dame. Könntet Ihr ein Gedicht oder ein Lied von 
+Ansalon vortragen, damit ich es ein wenig besser kennen lerne?~
+@211 = ~Ein seltsamer Wunsch, aber Gedanken an meine eigentliche Welt erfüllen mein Herz und ich bin bewegt. Hört also, Dunkler, wenn ich von der Heimat spreche:~
+@212 = ~Heim ist kein Heim mehr für mich, wohin muss ich wandern?
+  Hunger treibt mich, wohin ich muss gehn.
+Kalt bläst der Winterwind über Hügel und Heide;
+  Schwer fällt der Regen und mein Dach im Staub ich seh.
+Geliebt von weisen Männern war der Schatten meines Firstes.
+  Das wahre Wort des Willkommens wurde gesprochen in der Tür--
+Geliebte alte Tage, mit den Gesichtern im Feuerschein,
+  Geliebte alte Freunde, zurück kommt ihr nicht mehr.~
+@213 = ~Heim war Heim damals, meine Liebe, voller freundlicher Gesichter,
+  Heim war Heim damals, meine Liebe, für das Kind so milde.
+Feuer und der Schein der Fenster glitzerten im Moor;
+  Melodischer Gesang, der einen Palast erbaute in der Wilde.
+Nun, wenn der Tag graut am Rande des Moores,
+  Allein steht das Haus und der Kamin ist kalt.
+Allein lass es stehn, nun sind alle Freunde geschieden,
+  Die guten Herzen, die wahren Herzen, die liebten diesen Ort, so alt.~
+@214 = ~Ich danke Euch, meine Dame. <CHARNAME>, wenn es überhaupt möglich ist, müssen wir einen Weg finden, dass diese Ritter auf ihre Welt Ansalon zurückkehren können. Kein Ritter mit einer so traurigen Seele sollte von der Heimat fortgerissen werden.~
+@215 = ~Ich danke Euch für Eure freundlichen Worte, guter Herr. Wenn Ihr Eure Abenteuer hier beendet habt, könnt Ihr uns vielleicht helfen, unseren Weg nach Hause zu finden. Bis dahin...~
+@220 = ~Ihr habt die schönste Stimme, die ich je auf der Oberfläche gehört habe, Gaal.~
+@221 = ~Äh, ja, danke.~
+@222 = ~Ihr würdet mir wirklich einen Gefallen tun, wenn Ihr sie ein wenig mehr benutzt. Könntet Ihr uns etwas über Euer Blickloses Auge erzählen?~
+@223 = ~Natürlich. Halt, was meint Ihr mit *Oberfläche*?~
+@224 = ~Schaut mich genau an, Gaal. Was seht Ihr?~
+@225 = ~Blasphemie! Ich sehe nichts! Meine verlogenen Augen sind mir für den Dienst an dem Einen Gott ausgerissen worden. Fragt nicht, was ich sehe, fragt, was ich weiß.~
+@226 = ~Also gut. Was wisst Ihr über mich?~
+@227 = ~Ich weiß, dass Ihr... vertraut seid. Ihr riecht... beruhigend... für die Sinne, die mir der Eine Gott gewährt hat. Wie ein... vertrautes Nagetier, das nebenan lebt. Sehr verwirrend. Aber Ihr seid sicher nicht der Feind.~
+@228 = ~Ihr seid ein starker Charakter, Gaal. Von all den Menschen, die ich getroffen habe, seid Ihr in einzigartiger Weise geeignet, gegen mich nicht voreingenommen zu sein. Unglücklicherweise seid Ihr völlig verrückt. Das muss schlechtes Karma sein, nehme ich an.~
+@229 = ~Egal. Bitte erzählt uns mehr über das Blicklose Auge.~
+@230 = ~Bevor Ihr beginnt, Raelis, frage ich mich, ob Ihr nicht einen Moment Zeit finden könntet, meine Neugier zu befriedigen.~
+@231 = ~Wir haben es eilig, nach Hause zurückzukehren, doch da Ihr ein Mitglied der Gruppe seid, die uns Haer'Dalis *und* den Portalstein zurückgebracht hat, kann ich das einrichten. Was wünscht Ihr, Dunkler?~
+@232 = ~Ihr seid sowohl Ebenenreisende als auch Verfasser von Theaterstücken - würdet Ihr mir einen Einblick in Eure Philosophie gewähren? Eure Dichtkunst?~
+@233 = ~Was für ein schöner Wunsch! Ich fühle mich geehrt. Es ist bedauerlich, dass mein Zweites Gesicht eine Zeit schwerer Prüfungen vor Euch liegen sieht.~
+@234 = ~Wir dienen zu einem gewissen Grad dem Chaos: *Wenn man über die lange und düstere Geschichte der Menschheit nachdenkt, wird man erkennen, dass schrecklichere Verbrechen im Namen des Gehorsams als jemals im Namen der Rebellion begangen wurden.*~
+@235 = ~Was für ein bedrückender Gedanke! Aber es klingt wahr nach meinen Erfahrungen in der Gesellschaft der Drow. Was bleibt denn dann vom Glück?~
+@236 = ~Das Streben nach Glück ist eine außerordentlich lächerliche Phrase, denn wenn Ihr nach dem Glück strebt, werdet Ihr es niemals finden.~
+@237 = ~Da muss ich widersprechen. Denn wenn man es nicht anstrebt, wird man es genausowenig finden.~
+@238 = ~Ich denke, wir haben beide recht, Drow. Tatsachen sind Tatsachen und verschwinden nicht je nach Euren Vorlieben.~
+@239 = ~Und auch nicht bei der Erwähnung der Euren, Neinsagerin. Aber ich habe Euch nicht für Spitzfindigkeiten unterbrochen, ich wollte nur einen Eindruck von Euren Gedanken. Ich danke Euch. Ihr wolltet etwas über diese Astraltunnel sagen?~ 
+@240 = ~Kann ich davon ausgehen, dass Ihr der Anführer seid, Drow, und diese Oberflächenbewohner Eure Sklaven?~
+@241 = ~Nein, ich bin ein freier Abenteurer unter <CHARNAME> von der Oberfläche.~
+@242 = ~Wie seltsam! Wie könnt Ihr fern von Eurem Haus und Eurer Königin leben, Drow?~
+@243 = ~Sie war nie meine Königin, Githyanki. Eilistraee besitzt mein Herz und meine Treue.~
+@244 = ~Ich weiß nichts von Euren dunklen Göttern, aber ich nehme an, alles ist vernünftiger als Lolth. Hört zu, denn ich habe einen Vorschlag.~
+@245 = ~Sprecht weiter, Githyanki.~
+@250 = ~<CHARNAME>, mit Hilfe der Githyanki, die die Illithiden ablenken, und dieser Gedankenkontrollringe könnten wir in der Lage sein, uns hier heraus zu schleichen. Es könnte möglich sein, in der allgemeinen Verwirrung einfach durch das Haupttor hinaus zu tanzen.~
+@251 = ~Jedoch fürchte ich aufgrund meiner Erfahrungen mit den Saugern, dass sie die Tore mit ihren Gedankenkräften verschlossen haben. Wir müssen dann entweder ihr Mutterhirn töten, das Zentrum dieser Kolonie, oder Eure schrecklichen göttlichen Kräfte beschwören, um von hier zu entkommen.~ 
+@252 = ~Bis wir mehr wissen, schlage ich vor, dass wir langsam vorrücken. Wie wir bereits gesehen haben, haben die Illithiden eine seltsame Vorliebe dafür, sich in großen Gruppen gerade hinter verschlossenen Türen in sonst leeren Räumen zu sammeln. Wir können am Ende jedes Ganges einen Kampf erwarten.~
+
+// Drizzt
+@260 = ~Vendui, abbil. Phull dos Drizzt Do'Urden?~
+@261 = ~Dos telanth ilythiiri? Dos phuul ilythiiri. Ich habe nicht erwartet, hier jemanden zu treffen, der die Muttersprache der Drow spricht, und noch weniger einen, der sich Freund nennt. Ja, abbil, ich bin Drizzt. Wer seid Ihr?~
+@999262 = ~Ich bin Solaufein, bis vor kurzem aus der Grenzstadt Ust Natha. <CHARNAME> und ich sind gerade zurückgekehrt, nachdem wir das Haus Despana gestürzt und seinen bösartigen Plan vereitelt haben, einen Dämon zu beschwören und ihm die Eier eines Silberdrachens zu opfern.~
+@263 = ~Klingt nach einem erlebnisreichen Nachmittag. Was habt Ihr nach dem Abendessen gemacht?~
+@264 = ~Ein bisschen im hellen Licht der Sonne geblinzelt und die neue Heimat angeschaut.~
+@265 = ~Ah, Sonneschein kann schwer zu ertragen sein für unsereinen. Es ist ein Schmerz, an dem Ihr Gefallen finden solltet, Freund. Weshalb habt Ihr Ust Natha verlassen?~
+@266 = ~Lolth besitzt nicht mein Herz - ich habe mich Eilistraee verpflichtet. Ich hatte gehofft, in Ust Natha zu bleiben und anderen zweifelnden Drow zu helfen, aber die Lage wurde zu instabil nach <CHARNAME>s Auftauchen.~
+@267 = ~Und was werdet Ihr jetzt tun, Solaufein-nicht-mehr-aus-Ust-Natha?~
+@268 = ~Mit <CHARNAME> reisen, solange <PRO_HESHE> es erlaubt und meinen Weg auf der Oberfläche finden. Habt Ihr irgendwelche Ratschläge?~
+@269 = ~Das Geheimnis, wie Ihr von den Bewohnern der Oberfläche akzeptiert werdet? Der Trick, der sie alle Vorurteile beiseite werfen lässt und dafür sorgt, dass sie Euch nur nach Eurem Herzen und Euren Gedanken beurteilen?~
+@270 = ~So etwas gibt es nicht, fürchte ich. Ihr seid aus der Dunkelheit gekrochen, nur um zu entdecken, dass die Dinge nicht einfacher werden. Ihr habt die Erwartung der einen Gesellschaft, dass Ihr Böses tut, gegen die einer anderen eingetauscht.~
+@271 = ~Es gibt jedoch Unterschiede. Im Unterreich müsst Ihr abscheulich sein, oder Ihr bekommt den Zorn der anderen Drow zu spüren. Hier ist es gleichgültig, was Ihr tut denn Ihr erleidet immer den Zorn der Oberflächenbewohner. Aber Ihr werdet nicht zum Bösen gezwungen: Euer Weg ist Euch überlassen.~
+@272 = ~Wenig beruhigend, aber ich nehme an, so ist das nun einmal.~
+@273 = ~Ihr müsst Euren Weg selbst finden, Freund. Eure Dame mit dem Silberhaar wird Euch führen, wenn es nötig ist. Schaut nicht nach mir oder meinen Erfahrungen: Findet Eure eigene Wahrheit.~
+@274 = ~Danke, Drizzt. Vielleicht werde ich Euch nach dem Ende meiner Reisen mit <CHARNAME> aufsuchen, und wir können Erfahrungen austauschen.~
+@275 = ~Ich freue mich darauf. Also, wo waren wir?~
+@276 = ~Wir waren auf dem Weg, Bodhi zu töten, eine Vampirin, die die Lathorne gestohlen hat, ein wertvolles Artefakt der Oberflächenelfen.~
+@277 = ~Das klingt nach einer würdigen Aufgabe. Können wir Euch dabei überhaupt helfen?~
+@278 = ~Ich hatte gehofft, dass Ihr das anbietet. Sie ist ein starker Gegner, und es wäre mir eine Ehre, an Eurer Seite zu kämpfen. Wenn <CHARNAME> will, natürlich.~
+@280 = ~Und nicht alle Fremden sind Feinde, gleich wie seltsam sie aussehen mögen. Was beunruhigt euch, Kinder?~
+@290 = ~Aber halt... erkenne ich da einen Drow unter Euch? Seid Ihr noch mehr Illusionen, die gesandt wurden, um mich zu quälen?~
+@291 = ~Wir sind keine Illusionen, Priesterin. Ich bin Solaufein, bis vor kurzem aus Ust Natha. Mein Herz gehört Eilistraee, Ihr braucht mich nicht zu fürchten.~
+@292 = ~Das mag die Wahrheit sein, aber was tut Ihr hier?~
+@293 = ~Ich reise mit <CHARNAME>, der in Elhans Auftrag die Lathorne wiedererlangt hat und nun plant, den Verbannten aus Eurer schönen Stadt zu vertreiben. Ich hoffe, im kommenden Kampf eine kleine Nebenrolle zu spielen.~
+@294 = ~Irenicus hat gleichermaßen <CHARNAME>s Seele und Eure Stadt geraubt. Das ist ein äußerst unglücklicher Zustand.~
+@300 = ~** ÜBRIGENS, DROW:  EILISTRAEE IST ERFREUT, DASS IHR DEN ELFEN DER OBERFLÄCHE HELFT.  GEHT MIT IHREM SEGEN. **~
+@310 = ~Gebt dem Hass nicht nach, <CHARNAME>. Ich fürchte, dass in dieser kleinen Ecke der Hölle Eure Motive und Handlungen Euren Körper und Eure Seele formen.~
+@320 = ~Ich sehe, Ihr teilt Eure Energie immer noch zwischen der Kunst und der Peitsche auf, Raamilat.~
+@321 = ~Was? Solaufein! Was für eine Freude, mein Junge, einen alten Schüler hier wiederzutreffen! Besonders einen,der jede Sorte Lektionen so gelassen hinnahm.~
+@322 = ~Ja, ich schulde Euch viel.~
+@323 = ~Und ich werde Euch die Schuld heute erlassen, aber... Ihr seid offensichtlich in der Gesellschaft von Rebellen. Bitte berichtet mir, dass Ardulace Todesqualen erlitt, bevor Ihr abgereist seid...sie und ihre teuflische Tochter.~
+@324 = ~Ihr Ableben geschah schnell, wenn auch nicht ohne Schmerzen. Es ist unwichtig. Es interessiert mich mehr, dass Ihr, ein angesehener Drow, den ausgestoßenen Bastard als Meister bezeichnet.~
+@325 = ~Ach, das ist nur ein Höflichkeitstitel ... bisher. Wenn der Magier mit seinen Plänen Erfolg hat, wer weiß? Ich sehe grosse Möglichkeien für unser Geschlecht außerhalb der Reichweite der Dunklen Mutter.~
+@326 = ~So wie ich auch... für alle Drow. Aber ich bezweifle, dass ein göttlicher Irenicus eine Verbesserung wäre.~
+@327 = ~Nun, wenn ich an *alle* Drow denke, wäre ich versucht Euch zuzustimmen. Aber nur für mich selbst? Egal, es war *so* angenehm, mit Euch zu plaudern, dass ich beinahe den Dienst vergessen hätte, den ich meinem Meister unbedingt schulde. Auf Nimmerwiedersehen, lieber Junge.~ 
