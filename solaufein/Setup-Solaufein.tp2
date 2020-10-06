@@ -10,7 +10,7 @@ ALLOW_MISSING ~bsarev25.dlg~
               ~ar6200.bcs~
               ~bkeldo25.dlg~
               
-VERSION ~v2.02~
+VERSION ~v2.03~
 
 AUTO_TRA ~solaufein/%s~
 
@@ -34,6 +34,10 @@ LANGUAGE ~English~
 LANGUAGE ~Russian (by Arcanecoast.ru)~
          ~russian~
          ~solaufein/russian/wsetup.tra~
+         
+LANGUAGE ~Deutsch~
+         ~german~
+         ~solaufein/german/wsetup.tra~
 
 
 BEGIN @16
