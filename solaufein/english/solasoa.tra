@@ -1,13 +1,8 @@
-// jon in tree of life
 @1 = ~I was going to congratulate you on this long-awaited victory, <CHARNAME>, but something in your eyes tells me that things are not yet complete.~
-// welcome to hell
 @2 = ~When you crumpled and collapsed on the Tree of Life, I felt as if my mind had left my body. I saw a vision of silvery radiance beckoning me to follow you, and I knew it was the right thing to do.~
 @3 = ~And yet ... I am almost sure I heard the cackle of a spider when I arrived here as well. I would not abandon you, <CHARNAME>, but we must still tread carefully in this place.~
-
-// pre tree of life, remorse romance
 @4 = ~Solaufein, brooding and comely, has been with you since the Underdark. During your talks and travels he has come to embody compassion and remorse. But is this really his fight?~
-@5 = ~Solaufein ... I ---~
-
+@5 = ~Solaufein ... I...~
 @6 = ~Hush now, <CHARNAME>. You know I will travel with you to hell and back, if necessary. I would not desert you before the final battle.~
 @7 = ~But I think that this is a case of you fearing for my life rather than doubting my loyalty. It never feels right to put friends in danger, does it?~
 @8 = ~Let me share with you a poem about death, <CHARNAME>, for I do not fear the great divide. Especially as I move toward it with a clear conscience, knowing full well the weight and measure of my deeds.~
@@ -32,8 +27,6 @@ For though from out our bourne of Time and Place
 I hope to see my Pilot face to face
    When I have crossed the bar.~
 @11 = ~Come, my love. Let us face our fears together.~
-
-// pre tree of life, pragmatic romance
 @12 = ~Solaufein, brooding and comely, has been with you since the Underdark. During your talks and travels he has come to embody practicality and efficacy. But is this really his fight?~
 @13 = ~Hush now, <CHARNAME>. You know I will travel with you to hell and back, if necessary. I would not desert you before the final battle.~
 @14 = ~You have taught me the importance of achieving goals. Sometimes pawns must be sacrificed in the midst of a struggle ... and while I am not a pawn, I would gladly give my life to see your soul restored.~
@@ -73,12 +66,10 @@ He longer must - than I -
 For I have but the power to kill
 Without - the power to die -~
 @19 = ~I am no immortal weapon, <CHARNAME>, but I will still serve at your side, walking as an equal. Let it begin, my love, I shall see it played out with you.~
-
-// pre tree of life, no romance
 @20 = ~Solaufein has been adventuring with you since the Underdark. During your talks and travels he has proven himself an effective warrior and crafty mage.~
 @21 = ~Solaufein, this isn't your fight. With the restoration of the Lanthorn and the defeat of Irenicus' forces here in the city we have crushed Ardulace's plans. You need not continue.~
 @22 = ~We have come far since Ust Natha, Solaufein. Perhaps farther than you wanted to travel. Our next encounter will not be easy. Are you sure you want to do this?~
 @23 = ~Let's go kill a deranged ex-elf and get my soul back, Solaufein!~
-  @24 = ~My thoughts exactly, <CHARNAME>!~
+@24 = ~My thoughts exactly, <CHARNAME>!~
 @25 = ~I would not abandon you now, <CHARNAME>. This is my fight as well as yours. I am your tool in this struggle, use me well.~
 @26 = ~I had hoped for more in our companionship, but I am still happy with my life above the surface. I shall follow in your wake.~
