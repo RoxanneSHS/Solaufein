@@ -1,84 +1,76 @@
-// jon in tree of life
-@1 = ~I was going to congratulate you on this long-awaited victory, <CHARNAME>, but something in your eyes tells me that things are not yet complete.~
-// welcome to hell
-@2 = ~When you crumpled and collapsed on the Tree of Life, I felt as if my mind had left my body. I saw a vision of silvery radiance beckoning me to follow you, and I knew it was the right thing to do.~
-@3 = ~And yet ... I am almost sure I heard the cackle of a spider when I arrived here as well. I would not abandon you, <CHARNAME>, but we must still tread carefully in this place.~
-
-// pre tree of life, remorse romance
-@4 = ~Solaufein, brooding and comely, has been with you since the Underdark. During your talks and travels he has come to embody compassion and remorse. But is this really his fight?~
-@5 = ~Solaufein ... I ---~
-
-@6 = ~Hush now, <CHARNAME>. You know I will travel with you to hell and back, if necessary. I would not desert you before the final battle.~
-@7 = ~But I think that this is a case of you fearing for my life rather than doubting my loyalty. It never feels right to put friends in danger, does it?~
-@8 = ~Let me share with you a poem about death, <CHARNAME>, for I do not fear the great divide. Especially as I move toward it with a clear conscience, knowing full well the weight and measure of my deeds.~
+@1 = ~Ich würde Euch zu diesem langerwarteten Sieg gratulieren, <CHARNAME>, aber etwas in Euren Augen sagt mir, dass noch nicht alles vollbracht ist.~
+@2 = ~Als Ihr am Baum des Lebens zusammengebrochen seid, fühlte ich mich, als hätte mein Geist meinen Körper verlassen. Ich sah die Erscheinung eines silbernene Leuchtens, die mich nötigte, Euch zu folgen, und ich wusste, es war das Richtige.~
+@3 = ~Und dennoch... Ich bin fast sicher, dass ich das Kichern einer Spinne gehört habe, als ich hier ankam. Ich werde Euch nicht verlassen, <CHARNAME>, aber wir müssen uns an diesem Ort dennoch vorsichtig bewegen.~
+@4 = ~Solaufein, melancholisch und anmutig, war bei Euch seit dem Unterreich. Während Eurer Gespräche und auf Euren Reisen hat er begonnen, Mitleid und Reue zu spüren. Aber ist das wirklich sein Kampf?~
+@5 = ~Solaufein ... Ich...~
+@6 = ~Psst, <CHARNAME>. Ihr wisst, ich würde mit Euch in die Hölle und zurück gehen, wenn es nötig wäre. Ich werde Euch vor dem letzten Kampf nicht im Stich lassen.~
+@7 = ~Aber ich denke, dass es hier eher darum geht, dass Ihr um mein Leben fürchtet, als dass Ihr meine Loyalität bezweifelt. Man will ja Freunde nie in Gefahr zu bringen, oder?~
+@8 = ~Lasst mich ein Gedicht über den Tod mit Euch teilen, <CHARNAME>, denn ich fürchte die Große Kluft nicht. Besonders dann, wenn ich mich mit vollem Bewusstsein der Tragweite darauf zu bewege.~
 @9 = ~
-Sunset and evening star,
-   And one clear call for me!
-And may there be no moaning of the bar,
-   When I put out to sea,
+Abendrot und Abendstern,
+   Und ein heller Ruf nach mir!
+Und möcht' die Strände nicht klagen hör'n,
+   Wenn ich zieh hinaus auf's Meer,
 
-But such a tide as moving seems asleep,
-   Too full for sound and foam
-When that which drew from out the boundless deep
-   Turns again home.~
+Aber der Gezeiten Fluss zu schlummern scheint,
+   Zu erfüllt für Klang und Gischt,
+Wenn, was aus endloser Tiefe steigt,
+   Zurück in seine Heimat fließt.~
 @10 = ~
-Twilight and evening bell,
-   And after that the dark!
-And may there be no sadness of farewell
-   When I embark;
+Dämmerung und Abendgeläut,
+   Und drauf die Dunkelheit!
+Ohne Trauer und zum Abschied dann bereit,
+   Wenn ich das Schiff besteig;
 
-For though from out our bourne of Time and Place
-   The flood may bear me far,
-I hope to see my Pilot face to face
-   When I have crossed the bar.~
-@11 = ~Come, my love. Let us face our fears together.~
-
-// pre tree of life, pragmatic romance
-@12 = ~Solaufein, brooding and comely, has been with you since the Underdark. During your talks and travels he has come to embody practicality and efficacy. But is this really his fight?~
-@13 = ~Hush now, <CHARNAME>. You know I will travel with you to hell and back, if necessary. I would not desert you before the final battle.~
-@14 = ~You have taught me the importance of achieving goals. Sometimes pawns must be sacrificed in the midst of a struggle ... and while I am not a pawn, I would gladly give my life to see your soul restored.~
-@15 = ~Let me share with you a surfacer poem about companionship, service and death, <CHARNAME>.~
+Auch wenn aus unserm Bach von Zeit und Raum
+   Die Flut mich trage weit,
+Hoff' ich, meines Lotsen Angesicht zu schaun,
+   Wenn ich die Schwelle überschreit.~
+@11 = ~Kommt, mein Geliebter. Lasst uns unseren Ängsten gemeinsam entgegentreten.~ ~Kommt, meine Geliebte. Lasst uns unseren Ängsten gemeinsam entgegentreten.~
+@12 = ~Solaufein, melancholisch und anmutig, war bei Euch seit dem Unterreich. Während Eurer Gespräche und auf Euren Reisen hat er begonnen, Pragmatismus und Effizienz zu verkörpern. Aber ist das wirklich sein Kampf?~
+@13 = ~Psst, <CHARNAME>. Ihr wisst, ich würde mit Euch in die Hölle und zurück gehen, wenn es nötig wäre. Ich werde Euch vor dem letzten Kampf nicht im Stich lassen.~
+@14 = ~Ihr habt mich die Bedeutung gelehrt, dass man Ziele erreichen muss. Manchmal müssen im Kampf Bauernopfer gebracht werden... und obwohl ich kein Bauer bin, würde ich mit Freude mein Leben geben, damit Eure Seele wiederhergestellt wird.~
+@15 = ~Ich möchte ein Oberflächen Gedicht über Gefährten, Dienst und Tod mit Euch teilen, <CHARNAME>.~
 @9916 = ~
-My life had stood - a
-Crossbow Primed -
-In Corners - till a Day
-The Owner passed - identified -
-And carried Me away -
+Mein Leben stand - eine
+Geladene Waffe -
+In Ecken - bis eines Tages
+Der Besitzer kam - erkannte -
+Und mich hinwegnahm -
 
-And now We roam in
-Sovereign Woods -
-And now We hunt the Doe -
-And every time I speak for Him
-The Air hums its reply -~
+Und nun streifen wir durch
+Unberührte Wälder -
+Und nun jagen wir die Ricke -
+Und immer, wenn ich für ihn spreche
+Summt Antwort mir die Luft -~
 @9917 = ~
-And do I smile, such
-Flitting spark
-Upon the Valley glow -
-It is as a Vesuvian face
-Had let its pleasure through
+Und lächle ich, solch
+Herzlich Licht
+Über dem Tale glüht -
+Es ist als ob Vesuvs Gesicht
+Breitete sein Vergnügen aus
 
-And when at Night - Our
-Good Day done -
-I guard My Master's Head -
-'Tis better than the Eider - Duck's
-Deep Pillow - to have shared -~
+Und wenn zur Nacht - unser
+Tagwerk wohl vollbracht -
+Ich meines Meisters Haupt bewache -
+Ist es besser als der Eiderenten
+tiefes Kissen - sich zu teilen -~
 @18 = ~
-To foe of His - I'm deadly foe -
-None stir the second time
-On whom I lay a Yellow Eye -
-Or an emphatic Thumb -
+Seines Feindes - tödlich Feind bin ich -
+Keiner rührt sich ein zweites Mal
+Auf den mein wachsames Auge fällt -
+Oder ein energischer Finger -
 
-Though I than He - may longer live
-He longer must - than I -
-For I have but the power to kill
-Without - the power to die -~
-@19 = ~I am no immortal weapon, <CHARNAME>, but I will still serve at your side, walking as an equal. Let it begin, my love, I shall see it played out with you.~
+Auch wenn ich länger als er - könnte leben
+Muss er länger - als ich -
+Denn ich habe nur die Macht zu töten
+Ohne - die Macht zu sterben -~
+@19 = ~Ich bin keine unsterbliche Waffe, <CHARNAME>, aber ich werde dennoch gleichrangig an Eurer Seite dienen. Lasst es beginnen, Liebling, und sehen, wie es ausgeht.~
+@20 = ~Solaufein war bei Euch seit dem Unterreich. Während Eurer Gespräche und auf Euren Reisen hat er bewiesen, dass er ein effektiver Kämpfer und ein begnadeter Magier ist.~
+@21 = ~Solaufein, das ist nicht Euer Kampf. Mit dem Gewinn der Lanthorne und dem Sieg über Irenicus' Streitkräfte haben wir Ardulaces Pläne vereitelt. Ihr müsst nicht weitergehen.~
+@22 = ~Wir sind weit gekommen seit Ust Natha, Solaufein. Vielleicht weiter, als Ihr reisen wolltet. Unser nächster Kampf wird nicht einfach werden. Seid Ihr sicher, dass Ihr das tun wollt?~
+@23 = ~Lasst uns diesen verrückten ehemaligen Elfen töten und meine Seele wiederholen, Solaufein!~
+@24 = ~Genau meine Gedanken, <CHARNAME>!~
+@25 = ~Ich werde Euch jetzt nicht verlassen, <CHARNAME>. Das ist mein Kampf, genauso wie der Eure. Ich bin Euer Werkzeug dabei, verwendet mich gut.~
+@26 = ~Ich hatte mir von unserer Kameradschaft mehr erhofft, aber ich bin trotzdem glücklich mit meinem Leben auf der Oberfläche. Ich werde Euch folgen.~
 
-// pre tree of life, no romance
-@20 = ~Solaufein has been adventuring with you since the Underdark. During your talks and travels he has proven himself an effective warrior and crafty mage.~
-@21 = ~Solaufein, this isn't your fight. With the restoration of the Lanthorn and the defeat of Irenicus' forces here in the city we have crushed Ardulace's plans. You need not continue.~
-@22 = ~We have come far since Ust Natha, Solaufein. Perhaps farther than you wanted to travel. Our next encounter will not be easy. Are you sure you want to do this?~
-@23 = ~Let's go kill a deranged ex-elf and get my soul back, Solaufein!~
-  @24 = ~My thoughts exactly, <CHARNAME>!~
-@25 = ~I would not abandon you now, <CHARNAME>. This is my fight as well as yours. I am your tool in this struggle, use me well.~
-@26 = ~I had hoped for more in our companionship, but I am still happy with my life above the surface. I shall follow in your wake.~
