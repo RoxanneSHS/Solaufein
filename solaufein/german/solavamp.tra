@@ -1,59 +1,56 @@
-@1 = ~Time to die, <CHARNAME>. Or perhaps not. Your ... colleagues ... are quite interesting as well.~
-@2 = ~Solaufein, in particular, is quite fascinating to me. Such glorious ebon skin. And an elf, as well, if only a distant cousin. I can smell the relative goodness wafting off of him from here. How pleasant it will be to turn him against you.~
-@3 = ~You'll never turn me, vampire. My soul belongs to Eilistraee and I have already pulled myself out of a darkness deeper than that which lies in your hollow eyes.~
-@4 = ~Oh, I think you'll find me quite persuasive. Come, Solaufein. Let us debate philosophy. I am particularly interested in the question of ... life after death.~
-@6 = ~Now, where was I?~
-@7 = ~Hand over Solaufein before I pour this holy water down your throat, Bodhi!~
-@8 = ~I think not, <CHARNAME>. Solaufein has progressed as a vampire with unheralded celerity. Already he commands more unliving power than all but most ancient among us. Truth be told, he's developing into something more like a Lich than a pure vampire ...~
-@9 = ~No! I will not stand for this! First Lavok and now Solaufein. Must everyone with magical power be turned into a slavering undead mockery bent only on destruction? Is nothing sacred?~
-@10 = ~Bodhi, I thought I hated you and your kind before. But now the spite in my heart burns like conflagration. You will not survive and neither will this puppet you have created from Solaufein's skin.~
+@1 = ~Zeit zu sterben, <CHARNAME>. Oder vielleicht auch nicht. Eure... Begleiter... sind auch recht interessant.~
+@2 = ~Besonders Solaufein fasziniert mich ungemein. So herrliche, elfenbeinschwarze Haut. Und auch ein Elf, wenn auch nur ein entfernter Verwandter. Ich kann die halbwegs gute Gesinnung von hier aus riechen. Wie erhebend wird es sein, ihn gegen Euch zu wenden.~
+@3 = ~Ihr werdet mich niemals verwandeln, Vampir. Meine Seele gehört Eilistraee, und ich habe mich schon aus einer Dunkelheit befreit, die tiefer ist als die, die ich in Euren leeren Augen sehe.~
+@4 = ~Oh, ich glaube, Ihr werdet mich recht überzeugend finden. Kommt, Solaufein. Lasst uns über Philosophie debattieren. Ich bin besonders interessiert am Problem des... Lebens nach dem Tode.~
+@6 = ~Nun, wo war ich?~
+@7 = ~Gebt Solaufein heraus, bevor ich Euch dieses Weihwasser in die Kehle schütte, Bodhi!~
+@8 = ~Ich denke, nein, <CHARNAME>. Solaufeins hat als Vampir unglaublich schnell Fortschritt gemacht. Schon jetzt verfügt er über größere Macht als mancher älterer Untoter. Es scheint, er entwickelt er sich eher zu einem Leichnam als zu einem echten Vampir...~
+@9 = ~Nein! Ich werde das nicht zulassen! Zuerst Lavok und jetzt Solaufein! Muss denn jeder mit magischen Kräften in eine sklavische, untote Perversion verwandelt werden, die nur Zerstörung kennt? Ist denn nichts heilig?~
+@10 = ~Bodhi, ich dachte, ich hätte Euch und Eure Art schon immer gehasst. Aber nun brennt die Verachtung in meinem Herzen wie Feuer. Ihr werdet das nicht überleben, und auch nicht diese Marionette, die Ihr aus Solaufeins Hülle erschaffen habt.~
+@11 = ~Wie auch immer, Solaufein ist immer noch aufregend. Es ist schade, dass der Mond ihn genauso wie die Sonne zu verbrennt, aber seine neuerlangte Gunst Lolths wiegt diesen Nachteil mehr als auf.~
+@12 = ~Der letzte Kampf gegen Bodhi
 
-@11 = ~Be that as it may, Solaufein is still quite exciting. It's unfortunate that the moon seems to burn him as much as the sun, but his new found favour with Lolth more than makes up for it.~
+Bodhi hat Solaufein zu einem Vampir gemacht! Oder...beinahe jedenfalls. Der Prozess ist vermutlich in der kurzen Zeit, die Bodhi ihn in ihrer Gewalt hat, noch nicht ganz abgeschlossen. Anscheinend entwickelt Solaufein die Kräfte eines Vampirs und eines Leichnams. Hoffentlich kann noch etwas getan werden, oder ich habe ihn verloren. Vielleicht kennt ja einer der elfischen Kriegsgelehrten einen Weg, ihn wiederherzustellen... oder auch Elhan. Vielleicht sollte ich mich in Bodhis Bibliothek umsehen.~ 
+@20 = ~Wiederum gegrüsst, <CHARNAME>. Es ist erstaunlich, welche Klarheit das Unleben bringt. Mein ganzes Leben lang zweifelte ich, wer ich sei, wohin ich gehöre. Nun bin ich wie ein Pfeil, der den gespannten Bogen verlässt. Kein Zögern, keine Zweifel. Der Weg ist klar.~
+@21 = ~Gestattet mir ein letztes Gedicht. Meine Ansichten über Euch haben sich... ein wenig... geändert.
 
-@12 = ~The Final Battle with Bodhi.
-
-Bodhi has turned Solaufein into a vampire! Or... or very nearly. The process may not have been completed in the short time Bodhi has had him. Apparently Solaufein is developing the powers of a Vampire and a Lich. Hopefully something can be done or I will have lost him. Perhaps the elven war sage might know some way of restoration... or Elhan. Maybe I should check Bodhi's library.~ 
-
-@20 = ~Hello again, <CHARNAME>. It's amazing what Unlife does for my perspective. Clarity and focus. All my life, I've had doubts about who I am, where I belong. Now, I'm like the arrow that springs from the bow. No hesitation, no doubts. The path is clear.~
-@21 = ~Indulge me in one final bit of poetry, if you will. My views on you have ... shifted ... slightly. 
-
-Favour my solemn song, for I have loved
-Thee ever, and thee only; I have watched
-Thy shadow, and the darkness of thy steps,
-And my heart ever gazes on the depths~
+Erhöret mein feierliches Lied, ich liebte
+Euch immer, und nur Euch; ich sah
+Euren Schatten und die Dunkelheit Eurer Schritte,
+und mein Herz ewiglich erstarrt in der Macht ~
 @22 = ~
-Of thy deep mysteries. I have made my bed
-In charnels and on coffins, where black death
-Keeps record of the trophies won from thee,
-Hoping to still these obstinate questionings
+Eurer tiefen Geheimnisse. Ich legte mich zur Ruhe
+in Gebeinen und Särgen, wo schwarzer Tod
+von Euren gewonnenen Trophäen zeugt,
+in der Hoffnung, diese drängenden Verhöre zu stillen
 
-Of thee and thine, by forcing some lone ghost
-Thy messenger, to render up the tale
-Of what we are. In lone and silent hours,
-When night makes a weird sound of its own stillness,~
+von Euch und Euresgleichen, bezwingend einen einsamen Geist,
+Euren Boten, um die Mär zu überbringen
+von dem, was wir sind. In einsamen und dunklen Stunden,
+wenn Nacht ein seltsames Lied ihrer eigenen Stille singt,~
 @23 = ~
-Like an inspired and desperate alchymist
-Stalking his very life on some dark hope,
-Have I mixed awful talk and asking looks
-With my most innocent love, until strange tears
+wie ein inspirierter und hoffnungsloser Alchemist
+sein ganzes Leben an dunkle Hoffnung klammert,
+mischte ich schreckliche Worte und fragende Blicke
+mit meiner unschuldigsten Liebe, bis fremdartige Tränen
 
-Uniting with those breathless kiss, made
-Such magic as compels the charmèd night
-To render up thy charge ...~
-@24 = ~Yes, my friend. I find that I love you ... to death. Welcome back to the abyss, <CHARNAME>. Your timing, as always, is quite exceptional. Just in time to die.~
-@25 = ~What are you doing, Solaufein?~
-@26 = ~You're not Solaufein! You're nothing but a shadow.~
-@27 = ~What I am doing is what someone should have done a long time ago. Putting you out of *my* misery. A fitting punishment for your crimes against my mistress Lolth.~
-@28 = ~Well, perhaps you should watch out. Shadows move when you are not looking at them.~
-@29 = ~I had a dream about us, <CHARNAME>. In that moment between life and death, when Bodhi sank her fangs into me and drained my lifeblood. Just before she started feeding me from her own veins, I saw Eilistraee.~
-@30 = ~I never realized how small she was before. Pity.~
-@31 = ~At any rate, she walked past me into the sunrise. I, of course, had turned away from its glare. But as she brushed by my shoulder, she whispered in my ear.~
-@32 = ~She said that we are both damned. Startled, I turned toward her and saw your face instead. Banishing the both of you from my thoughts, I found acceptance with Lolth. She rejoices in my new ... position ... in the world.~
-@33 = ~Blood calls out for blood, but it is a small price to pay for immortality.~
-@34 = ~It's all so brief, isn't it? The typical Drow life span is almost a thousand years, but it's barely a second compared to what's out there. It would not be so bad if life didn't take so long to figure out. It seems you just start to get it right and then ... it's over.~
-@35 = ~I used to dream of escaping the darkness. Now I yearn to pull it around me like a cloak. Let us dance in the shadows, <CHARNAME>. The dead shall drink of your blood!~
+vereint mit diesem atemlosen Kuss solche Magie
+schufen, wie sie die bezauberte Nacht
+zwingt, Euch neues Leben einzuhauchen...~
+@24 = ~Jawohl, ich spüre, dass ich Euch liebe... bis zum Tode. Willkommen zurück im Abgrund, <CHARNAME>. Der Zeitpunkt Eures Erscheinens ist, wie immer, hervorragend gewählt. Gerade rechtzeitig, um zu sterben.~
+@25 = ~Was tut Ihr, Solaufein?~
+@26 = ~Ihr seid nicht Solaufein! Ihr seid nur ein Schatten.~
+@27 = ~Was ich tue, hätte schon lange jemand tun sollen. Euch aus *meinem* Elend entfernen. Eine passende Strafe für Eure Verbrechen an meiner Herrin Lolth.~
+@28 = ~Nun, vielleicht solltet Ihr aufpassen. Schatten bewegen sich immer, wenn man nicht auf sie achtet.~
+@29 = ~Ich hatte einen Traum, <CHARNAME>. In diesem Moment zwischen Leben und Tod, als Bodhi ihre Zähne in mich grub und mir mein Blut entzog. Kurz bevor sie begann, mich aus ihren eigenen Adern zu versorgen, sah ich Eilistraee.~
+@30 = ~Ich hatte nie erkannt, wie klein sie ist. Schade.~
+@31 = ~Wie auch immer, sie ging an mir vorbei in den Sonnenaufgang. Ich hatte mich natürlich von seinem Gleißen abgewandt. Aber sie berührte meine Schulter und flüsterte in mein Ohr.~
+@32 = ~Sie sagte, wir beide wären verdammt. Überrascht sah ich zu ihr auf - und sah stattdessen Euer Gesicht. Ich verbannte euch beide aus meinen Gedanken und fand Aufnahme bei Lolth. Sie freut sich über meine neue... Stellung... in der Welt.~
+@33 = ~Blut ruft nach Blut, aber das ist ein kleiner Preis für Unsterblichkeit.~
+@34 = ~Es ist alles so knapp bemessen, nicht wahr? Die normale Lebensspanne eines Drow beträgt fast tausend Jahre, aber es ist kaum eine Sekunde im Vergleich zu dem, was da draußen ist. Es wäre nicht so schlimm, wenn das Leben nicht so viel Zeit vergeudete, bis man es versteht. Kaum hat man es richtig im Griff... ist es vorbei.~
+@35 = ~Früher träumte ich davon, der Dunkelheit zu entfliehen. Nun möchte ich mich in sie einzuhüllen wie in einen Mantel. Lasst uns im Schatten tanzen, <CHARNAME>. Die Toten sollen Euer Blut trinken!~
+@40 = ~Still jetzt, mein Solaufein. Ich bin sicher, <CHARNAME> will weiter toben und drohen.~
 
-@40 = ~Hush now, my Solaufein. I'm sure <CHARNAME> wants to get back to blustering about and threatening us.~
 
 @50 = ~<CHARNAME>, you have restored me! When Bodhi drained my blood and replaced it with her own, I was rent asunder. All of the evil within me seemed to bubble to the surface, coating my soul like a malignant oil.~
 @51 = ~I dreamt that I was standing atop a tall spike of stone. All around me was a thick darkness, full of a whistling, warm rain.~
