@@ -1,82 +1,82 @@
 @1 = ~Zeit zu sterben, <CHARNAME>. Oder vielleicht auch nicht. Eure... Begleiter... sind auch recht interessant.~
 @2 = ~Besonders Solaufein fasziniert mich ungemein. So herrliche, elfenbeinschwarze Haut. Und auch ein Elf, wenn auch nur ein entfernter Verwandter. Ich kann die halbwegs gute Gesinnung von hier aus riechen. Wie erhebend wird es sein, ihn gegen Euch zu wenden.~
-@3 = ~Ihr werdet mich niemals verwandeln, Vampir. Meine Seele gehört Eilistraee, und ich habe mich schon aus einer Dunkelheit befreit, die tiefer ist als die, die ich in Euren leeren Augen sehe.~
-@4 = ~Oh, ich glaube, Ihr werdet mich recht überzeugend finden. Kommt, Solaufein. Lasst uns über Philosophie debattieren. Ich bin besonders interessiert am Problem des... Lebens nach dem Tode.~
+@3 = ~Ihr werdet mich niemals verwandeln, Vampir. Meine Seele gehÃ¶rt Eilistraee, und ich habe mich schon aus einer Dunkelheit befreit, die tiefer ist als die, die ich in Euren leeren Augen sehe.~
+@4 = ~Oh, ich glaube, Ihr werdet mich recht Ã¼berzeugend finden. Kommt, Solaufein. Lasst uns Ã¼ber Philosophie debattieren. Ich bin besonders interessiert am Problem des... Lebens nach dem Tode.~
 @6 = ~Nun, wo war ich?~
-@7 = ~Gebt Solaufein heraus, bevor ich Euch dieses Weihwasser in die Kehle schütte, Bodhi!~
-@8 = ~Ich denke, nein, <CHARNAME>. Solaufeins hat als Vampir unglaublich schnell Fortschritt gemacht. Schon jetzt verfügt er über größere Macht als mancher älterer Untoter. Es scheint, er entwickelt er sich eher zu einem Leichnam als zu einem echten Vampir...~
-@9 = ~Nein! Ich werde das nicht zulassen! Zuerst Lavok und jetzt Solaufein! Muss denn jeder mit magischen Kräften in eine sklavische, untote Perversion verwandelt werden, die nur Zerstörung kennt? Ist denn nichts heilig?~
-@10 = ~Bodhi, ich dachte, ich hätte Euch und Eure Art schon immer gehasst. Aber nun brennt die Verachtung in meinem Herzen wie Feuer. Ihr werdet das nicht überleben, und auch nicht diese Marionette, die Ihr aus Solaufeins Hülle erschaffen habt.~
+@7 = ~Gebt Solaufein heraus, bevor ich Euch dieses Weihwasser in die Kehle schÃ¼tte, Bodhi!~
+@8 = ~Ich denke, nein, <CHARNAME>. Solaufeins hat als Vampir unglaublich schnell Fortschritt gemacht. Schon jetzt verfÃ¼gt er Ã¼ber grÃ¶ÃŸere Macht als mancher Ã¤lterer Untoter. Es scheint, er entwickelt er sich eher zu einem Leichnam als zu einem echten Vampir...~
+@9 = ~Nein! Ich werde das nicht zulassen! Zuerst Lavok und jetzt Solaufein! Muss denn jeder mit magischen KrÃ¤ften in eine sklavische, untote Perversion verwandelt werden, die nur ZerstÃ¶rung kennt? Ist denn nichts heilig?~
+@10 = ~Bodhi, ich dachte, ich hÃ¤tte Euch und Eure Art schon immer gehasst. Aber nun brennt die Verachtung in meinem Herzen wie Feuer. Ihr werdet das nicht Ã¼berleben, und auch nicht diese Marionette, die Ihr aus Solaufeins HÃ¼lle erschaffen habt.~
 @11 = ~Wie auch immer, Solaufein ist immer noch aufregend. Es ist schade, dass der Mond ihn genauso wie die Sonne zu verbrennt, aber seine neuerlangte Gunst Lolths wiegt diesen Nachteil mehr als auf.~
 @12 = ~Der letzte Kampf gegen Bodhi
 
-Bodhi hat Solaufein zu einem Vampir gemacht! Oder...beinahe jedenfalls. Der Prozess ist vermutlich in der kurzen Zeit, die Bodhi ihn in ihrer Gewalt hat, noch nicht ganz abgeschlossen. Anscheinend entwickelt Solaufein die Kräfte eines Vampirs und eines Leichnams. Hoffentlich kann noch etwas getan werden, oder ich habe ihn verloren. Vielleicht kennt ja einer der elfischen Kriegsgelehrten einen Weg, ihn wiederherzustellen... oder auch Elhan. Vielleicht sollte ich mich in Bodhis Bibliothek umsehen.~ 
-@20 = ~Wiederum gegrüsst, <CHARNAME>. Es ist erstaunlich, welche Klarheit das Unleben bringt. Mein ganzes Leben lang zweifelte ich, wer ich sei, wohin ich gehöre. Nun bin ich wie ein Pfeil, der den gespannten Bogen verlässt. Kein Zögern, keine Zweifel. Der Weg ist klar.~
-@21 = ~Gestattet mir ein letztes Gedicht. Meine Ansichten über Euch haben sich... ein wenig... geändert.
+Bodhi hat Solaufein zu einem Vampir gemacht! Oder...beinahe jedenfalls. Der Prozess ist vermutlich in der kurzen Zeit, die Bodhi ihn in ihrer Gewalt hat, noch nicht ganz abgeschlossen. Anscheinend entwickelt Solaufein die KrÃ¤fte eines Vampirs und eines Leichnams. Hoffentlich kann noch etwas getan werden, oder ich habe ihn verloren. Vielleicht kennt ja einer der elfischen Kriegsgelehrten einen Weg, ihn wiederherzustellen... oder auch Elhan. Vielleicht sollte ich mich in Bodhis Bibliothek umsehen.~ 
+@20 = ~Wiederum gegrÃ¼sst, <CHARNAME>. Es ist erstaunlich, welche Klarheit das Unleben bringt. Mein ganzes Leben lang zweifelte ich, wer ich sei, wohin ich gehÃ¶re. Nun bin ich wie ein Pfeil, der den gespannten Bogen verlÃ¤sst. Kein ZÃ¶gern, keine Zweifel. Der Weg ist klar.~
+@21 = ~Gestattet mir ein letztes Gedicht. Meine Ansichten Ã¼ber Euch haben sich... ein wenig... geÃ¤ndert.
 
-Erhöret mein feierliches Lied, ich liebte
+ErhÃ¶ret mein feierliches Lied, ich liebte
 Euch immer, und nur Euch; ich sah
 Euren Schatten und die Dunkelheit Eurer Schritte,
 und mein Herz ewiglich erstarrt in der Macht ~
 @22 = ~
 Eurer tiefen Geheimnisse. Ich legte mich zur Ruhe
-in Gebeinen und Särgen, wo schwarzer Tod
-von Euren gewonnenen Trophäen zeugt,
-in der Hoffnung, diese drängenden Verhöre zu stillen
+in Gebeinen und SÃ¤rgen, wo schwarzer Tod
+von Euren gewonnenen TrophÃ¤en zeugt,
+in der Hoffnung, diese drÃ¤ngenden VerhÃ¶re zu stillen
 
 von Euch und Euresgleichen, bezwingend einen einsamen Geist,
-Euren Boten, um die Mär zu überbringen
+Euren Boten, um die MÃ¤r zu Ã¼berbringen
 von dem, was wir sind. In einsamen und dunklen Stunden,
 wenn Nacht ein seltsames Lied ihrer eigenen Stille singt,~
 @23 = ~
 wie ein inspirierter und hoffnungsloser Alchemist
 sein ganzes Leben an dunkle Hoffnung klammert,
 mischte ich schreckliche Worte und fragende Blicke
-mit meiner unschuldigsten Liebe, bis fremdartige Tränen
+mit meiner unschuldigsten Liebe, bis fremdartige TrÃ¤nen
 
 vereint mit diesem atemlosen Kuss solche Magie
 schufen, wie sie die bezauberte Nacht
 zwingt, Euch neues Leben einzuhauchen...~
-@24 = ~Jawohl, ich spüre, dass ich Euch liebe... bis zum Tode. Willkommen zurück im Abgrund, <CHARNAME>. Der Zeitpunkt Eures Erscheinens ist, wie immer, hervorragend gewählt. Gerade rechtzeitig, um zu sterben.~
+@24 = ~Jawohl, ich spÃ¼re, dass ich Euch liebe... bis zum Tode. Willkommen zurÃ¼ck im Abgrund, <CHARNAME>. Der Zeitpunkt Eures Erscheinens ist, wie immer, hervorragend gewÃ¤hlt. Gerade rechtzeitig, um zu sterben.~
 @25 = ~Was tut Ihr, Solaufein?~
 @26 = ~Ihr seid nicht Solaufein! Ihr seid nur ein Schatten.~
-@27 = ~Was ich tue, hätte schon lange jemand tun sollen. Euch aus *meinem* Elend entfernen. Eine passende Strafe für Eure Verbrechen an meiner Herrin Lolth.~
+@27 = ~Was ich tue, hÃ¤tte schon lange jemand tun sollen. Euch aus *meinem* Elend entfernen. Eine passende Strafe fÃ¼r Eure Verbrechen an meiner Herrin Lolth.~
 @28 = ~Nun, vielleicht solltet Ihr aufpassen. Schatten bewegen sich immer, wenn man nicht auf sie achtet.~
-@29 = ~Ich hatte einen Traum, <CHARNAME>. In diesem Moment zwischen Leben und Tod, als Bodhi ihre Zähne in mich grub und mir mein Blut entzog. Kurz bevor sie begann, mich aus ihren eigenen Adern zu versorgen, sah ich Eilistraee.~
+@29 = ~Ich hatte einen Traum, <CHARNAME>. In diesem Moment zwischen Leben und Tod, als Bodhi ihre ZÃ¤hne in mich grub und mir mein Blut entzog. Kurz bevor sie begann, mich aus ihren eigenen Adern zu versorgen, sah ich Eilistraee.~
 @30 = ~Ich hatte nie erkannt, wie klein sie ist. Schade.~
-@31 = ~Wie auch immer, sie ging an mir vorbei in den Sonnenaufgang. Ich hatte mich natürlich von seinem Gleißen abgewandt. Aber sie berührte meine Schulter und flüsterte in mein Ohr.~
-@32 = ~Sie sagte, wir beide wären verdammt. Überrascht sah ich zu ihr auf - und sah stattdessen Euer Gesicht. Ich verbannte euch beide aus meinen Gedanken und fand Aufnahme bei Lolth. Sie freut sich über meine neue... Stellung... in der Welt.~
-@33 = ~Blut ruft nach Blut, aber das ist ein kleiner Preis für Unsterblichkeit.~
-@34 = ~Es ist alles so knapp bemessen, nicht wahr? Die normale Lebensspanne eines Drow beträgt fast tausend Jahre, aber es ist kaum eine Sekunde im Vergleich zu dem, was da draußen ist. Es wäre nicht so schlimm, wenn das Leben nicht so viel Zeit vergeudete, bis man es versteht. Kaum hat man es richtig im Griff... ist es vorbei.~
-@35 = ~Früher träumte ich davon, der Dunkelheit zu entfliehen. Nun möchte ich mich in sie einzuhüllen wie in einen Mantel. Lasst uns im Schatten tanzen, <CHARNAME>. Die Toten sollen Euer Blut trinken!~
+@31 = ~Wie auch immer, sie ging an mir vorbei in den Sonnenaufgang. Ich hatte mich natÃ¼rlich von seinem GleiÃŸen abgewandt. Aber sie berÃ¼hrte meine Schulter und flÃ¼sterte in mein Ohr.~
+@32 = ~Sie sagte, wir beide wÃ¤ren verdammt. Ãœberrascht sah ich zu ihr auf - und sah stattdessen Euer Gesicht. Ich verbannte euch beide aus meinen Gedanken und fand Aufnahme bei Lolth. Sie freut sich Ã¼ber meine neue... Stellung... in der Welt.~
+@33 = ~Blut ruft nach Blut, aber das ist ein kleiner Preis fÃ¼r Unsterblichkeit.~
+@34 = ~Es ist alles so knapp bemessen, nicht wahr? Die normale Lebensspanne eines Drow betrÃ¤gt fast tausend Jahre, aber es ist kaum eine Sekunde im Vergleich zu dem, was da drauÃŸen ist. Es wÃ¤re nicht so schlimm, wenn das Leben nicht so viel Zeit vergeudete, bis man es versteht. Kaum hat man es richtig im Griff... ist es vorbei.~
+@35 = ~FrÃ¼her trÃ¤umte ich davon, der Dunkelheit zu entfliehen. Nun mÃ¶chte ich mich in sie einzuhÃ¼llen wie in einen Mantel. Lasst uns im Schatten tanzen, <CHARNAME>. Die Toten sollen Euer Blut trinken!~
 @40 = ~Still jetzt, mein Solaufein. Ich bin sicher, <CHARNAME> will weiter toben und drohen.~
-@50 = ~<CHARNAME>, Ihr habt mich wiedergeholt! Als Bodhi mein Blut trank und es durch ihr eigenes ersetzte, wurde ich zerrissen. All das Böse in mir schien an die Oberfläche zu drängen, überzog meine Seele wie mit einem bösartigen Öl.~
-@51 = ~Ich träumte, ich stünde auf einer hohen Steinnadel. Um mich herum war dichte Dunkelheit voll mit rauschendem, warmen Regen.~
-@52 = ~Dann wurde mir klar, dass der Regen tatsächlich Blut war, und ich begann zu schreien.~
-@53 = ~Meine Dame mit dem Silberhaar erschien vor mir und schwebte in der Luft. Ihr Lichtschein besiegte meine Furcht, und bei ihr fiel kein Regen. Dennoch befreite sie mich nicht von meinem steinernen Gefängnis. Sie lächelte nur leicht.~
-@54 = ~Als ich erwachte, reiste ich wie ein Gefangener in meinem eigenen Körper, hilflos, während dieser...dieser... Andere...die Kontrolle hatte.~
+@50 = ~<CHARNAME>, Ihr habt mich wiedergeholt! Als Bodhi mein Blut trank und es durch ihr eigenes ersetzte, wurde ich zerrissen. All das BÃ¶se in mir schien an die OberflÃ¤che zu drÃ¤ngen, Ã¼berzog meine Seele wie mit einem bÃ¶sartigen Ã–l.~
+@51 = ~Ich trÃ¤umte, ich stÃ¼nde auf einer hohen Steinnadel. Um mich herum war dichte Dunkelheit voll mit rauschendem, warmen Regen.~
+@52 = ~Dann wurde mir klar, dass der Regen tatsÃ¤chlich Blut war, und ich begann zu schreien.~
+@53 = ~Meine Dame mit dem Silberhaar erschien vor mir und schwebte in der Luft. Ihr Lichtschein besiegte meine Furcht, und bei ihr fiel kein Regen. Dennoch befreite sie mich nicht von meinem steinernen GefÃ¤ngnis. Sie lÃ¤chelte nur leicht.~
+@54 = ~Als ich erwachte, reiste ich wie ein Gefangener in meinem eigenen KÃ¶rper, hilflos, wÃ¤hrend dieser...dieser... Andere...die Kontrolle hatte.~
 @55 = ~Ich sah, wie er alle meine Zauber gegen Euch einsetzte. Ich sah, wie er zu Lolth rief und Antwort erhielt. Wie schrecklich zu erkennen, dass so etwas in der eigenen Seele wohnt.~
-@56 = ~Und nun kenne ich die Versuchung. Denn ich war mächtig im Tode, <CHARNAME>. So ungeheuer mächtig. Einige Tage länger, und ich wäre Bodhis Meister und nicht mehr ihr Sklave gewesen.~
-@57 = ~Wollt Ihr wirklich untot werden, Solaufein - nur für die Macht?~
+@56 = ~Und nun kenne ich die Versuchung. Denn ich war mÃ¤chtig im Tode, <CHARNAME>. So ungeheuer mÃ¤chtig. Einige Tage lÃ¤nger, und ich wÃ¤re Bodhis Meister und nicht mehr ihr Sklave gewesen.~
+@57 = ~Wollt Ihr wirklich untot werden, Solaufein - nur fÃ¼r die Macht?~
 @58 = ~Nein, <CHARNAME>. Manche Gunst hat einen zu hohen Preis.~
-@59 = ~Nun muss ich Euch meine bescheidene Entschuldigung anbieten. Ich spüre, dass ich Euch im Stich gelassen habe, als ich mich entführen und als eine Waffe gegen Euch einsetzen liess.~
-@60 = ~Wäre ich stärker im Kampf gewesen, hätte ich ihren Angriff abwehren können. Wäre meine Moral stärker gewesen, wäre ich als Vampir nicht so böse geworden.~
+@59 = ~Nun muss ich Euch meine bescheidene Entschuldigung anbieten. Ich spÃ¼re, dass ich Euch im Stich gelassen habe, als ich mich entfÃ¼hren und als eine Waffe gegen Euch einsetzen liess.~
+@60 = ~WÃ¤re ich stÃ¤rker im Kampf gewesen, hÃ¤tte ich ihren Angriff abwehren kÃ¶nnen. WÃ¤re meine Moral stÃ¤rker gewesen, wÃ¤re ich als Vampir nicht so bÃ¶se geworden.~
 @61 = ~Passt auf, dass das nie wieder geschieht, Solaufein.~
 @62 = ~Das war kein Problem, Solaufein. Wir haben gemeinsam viele Herausforderungen gemeistert. Das wird nicht die letzte gewesen sein.~
-@63 = ~Grübelt nicht darüber, mein Geliebter. Ich würde die Höllen selbst herausfordern, um Euch zu retten. Ich weiß, dass Ihr dasselbe für mich tun würdet.~
-@64 = ~Natürlich, <CHARNAME>. Ich werde nicht noch einmal versagen.~
-@65 = ~Danke für Euer Mitleid, <CHARNAME>.~
-@66 = ~Ich würde das sofort tun. Ich sollte Euch sagen, <CHARNAME>, dass das Erschreckenste als Vampir der Gedanke war, Euch zu töten und die Ewigkeit ohne Euch zu verbringen.~
-@67 = ~Ich hoffe, nie eine solch düstere Zukunft fürchten zu müssen.~
-@68 = ~Etwas Gutes ist aus diesem Debakel trotzdem entstanden. Meine sehr... persönliche... Erfahrung mit dem Untod hat mir größere Einsicht in diesen Zustand gewährt.~ 
-@69 = ~Ich weiß, wo ich die Untoten treffen muss, um sie zu verletzen. Ich weiß, was sie fürchten. Und ich werde nie wieder von ihnen gehalten werden, niemals wieder meine Seele an sie verlieren. Ich schwöre Euch beim Licht des Mondes: niemals wieder!~
+@63 = ~GrÃ¼belt nicht darÃ¼ber, mein Geliebter. Ich wÃ¼rde die HÃ¶llen selbst herausfordern, um Euch zu retten. Ich weiÃŸ, dass Ihr dasselbe fÃ¼r mich tun wÃ¼rdet.~
+@64 = ~NatÃ¼rlich, <CHARNAME>. Ich werde nicht noch einmal versagen.~
+@65 = ~Danke fÃ¼r Euer Mitleid, <CHARNAME>.~
+@66 = ~Ich wÃ¼rde das sofort tun. Ich sollte Euch sagen, <CHARNAME>, dass das Erschreckenste als Vampir der Gedanke war, Euch zu tÃ¶ten und die Ewigkeit ohne Euch zu verbringen.~
+@67 = ~Ich hoffe, nie eine solch dÃ¼stere Zukunft fÃ¼rchten zu mÃ¼ssen.~
+@68 = ~Etwas Gutes ist aus diesem Debakel trotzdem entstanden. Meine sehr... persÃ¶nliche... Erfahrung mit dem Untod hat mir grÃ¶ÃŸere Einsicht in diesen Zustand gewÃ¤hrt.~ 
+@69 = ~Ich weiÃŸ, wo ich die Untoten treffen muss, um sie zu verletzen. Ich weiÃŸ, was sie fÃ¼rchten. Und ich werde nie wieder von ihnen gehalten werden, niemals wieder meine Seele an sie verlieren. Ich schwÃ¶re Euch beim Licht des Mondes: niemals wieder!~
 @70 = ~Sollen wir unsere Reise fortsetzen?~
-@71 = ~Natürlich.~
-@72 = ~Noch nicht. Wartet hier ein wenig, um Eure Stärke wiederzuerlangen. Ich werde bald zurückkehren.~
+@71 = ~NatÃ¼rlich.~
+@72 = ~Noch nicht. Wartet hier ein wenig, um Eure StÃ¤rke wiederzuerlangen. Ich werde bald zurÃ¼ckkehren.~
 @73 = ~Wie Ihr wollt.~
 @80 = ~Ich werde Euch das nie vergeben, Bodhi!~
-@100 = ~Ich habe einen ... Gefährten ... im Kampf mit Irenicus' Schwester Bodhi verloren. Jetzt suche ich nach einem Weg, ihn zu heilen.~ 
-@101 = ~Elhan! Wegen Euch habe ich hier den halbvampirischen Körper eines Gefährten! Bitte sagt mir nun...~ 
-@102 = ~Ein Gefährte wurde von einem Vampir entführt. Was erwartet mich, wenn ich beide finde?~ 
-@103 = ~Ein Gefährte ist dem Vampirismus verfallen. Gibt es einen Weg, ihn zu retten?~ 
+@100 = ~Ich habe einen ... GefÃ¤hrten ... im Kampf mit Irenicus' Schwester Bodhi verloren. Jetzt suche ich nach einem Weg, ihn zu heilen.~ 
+@101 = ~Elhan! Wegen Euch habe ich hier den halbvampirischen KÃ¶rper eines GefÃ¤hrten! Bitte sagt mir nun...~ 
+@102 = ~Ein GefÃ¤hrte wurde von einem Vampir entfÃ¼hrt. Was erwartet mich, wenn ich beide finde?~ 
+@103 = ~Ein GefÃ¤hrte ist dem Vampirismus verfallen. Gibt es einen Weg, ihn zu retten?~ 
 
