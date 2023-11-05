@@ -10,7 +10,7 @@ ALLOW_MISSING ~bsarev25.dlg~
               ~ar6200.bcs~
               ~bkeldo25.dlg~
               
-VERSION ~v2.04~
+VERSION ~v2.05~
 
 AUTO_TRA ~solaufein/%s~
 
