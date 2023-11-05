@@ -39,6 +39,10 @@ LANGUAGE ~Deutsch~
          ~german~
          ~solaufein/german/wsetup.tra~
 
+LANGUAGE ~Simplified Chinese (by evalcony)~
+         ~schinese~
+         ~solaufein/schinese/wsetup.tra~
+
 
 BEGIN @16
 REQUIRE_PREDICATE GAME_IS ~eet bg2ee~ @7
